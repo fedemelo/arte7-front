@@ -33,16 +33,16 @@ const projects = [
   { name: "202212_Equipo28" },
   { name: "202212_Equipo29" },
   { name: "202212_Equipo30" },
-  { name: "202212_Equipo31" },
-  { name: "202212_Equipo32" },
-  { name: "202212_Equipo33" },
-  { name: "202212_Equipo34" },
-  { name: "202212_Equipo35" },
-  { name: "202212_Equipo36" },
-  { name: "202212_Equipo37" },
-  { name: "202212_Equipo38" },
-  { name: "202212_Equipo39" },
-  { name: "202212_Equipo40" },
+  // { name: "202212_Equipo31" },
+  // { name: "202212_Equipo32" },
+  // { name: "202212_Equipo33" },
+  // { name: "202212_Equipo34" },
+  // { name: "202212_Equipo35" },
+  // { name: "202212_Equipo36" },
+  // { name: "202212_Equipo37" },
+  // { name: "202212_Equipo38" },
+  // { name: "202212_Equipo39" },
+  // { name: "202212_Equipo40" },
 ];
 
 const updateRepos = async () => {
@@ -60,7 +60,7 @@ const updateRepos = async () => {
         git add . &&
         git commit -m "Update Jenkinsfile" &&
         git fetch origin master &&
-        git merge -s recursive -X theirs origin/master`;
+        git merge -s recursive -X ours origin/master`;
       out = await execShPromise(command1, true);
     }
   } catch (e) {
