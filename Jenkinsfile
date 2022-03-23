@@ -1,14 +1,14 @@
-pipeline {  
-   agent any
-   environment {
-      GIT_REPO = '202212_Equipo12'
-      GIT_CREDENTIAL_ID = '277a9d46-cf19-4119-afd9-4054a7d35151'
-      SONARQUBE_URL = 'http://172.24.100.52:8082/sonar-misovirtual'
-   }
-   stages {
-      stage('Checkout') {
-         steps {
-            scmSkip(deleteBuild: true, skipPattern:'.*\\[ci-skip\\].*')
+pipeline {
+    agent any
+    environment {
+       GIT_REPO = '202212_Equipo13'
+       GIT_CREDENTIAL_ID = '277a9d46-cf19-4119-afd9-4054a7d35151'
+       SONARQUBE_URL = 'http://172.24.100.52:8082/sonar-misovirtual'
+    }
+    stages {
+       stage('Checkout') {
+          steps {
+             scmSkip(deleteBuild: true, skipPattern:'.*\\[ci-skip\\].*')
 
 
              git branch: 'master',
