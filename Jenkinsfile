@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-       GIT_REPO = 'ISIS2603_202220_S3_E3_DogSpa_Front'
+       GIT_REPO = 'ISIS2603_202220_S1_E4_Series_Front'
        GIT_CREDENTIAL_ID = 'de5cd571-10da-4034-8ba8-af99beef4b14'
        SONARQUBE_URL = 'jenkins-isis2603'
     }
