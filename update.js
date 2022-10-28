@@ -7,9 +7,9 @@ let fs = require("fs");
 const projects = [
   //{ name: "ISIS2603_202220_S1_E3_CreaTuCompu_Front" },
   //{ name: "ISIS2603_202220_S1_E5_AutosDeportivos_Front" },
-  { name: "ISIS2603_202220_S3_E6_GruposMusicales_Front" },
-  /*{ name: "ISIS2603_202220_S3_E5_VecindarioAmigo_Front" },
-  { name: "ISIS2603_202220_S3_E4_Gym4Fit_Front" },
+  //{ name: "ISIS2603_202220_S3_E6_GruposMusicales_Front" },
+  { name: "ISIS2603_202220_S3_E5_VecindarioAmigo_Front" },
+  /*{ name: "ISIS2603_202220_S3_E4_Gym4Fit_Front" },
   { name: "ISIS2603_202220_S3_E3_DogSpa_Front"},
   { name: "ISIS2603_202220_S1_E4_Series_Front"},
   { name: "ISIS2603_202220_S1_E1_ESports_Front"},
@@ -50,7 +50,7 @@ const createRepos = async () => {
       let command1 = `git remote rm origin`;
       let command2 = `hub create ${config.organization}/${project.name}`;
       let command3 = `git add .`;
-      let command4 = `git commit -m "Update Jenkinsfile"`;
+      let command4 = `git commit -m 'Update Jenkinsfile'`;
       let command5 = `git push origin master`;
 
       console.log("Removing remote: ", project.name);
