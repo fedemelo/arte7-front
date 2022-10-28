@@ -5,9 +5,9 @@ const execShPromise = require("exec-sh").promise;
 let fs = require("fs");
 
 const projects = [
-  { name: "ISIS2603_202220_S1_E3_CreaTuCompu_Front" },
-  /*{ name: "ISIS2603_202220_S1_E5_AutosDeportivos_Front" },
-  { name: "ISIS2603_202220_S3_E6_GruposMusicales_Front" },
+  //{ name: "ISIS2603_202220_S1_E3_CreaTuCompu_Front" },
+  { name: "ISIS2603_202220_S1_E5_AutosDeportivos_Front" },
+  /*{ name: "ISIS2603_202220_S3_E6_GruposMusicales_Front" },
   { name: "ISIS2603_202220_S3_E5_VecindarioAmigo_Front" },
   { name: "ISIS2603_202220_S3_E4_Gym4Fit_Front" },
   { name: "ISIS2603_202220_S3_E3_DogSpa_Front"},
@@ -47,15 +47,26 @@ const createRepos = async () => {
       fs.writeFileSync("sonar-project.properties", sonarFile);
       fs.writeFileSync("README.md", readmeFile);
 
-      let command1 = `git remote rm origin &
-        hub create ${config.organization}/${project.name}`;/* &
-        git add . &
-        git commit -m "Update Jenkinsfile" &
-        git push origin master`*/
+      let command1 = `git remote rm origin`;
+      let command2 = `hub create ${config.organization}/${project.name}`;
+      let command3 = `git add .`;
+      let command4 = `git commit -m "Update Jenkinsfile"`;
+      let command5 = `git push origin master`;
+
+      console.log("Removing remote: ", project.name);
+      out = await execShPromise(command1, true);
 
       console.log("Creating repo: ", project.name);
-      out = await execShPromise(command1, true);
-      console.log("output: ", out);
+      out = await execShPromise(command2, true);
+
+      console.log("Add files: ", project.name);
+      out = await execShPromise(command3, true);
+
+      console.log("Commiting: ", project.name);
+      out = await execShPromise(command4, true);
+
+      console.log("Pushing: ", project.name);
+      out = await execShPromise(command5, true);
     }
   } catch (e) {
     console.log("Error: ", e);
