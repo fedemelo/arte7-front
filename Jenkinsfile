@@ -1,19 +1,18 @@
 pipeline {
     agent any
     environment {
-       GIT_REPO = '202212_Equipo30'
-       GIT_CREDENTIAL_ID = '277a9d46-cf19-4119-afd9-4054a7d35151'
-       SONARQUBE_URL = 'http://172.24.100.52:8082/sonar-misovirtual'
+       GIT_REPO = 'ISIS2603_202220_S1_E3_CreaTuCompu_Front'
+       GIT_CREDENTIAL_ID = 'de5cd571-10da-4034-8ba8-af99beef4b14'
+       SONARQUBE_URL = 'jenkins-isis2603'
     }
     stages {
        stage('Checkout') {
           steps {
              scmSkip(deleteBuild: true, skipPattern:'.*\\[ci-skip\\].*')
 
-
              git branch: 'master',
                 credentialsId: env.GIT_CREDENTIAL_ID,
-                url: 'https://github.com/MISW-4104-Web/' + env.GIT_REPO
+                url: 'https://github.com/Uniandes-isis2603/' + env.GIT_REPO
           }
        }
        stage('Git Analysis') {
@@ -33,8 +32,8 @@ pipeline {
                 sh('git config --global user.name "ci-isis2603"')
                 sh('git add ./reports/index.html')
                 sh('git commit -m "[ci-skip] GitInspector report added"')
-                sh('git pull https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/MISW-4104-Web/${GIT_REPO} master')
-                sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/MISW-4104-Web/${GIT_REPO} master')
+                sh('git pull https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/Uniandes-isis2603/${GIT_REPO} master')
+                sh('git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/Uniandes-isis2603/${GIT_REPO} master')
              }
           }
        }
