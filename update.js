@@ -47,10 +47,12 @@ const createRepos = async () => {
       fs.writeFileSync("sonar-project.properties", sonarFile);
       fs.writeFileSync("README.md", readmeFile);
 
+      let message = "Update Jenkinsfile";
       let command1 = `git remote rm origin`;
       let command2 = `hub create ${config.organization}/${project.name}`;
-      let command3 = "git commit -a -m 'Update Jenkinsfile'";
-      let command4 = `git push origin master`;
+      let command3 = `git add .`;
+      let command4 = `git commit -m ${message}`;
+      let command5 = `git push origin master`;
 
       console.log("Removing remote: ", project.name);
       out = await execShPromise(command1, true);
@@ -63,6 +65,9 @@ const createRepos = async () => {
 
       console.log("Commiting: ", project.name);
       out = await execShPromise(command4, true);
+
+      console.log("Pushing: ", project.name);
+      out = await execShPromise(command5, true);
     }
   } catch (e) {
     console.log("Error: ", e);
