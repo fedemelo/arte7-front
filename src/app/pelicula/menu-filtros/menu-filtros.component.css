@@ -1,3 +1,15 @@
+.plataforma {
+  width: 170px;
+  height: 170px;
+  background-color: azure;
+}
+
+.premio {
+  width: 400px;
+  height: 100px;
+  background-color: white;
+}
+
 style {
   background-color: #0f090a
 }
@@ -7,8 +19,15 @@ body {
   display: flex;
 }
 
+#generos1 {
+  width: 180px;
+}
+
+#generos2 {
+  width: 180px;
+}
+
 #faq {
-  max-width: 700px;
   margin: auto;
   padding: 0 15px;
   text-align: center;
@@ -22,7 +41,7 @@ section.faq {
 #faq ul {
   text-align: left;
 }
-.transition, p, ul li i:before, ul li i:after {
+.transition, content, ul li i:before, ul li i:after {
   transition: all 0.3s;
 }
 
@@ -34,7 +53,7 @@ section.faq {
 
 #faq h2 {
   color: #cc071e;
-  font-size: 15px;
+  font-size: 20px;
   text-align: left;
   padding: 15px 15px 0;
   text-transform: none;
@@ -44,16 +63,14 @@ section.faq {
   transition: .2s;
 }
 
-#faq p {
+#faq content {
   color: #333;
   text-align: left;
   font-family: 'hm_light', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.45;
   position: relative;
   overflow: hidden;
-  max-height: 250px;
-  will-change: max-height;
   contain: layout;
   display: inline-block;
   opacity: 1;
@@ -75,18 +92,18 @@ section.faq {
   overflow: hidden;
   padding: 0;
   margin: 0;
-  /*padding-bottom: 4px;*/
-  /*padding-top: 18px;*/
-  background: #fff;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  background: rgba(255, 255, 255, 0.779);
   box-shadow: 0 3px 10px -2px rgba(0,0,0,0.1);
   -webkit-tap-highlight-color: transparent;
 }
 #faq ul li + li {
-  margin-top: 15px;
+  /* Espacio entre acordeones */
+  margin-top: 5px;
 }
-#faq ul li:last-of-type {
-  padding-bottom: 0;
-}
+
+/* Cuadrar posición flecha v */
 #faq ul li i {
   position: absolute;
   transform: translate(-6px, 0);
@@ -106,6 +123,8 @@ section.faq {
 #faq ul li i:after {
   transform: translate(2px, 0) rotate(-45deg);
 }
+
+/* Interactividad */
 #faq ul li input[type=checkbox] {
   position: absolute;
   cursor: pointer;
@@ -118,7 +137,8 @@ section.faq {
 #faq ul li input[type=checkbox]:checked ~ h2 {
   color: #000;
 }
-#faq ul li input[type=checkbox]:checked ~ p {
+
+#faq ul li input[type=checkbox]:checked ~ content {
   /*margin-top: 0;*/
   max-height: 0;
   transition: .3s;
