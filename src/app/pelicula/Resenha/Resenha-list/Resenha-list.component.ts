@@ -13,7 +13,7 @@ export class ResenhaListComponent implements OnInit {
   constructor(private resenhaService: ResenhaService) { }
 
   getResenhas():void {
-    this.resenhaService.getResenha().suscribe((resenhas: Resenha[]) =>{
+    this.resenhaService.getResenha().subscribe((resenhas) =>{
       this.resenhas = resenhas;
     })
   }
