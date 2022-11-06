@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActorModule } from '../actor/actor.module';
-import { ResenhaModule } from './Resenha/Resenha.module';
+import { VistaPrincipalComponent } from './vista-principal/vista-principal.component';
+
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [ResenhaModule, ActorModule]
+  declarations: [VistaPrincipalComponent]
 })
 export class PeliculaModule { }

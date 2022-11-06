@@ -1,8 +1,12 @@
+
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { PeliculaModule } from './pelicula/pelicula.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 
 @NgModule({
   declarations: [
@@ -11,7 +15,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PeliculaModule
+    PeliculaModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
