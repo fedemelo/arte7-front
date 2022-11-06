@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DirectorComponent } from './director.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [DirectorComponent]
+  declarations: []
 })
 export class DirectorModule { }
