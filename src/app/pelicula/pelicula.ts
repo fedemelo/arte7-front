@@ -1,15 +1,18 @@
 export class Pelicula{
-  private _nombre: string;
-  private _poster: string;
-  private _duracionSec: number;
-  private _pais: string;
-  private _fechaEstreno: any;
-  private _url: string;
-  private _visitas: number;
-  private _estrellasPromedio: number;
+  _id: number;
+  _nombre: string;
+  _poster: string;
+  _duracionSec: number;
+  _pais: string;
+  _fechaEstreno: any;
+  _url: string;
+  _visitas: number;
+  _estrellasPromedio: number;
+  _descripcion: string;
 
 
   constructor(
+    _id: number,
     _nombre: string,
     _poster: string,
     _duracionSec: number,
@@ -17,9 +20,11 @@ export class Pelicula{
     _fechaEstreno: any,
     _url: string,
     _visitas: number,
-    _estrellasPromedio: number
+    _estrellasPromedio: number,
+    _descripcion: string
   )
   {
+    this._id = _id;
     this._nombre = _nombre;
     this._poster = _poster;
     this._duracionSec = _duracionSec;
@@ -28,6 +33,7 @@ export class Pelicula{
     this._url = _url;
     this._visitas = _visitas;
     this._estrellasPromedio = _estrellasPromedio;
+    this._descripcion = _descripcion;
   }
 
     /**

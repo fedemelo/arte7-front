@@ -1,4 +1,5 @@
 export class Director{
+  private _id: number;
   private _nombre: string;
   private _fotografia: string;
   private _nacionalidad: string;
@@ -6,12 +7,14 @@ export class Director{
   private _biografia: string;
 
   constructor
-  (_nombre: string,
+  (_id: number,
+  _nombre: string,
   _fotografia: string,
   _nacionalidad: string,
   _fechaNacimiento: any,
   _biografia: string)
-  {this._nombre = _nombre;
+  {this._id = _id;
+  this._nombre = _nombre;
   this._fotografia = _fotografia;
   this._nacionalidad = _nacionalidad;
   this._fechaNacimiento = _fechaNacimiento;

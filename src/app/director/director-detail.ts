@@ -5,15 +5,17 @@ export class ActorDetail extends Director{
 peliculas:Array<Pelicula>=[];
 
 constructor(
+  id: number,
   nombre: string,
-    fotografia: string,
-    nacionalidad: string,
-    fechaNacimiento: any,
-    biografia: string,
-    peliculas: Array<Pelicula>
+  fotografia: string,
+  nacionalidad: string,
+  fechaNacimiento: any,
+  biografia: string,
+  peliculas: Array<Pelicula>
 )
 {
-super(nombre,
+super(id,
+  nombre,
   fotografia,
   nacionalidad,
   fechaNacimiento,
