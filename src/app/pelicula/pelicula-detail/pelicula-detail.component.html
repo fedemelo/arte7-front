@@ -1,0 +1,53 @@
+<div class="container-fluid">
+  <p class="h3 p-3">{{ peliculaDetail.nombre }}</p>
+  <div class="row">
+    <div class="col-2">
+      <div class="thumb">
+        <img
+          class="img-fluid"
+          src="{{ peliculaDetail.poster }}"
+          alt="{{ peliculaDetail.nombre }}"
+        />
+      </div>
+    </div>
+    <div class="col">
+      <dl>
+        <dt>Actores</dt>
+        <dd class="caption" *ngFor="let actor of peliculaDetail.actores">
+          <a routerLink="/actor/{{ actor.id }}">{{ actor.nombre }}</a>
+        </dd>
+
+        <hr />
+
+        <dt>Directores</dt>
+        <dd class="caption" *ngFor="let director of peliculaDetail.directores">
+          <a routerLink="/director/{{ director.id }}">{{ director.nombre }}</a>
+        </dd>
+
+        <dt>Duracion</dt>
+        <dd>{{ peliculaDetail.duracion }}</dd>
+
+        <hr />
+
+        <dt>Fecha de estreno</dt>
+        <dd>{{ peliculaDetail.fechaestreno }}</dd>
+
+        <hr />
+
+        <dt class="bold">Pais</dt>
+        <dd class="caption">{{ peliculaDetail.pais }}</dd>
+
+        <hr />
+
+        <dt class="bold">Estrellas promedio</dt>
+        <dd>{{ peliculaDetail.estrellasPromedio }}</dd>
+
+        <hr />
+
+        
+
+
+      </dl>
+    </div>
+  </div>
+</div>

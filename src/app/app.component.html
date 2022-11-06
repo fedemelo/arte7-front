@@ -1,2 +1,52 @@
-<app-actor-list></app-actor-list>
-<app-director-list></app-director-list>
+
+
+<mat-toolbar class="mat-elevation-z8">
+  <button
+    mat-icon-button
+    *ngIf="sidenav.mode === 'over'"
+    (click)="sidenav.toggle()"
+  >
+
+    <mat-icon *ngIf="!sidenav.opened"> menu </mat-icon>
+    <mat-icon *ngIf="sidenav.opened"> close </mat-icon>
+  </button>
+  <div class = "container-fluid">
+    <div class = "row">
+      <div class = "col-md-12 black">
+        <app-barra-navegacion></app-barra-navegacion>
+      </div>
+    </div>
+  </div>
+
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
+    <app-menu-filtros></app-menu-filtros>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <div class="content mat-elevation-z8">
+       <!-- Main Router Outlet -->
+      <div class="container-fluid" id="principal">
+        <div class="row">
+          <div class="col-md-12">
+            <div>
+
+              <!-- Acá va la página como tal -->
+              <p> Página web!! </p>
+
+              <app-actor-list></app-actor-list>
+              <app-director-list></app-director-list>
+              <router-outlet></router-outlet>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+
+
