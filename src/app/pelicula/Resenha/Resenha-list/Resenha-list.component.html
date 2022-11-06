@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col mb-2" *ngFor="let resenha of resenhas">
+          <div class="card p-2" style="width: 15rem; height: 33rem">
+              <div class="card-body">
+                <h5 class="card-title">{{ resenha.usuario }}</h5>
+                  <p class="card-text">{{ resenha.texto }}</p>
+                  <h6 class="card-text">Puntaje</h6>
+                  <p class="card-text">{{ resenha.estrellas }}</p>
+              </div>
+           </div>
+      </div>
+   </div>
+</div>
