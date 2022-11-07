@@ -1,7 +1,7 @@
 import { Director } from "./director";
 import { Pelicula } from "../pelicula/pelicula";
 
-export class ActorDetail extends Director{
+export class DirectorDetail extends Director{
 peliculas:Array<Pelicula>=[];
 
 constructor(
