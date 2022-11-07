@@ -31,15 +31,15 @@ describe('DirectorListComponent', () => {
 
 
    for(let i = 0; i < 10; i++) {
-     const director = new Director(
-       faker.lorem.sentence(),
-       faker.image.imageUrl(),
-       faker.lorem.sentence(),
-       faker.lorem.sentence(),
-       faker.lorem.sentence(),
+    const director = new Director(i,
+      faker.lorem.sentence(),
+      faker.image.imageUrl(),
+      faker.lorem.sentence(),
+      faker.lorem.sentence(),
+      faker.lorem.sentence(),
 
 
-     );
+    );
      component.directores.push(director);
    }
    fixture.detectChanges();

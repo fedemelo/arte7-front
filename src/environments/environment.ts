@@ -2,7 +2,7 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-const baseUrl = 'https://github.com/Uniandes-isis2603/ISIS2603_202220_S3_E1_Arte7_Back';
+const baseUrl = 'http://localhost:8080/api/';
 
 export const environment = {
  production: false,

@@ -13,7 +13,6 @@ import { ActorModule } from './actor/actor.module';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
-import { RouterModule } from '@angular/router';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -28,7 +27,7 @@ import { MatDividerModule } from '@angular/material/divider';
     AppRoutingModule,
     DirectorModule,
     ActorModule,
-    HttpClientModule
+    HttpClientModule,
     PeliculaModule,
     HttpClientModule,
     BrowserAnimationsModule,

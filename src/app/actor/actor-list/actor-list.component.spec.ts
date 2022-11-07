@@ -31,7 +31,7 @@ describe('ActorListComponent', () => {
 
 
    for(let i = 0; i < 10; i++) {
-     const actor = new Actor(
+     const actor = new Actor(i,
        faker.lorem.sentence(),
        faker.image.imageUrl(),
        faker.lorem.sentence(),

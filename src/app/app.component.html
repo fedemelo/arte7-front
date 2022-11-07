@@ -26,24 +26,41 @@
   </mat-sidenav>
 
   <mat-sidenav-content>
-    <div class="content mat-elevation-z8">
+
        <!-- Main Router Outlet -->
       <div class="container-fluid" id="principal">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-6">
             <div>
 
-              <!-- Acá va la página como tal -->
-              <p> Página web!! </p>
 
+
+              <h1>ACTORES</h1>
               <app-actor-list></app-actor-list>
+
+
+
+
+              <router-outlet></router-outlet>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div>
+
+
+
+
+
+              <h1>DIRECTORES</h1>
               <app-director-list></app-director-list>
+
+
               <router-outlet></router-outlet>
             </div>
           </div>
         </div>
       </div>
-    </div>
+
   </mat-sidenav-content>
 </mat-sidenav-container>
 
