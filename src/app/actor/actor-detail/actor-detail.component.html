@@ -1,6 +1,7 @@
 <div class="panel-body">
   <div class="border margin p-3">
-    <p class="h3 p-2 author-name">{{ actorDetail.nombre }}</p>
+    <!-- <p class="h3 p-2 author-name">{{ actorDetail.nombre }}</p> -->
+    <p class="h3 p-2 author-name">nombre generico</p>
     <div class="row">
       <div class="col-md-3">
         <div class="thumb">
@@ -8,17 +9,26 @@
             class="img-fluid img-thumbnail border border-danger"
             src="{{ actorDetail.fotografia }}"
             alt="{{ actorDetail.nombre }}"
+            alt="nomre generico"
           />
         </div>
       </div>
       <div class="col-md-7">
         <dl>
           <dt class="text-title">Fecha de Nacimiento</dt>
-          <dd class="text">{{ actorDetail.fechaNacimiento }}</dd>
-          <dt class="text-title">Nacionalidad</dt>
-          <dd class="text">{{ actorDetail.nacionalidad }}</dd>
+          <!-- <dd class="text">{{ actorDetail.fechaNacimiento }}</dd> -->
+          <dd class="text">"100/10/10"</dd>
+
+          <dt class="text-title">Nacionalidadd</dt>
+          <!-- <dd class="text">{{ actorDetail.nacionalidad }}</dd> -->
+          <dd class="text">"australiano"</dd>
+
           <dt class="text-title">Biografía</dt>
-          <dd class="text">{{ actorDetail.biografia }}</dd>
+          <!-- <dd class="text">{{ actorDetail.biografia }}</dd> -->
+          <dd class="text">"jhsdgfjopsfgjfdsjngdfsgjsdfjlkgjnfdsgjnsfdgnjsdnfgjkdsnflkjgnsdkjlfgn
+            sdfgjifsdgjisfdgjdsfgjsdfgsdfghjsdfghsjdfgnhsdjkfghdjfkgshnfdgjksdhfgnjsdfhgljdsfghjfds
+            sfdghsdfgidfsgfdjlgljdsglhjdfslkjgdfljkhghsdjkgfjlhsudbapuhpaudfbhapoijhsudjfoipsfdjapoifnd"
+          </dd>
         </dl>
       </div>
     </div>
