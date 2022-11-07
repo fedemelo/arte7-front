@@ -4,6 +4,7 @@ import { VistaPrincipalComponent } from './vista-principal/vista-principal.compo
 import { MenuFiltrosComponent } from './menu-filtros/menu-filtros.component';
 import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.component';
 import { PeliculaListComponent } from './pelicula-list/pelicula-list.component';
+import { PeliculaDetailComponent } from './pelicula-detail/pelicula-detail.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
@@ -33,7 +34,8 @@ import { MatDividerModule } from '@angular/material/divider';
     VistaPrincipalComponent,
     MenuFiltrosComponent,
     BarraNavegacionComponent,
-    PeliculaListComponent
+    PeliculaListComponent,
+    PeliculaDetailComponent
   ]
 })
 export class PeliculaModule { }

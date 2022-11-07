@@ -1,9 +1,11 @@
 import { Actor } from "../actor/actor";
+import { Director } from "../director/director";
 import { Pelicula } from "./pelicula";
 import { Resenha } from "./Resenha/Resenha";
 
 export class PeliculaDetail extends Pelicula{
 actores: Array<Actor>=[];
+directores: Array<Director> = [];
 resenhas: Array<Resenha>=[];
 
 constructor(
@@ -18,6 +20,7 @@ constructor(
   estrellasPromedio:number,
   descripcion:string,
   actores:Array<Actor>,
+  directores:Array<Director>,
   resenhas: Array<Resenha>
 
 )
@@ -34,6 +37,7 @@ constructor(
       descripcion
   )
   this.actores = actores;
+  this.directores = directores;
   this.resenhas = resenhas;
 }
 

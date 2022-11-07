@@ -1,16 +1,23 @@
+<div *ngIf="selected">
+  <app-pelicula-detail [peliculaDetail]="selectedPelicula"></app-pelicula-detail>
+</div>
+
+<hr />
+
 <div class="container-fluid">
   <div class="row">
-    <div class="col mb-2" *ngFor="let p of peliculas">
-          <div class="card p-2" style="width: 15rem; height: 33rem">
-              <img
-                class="card-img-top"
-                src="{{ p.poster }}"
-                alt="{{ p.nombre }}"
-              />
-              <div class="card-body">
-                <h5 class="card-title">{{ p.nombre }}</h5>
-              </div>
-           </div>
+    <div *ngFor="let p of peliculas" class="col mb-2">
+      <div class="card p-2" style="width: 15rem; height: 33rem">
+        <img
+          class="card-img-top"
+          src="{{ p.poster }}"
+          alt="{{ p.nombre }}"
+          (click)="onSelected(peliculas)"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ p.nombre }}</h5>
+        </div>
       </div>
-   </div>
+    </div>
+  </div>
 </div>
