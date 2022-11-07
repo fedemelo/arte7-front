@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Director } from '../director';
 import { DirectorService } from '../director.service';
+import { DirectorDetail } from '../director-detail';
 import { faker } from '@faker-js/faker';
 
 @Component({
@@ -11,6 +12,8 @@ import { faker } from '@faker-js/faker';
 export class DirectorListComponent implements OnInit {
 
  directores: Array<Director> = [];
+selectedDirector!:DirectorDetail;
+selected:boolean=false;
 
  constructor(private directorService: DirectorService) { }
 
@@ -35,6 +38,14 @@ que hacer todo lo de postman y blablablabalblablalblabl
     }
    });
  }
+
+selectDirector(director: DirectorDetail){
+  this.selectedDirector=director;
+  this.selected=true;
+}
+
+
+
 
  ngOnInit() {
    this.getDirectores();

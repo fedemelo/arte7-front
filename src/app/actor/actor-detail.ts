@@ -1,8 +1,8 @@
 import { Actor } from "./actor";
-import { Pelicula } from "../pelicula/pelicula";
+// import { Pelicula } from "../pelicula/pelicula";
 
 export class ActorDetail extends Actor{
-peliculas:Array<Pelicula>=[];
+// peliculas:Array<Pelicula>=[];
 
 constructor(
   id: number,
@@ -11,7 +11,7 @@ constructor(
   nacionalidad: string,
   fechaNacimiento: any,
   biografia: string,
-  peliculas: Array<Pelicula>
+  // peliculas: Array<Pelicula>
 )
 {
 super(id,
@@ -20,6 +20,6 @@ super(id,
   nacionalidad,
   fechaNacimiento,
   biografia)
-this.peliculas=peliculas;
+// this.peliculas=peliculas;
 }
 }
