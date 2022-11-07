@@ -1,16 +1,1 @@
-<testExecutions version="1">
-  <file path="src/app/pelicula/Resenha/Resenha-list/Resenha-list.component.spec.ts">
-    <testCase name="ResenhaListComponent should create" duration="84"/>
-  </file>
-  <file path="src/app/pelicula/Pelicula.service.spec.ts">
-    <testCase name="Service: Pelicula should ..." duration="119"/>
-  </file>
-  <file path="src/app/pelicula/Resenha/Resenha.service.spec.ts">
-    <testCase name="Service: Resenha should ..." duration="12"/>
-  </file>
-  <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should have as title 'arte7-front'" duration="118"/>
-    <testCase name="AppComponent should create the app" duration="102"/>
-    <testCase name="AppComponent should render title" duration="13"/>
-  </file>
-</testExecutions>
+<testExecutions version="1"/>
