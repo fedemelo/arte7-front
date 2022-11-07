@@ -4,7 +4,6 @@ import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 import { catchError, Observable, throwError } from 'rxjs';
 import { PeliculaDetail } from './pelicula-detail';
-import { Pelicula } from './pelicula';
 
 @Injectable({
   providedIn: 'root',
@@ -15,12 +14,12 @@ export class PeliculaService {
   constructor(private http: HttpClient) {}
 
   getPeliculas(): Observable<PeliculaDetail[]> {
-    return this.http.get<PeliculaDetail>(this.apiUrl).pipe(
+    return this.http.get<PeliculaDetail[]>(this.apiUrl).pipe(
         catchError((err) => throwError(() => new Error('error en el servicio')))
       );
   }
 
-  getPelicula(id: number): Observable<PeliculaDetail> {
+  getPelicula(id: string): Observable<PeliculaDetail> {
     return this.http.get<PeliculaDetail>(this.apiUrl + '/' + id);
   }
 

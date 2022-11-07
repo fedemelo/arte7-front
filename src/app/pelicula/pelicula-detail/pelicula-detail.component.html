@@ -14,23 +14,23 @@
       <dl>
         <dt>Actores</dt>
         <dd class="caption" *ngFor="let actor of peliculaDetail.actores">
-          <a routerLink="/actor/{{ actor.id }}">{{ actor.nombre }}</a>
+          <a> {{ actor.nombre }}</a>
         </dd>
 
         <hr />
 
         <dt>Directores</dt>
         <dd class="caption" *ngFor="let director of peliculaDetail.directores">
-          <a routerLink="/director/{{ director.id }}">{{ director.nombre }}</a>
+          <a>{{ director.nombre }}</a>
         </dd>
 
         <dt>Duracion</dt>
-        <dd>{{ peliculaDetail.duracion }}</dd>
+        <dd>{{ peliculaDetail.duracionSec }}</dd>
 
         <hr />
 
         <dt>Fecha de estreno</dt>
-        <dd>{{ peliculaDetail.fechaestreno }}</dd>
+        <dd>{{ peliculaDetail.fechaEstreno }}</dd>
 
         <hr />
 
@@ -44,7 +44,7 @@
 
         <hr />
 
-        
+
 
 
       </dl>

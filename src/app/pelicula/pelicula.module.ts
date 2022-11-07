@@ -8,6 +8,6 @@ import { ResenhaModule } from './Resenha/Resenha.module';
   imports: [
     CommonModule
   ],
-  declarations: [PeliculaComponent, ResenhaModule, ActorModule]
+  declarations: [PeliculaComponent]
 })
 export class PeliculaModule { }

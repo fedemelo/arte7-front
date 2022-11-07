@@ -4,6 +4,7 @@ import { Resenha } from "./Resenha/Resenha";
 
 export class PeliculaDetail extends Pelicula{
 actores: Array<Actor>=[];
+directores: Array<Actor>=[];
 resenhas: Array<Resenha>=[];
 
 constructor(
