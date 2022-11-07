@@ -18,7 +18,7 @@ getActores(): Observable<Actor[]>{
 return this.http.get<Actor[]>(this.apiUrl);
 }
 
-getActor(id:number): Observable<ActorDetail>{
+getActor(id:string): Observable<ActorDetail>{
   return this.http.get<ActorDetail>(this.apiUrl + '/' + id);
 }
 
