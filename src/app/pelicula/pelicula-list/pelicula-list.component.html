@@ -10,9 +10,9 @@
       <div class="card p-2" style="width: 15rem; height: 33rem">
         <img
           class="card-img-top"
-          src="{{ p.poster }}"
+          src="{{ p._poster }}"
           alt="{{ p.nombre }}"
-          (click)="onSelected(peliculas)"
+          (click)="onSelected(pelicula)"
         />
         <div class="card-body">
           <h5 class="card-title">{{ p.nombre }}</h5>

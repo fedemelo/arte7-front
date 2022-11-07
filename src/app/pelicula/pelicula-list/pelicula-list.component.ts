@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Pelicula } from '../pelicula';
 import { PeliculaDetail } from '../pelicula-detail';
-import { PeliculaService } from '../Pelicula.service'
+import { PeliculaService } from '../pelicula.service';
 
 @Component({
   selector: 'app-pelicula-list',
@@ -10,22 +10,23 @@ import { PeliculaService } from '../Pelicula.service'
 })
 export class PeliculaListComponent implements OnInit {
 
-  peliculas: Array<Pelicula> = [];
-  selectedBook!: PeliculaDetail;
-  selected = false;
+  peliculas: Array<PeliculaDetail> = [];
+  selected: Boolean = false;
+  selectedPelicula!: PeliculaDetail;
 
   constructor(private peliculaService: PeliculaService) { }
 
-  onSelected(pelicula: PeliculaDetail): void {
-    this.selected = true;
-    this.selectedBook = pelicula;
-  }
-
-  getPeliculas(): void{
-    this.peliculaService.getPeliculas().subscribe((peliculas)=>{
+  getPeliculas(): void {
+    this.peliculaService.getPeliculas().subscribe((peliculas) => {
       this.peliculas = peliculas;
     });
   }
+
+  onSelected(book: PeliculaDetail): void {
+    this.selected = true;
+    this.selectedPelicula = pelicula;
+  }
+
 
   ngOnInit() {
     this.getPeliculas();

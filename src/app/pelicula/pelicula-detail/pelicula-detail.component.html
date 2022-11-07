@@ -1,12 +1,12 @@
 <div class="container-fluid">
-  <p class="h3 p-3">{{ peliculaDetail.nombre }}</p>
+  <p class="h3 p-3">{{ peliculaDetail._nombre }}</p>
   <div class="row">
     <div class="col-2">
       <div class="thumb">
         <img
           class="img-fluid"
-          src="{{ peliculaDetail.poster }}"
-          alt="{{ peliculaDetail.nombre }}"
+          src="{{ peliculaDetail._poster }}"
+          alt="{{ peliculaDetail._nombre }}"
         />
       </div>
     </div>
@@ -14,36 +14,33 @@
       <dl>
         <dt>Actores</dt>
         <dd class="caption" *ngFor="let actor of peliculaDetail.actores">
-          <a routerLink="/actor/{{ actor.id }}">{{ actor.nombre }}</a>
+          {{ actor.nombre }}
         </dd>
-
-        <hr />
-
         <dt>Directores</dt>
         <dd class="caption" *ngFor="let director of peliculaDetail.directores">
-          <a routerLink="/director/{{ director.id }}">{{ director.nombre }}</a>
+          {{ director.nombre }}
         </dd>
 
-        <dt>Duracion</dt>
-        <dd>{{ peliculaDetail.duracion }}</dd>
-
+        <dt>Duracion (en segundos)</dt>
+        <dd>{{ peliculaDetail._duracionSec }}</dd>
         <hr />
-
+        <dt>Pais productor</dt>
+        <dd>{{ peliculaDetail._pais}}</dd>
+        <hr />
         <dt>Fecha de estreno</dt>
-        <dd>{{ peliculaDetail.fechaEstreno }}</dd>
-
+        <dd>{{ peliculaDetail._fechaEstreno}}</dd>
         <hr />
-
-        <dt class="bold">Pais</dt>
-        <dd class="caption">{{ peliculaDetail.pais }}</dd>
-
+        <dt>Link</dt>
+        <dd>{{ peliculaDetail._url}}</dd>
         <hr />
-
-        <dt class="bold">Estrellas promedio</dt>
-        <dd>{{ peliculaDetail.estrellasPromedio }}</dd>
-
+        <dt>Visitas</dt>
+        <dd>{{ peliculaDetail._visitas}}</dd>
         <hr />
-
+        <dt>Calificacion (sobre 5)</dt>
+        <dd>{{ peliculaDetail._estrellasPromedio}}</dd>
+        <hr />
+        <dt class="bold">Description</dt>
+        <dd>{{ peliculaDetail._descripcion }}</dd>
       </dl>
     </div>
   </div>
