@@ -10,8 +10,12 @@
   background-color: white;
 }
 
+#rating {
+  width: 400px;
+}
+
 style {
-  background-color: #0f090a
+  background-color: #0f090a;
 }
 
 body {

@@ -1,3 +1,31 @@
-<p>
-  vista-principal works!
-</p>
+
+  <div class="row">
+    <div class="col-12">
+      <img class="img-fluid max-width" src="https://fanfan.es/wp-content/uploads/2020/05/cine.jpg" alt="Banner">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <h2>Peliculas populares</h2>
+    </div>
+  </div>
+
+  <div class="row">
+  <div class="col-12">
+    <div class="card-group">
+        <div class="card p-2" *ngFor="let pelicula of peliculas">
+            <img
+              class="card-img-top"
+              src="{{ pelicula.poster }}"
+              alt="{{ pelicula.nombre }}"
+            />
+            <div class="card-body">
+              <h3 class="card-title">{{ pelicula.nombre }}</h3>
+                <p class="card-text">{{ pelicula.estrellasPromedio }}</p>
+            </div>
+         </div>
+    </div>
+
+
+

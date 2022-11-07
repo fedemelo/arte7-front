@@ -24,26 +24,17 @@
     <app-menu-filtros></app-menu-filtros>
   </mat-sidenav>
 
-  <mat-sidenav-content>
-    <div class="content mat-elevation-z8">
-       <!-- Main Router Outlet -->
+
       <div class="container-fluid" id="principal">
-        <div class="row">
-          <div class="col-md-12">
-            <div>
 
-              <!-- Acá va la página como tal -->
-              <p> Página web!! </p>
+        <!-- Vista actual -->
 
-              <app-director-detail></app-director-detail>
+        <!-- <app-director-detail></app-director-detail> -->
+        <app-vista-principal></app-vista-principal>
 
-              <router-outlet></router-outlet>
-            </div>
-          </div>
-        </div>
+        <router-outlet></router-outlet> <!-- Main Router Outlet -->
       </div>
-    </div>
-  </mat-sidenav-content>
+
 </mat-sidenav-container>
 
 

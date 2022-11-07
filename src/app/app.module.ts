@@ -10,7 +10,6 @@ import { PeliculaModule } from './pelicula/pelicula.module';
 import { ActorModule } from './actor/actor.module';
 import { DirectorModule } from './director/director.module';
 
-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { RouterModule } from '@angular/router';
