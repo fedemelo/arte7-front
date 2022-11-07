@@ -14,11 +14,11 @@ export class DirectorService {
 
 constructor(private http: HttpClient) { }
 
-getActores(): Observable<Director[]>{
+getDirectores(): Observable<Director[]>{
 return this.http.get<Director[]>(this.apiUrl);
 }
 
-getActor(id:number): Observable<DirectorDetail>{
+getDirector(id:string): Observable<DirectorDetail>{
   return this.http.get<DirectorDetail>(this.apiUrl + '/' + id);
 }
 
