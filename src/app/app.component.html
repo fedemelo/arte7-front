@@ -1,4 +1,5 @@
 
+
 <mat-toolbar class="mat-elevation-z8">
   <button
     mat-icon-button
@@ -24,15 +25,56 @@
     <app-menu-filtros></app-menu-filtros>
   </mat-sidenav>
 
+  <mat-sidenav-content>
+
        <!-- Main Router Outlet -->
       <div class="container-fluid" id="principal">
-              <!-- Acá va la página como tal -->
-              <app-actor-detail></app-actor-detail>
+        <div class="row">
+          <div class="col-md-6">
+            <div>
+
+
+
+
+              <h1 style="text-align:center">ACTORES</h1>
+                <div style="text-align:center" class="buscar">
+                <input type="text" placeholder="Buscar" required />
+
+
+                </div>
+
+              <app-actor-list></app-actor-list>
+
+
+
 
               <router-outlet></router-outlet>
             </div>
+          </div>
+          <div class="col-md-6">
+            <div>
 
 
+
+
+
+              <h1 style="text-align:center">DIRECTORES</h1>
+              <div style="text-align:center" class="box">
+                <div class="container-2">
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <input type="search" id="search" placeholder="Search..." />
+                </div>
+              </div>
+              <app-director-list></app-director-list>
+
+
+              <router-outlet></router-outlet>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </mat-sidenav-content>
 </mat-sidenav-container>
 
 

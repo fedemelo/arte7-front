@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DirectorListComponent } from './director-list/director-list.component';
 
 import { DirectorDetailComponent } from './director-detail/director-detail.component';
 
@@ -8,10 +9,13 @@ import { DirectorDetailComponent } from './director-detail/director-detail.compo
     CommonModule
   ],
   exports: [
-    DirectorDetailComponent
+    DirectorDetailComponent,
+    DirectorListComponent
   ],
   declarations: [
-    DirectorDetailComponent
+    DirectorDetailComponent,
+    DirectorListComponent
   ]
+
 })
 export class DirectorModule { }
