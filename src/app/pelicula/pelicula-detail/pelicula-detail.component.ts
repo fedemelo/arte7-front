@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { PeliculaDetail } from '../pelicula-detail';
+import { Pelicula } from '../pelicula';
 import { PeliculaService } from '../Pelicula.service';
 
 @Component({
@@ -11,14 +11,14 @@ import { PeliculaService } from '../Pelicula.service';
 export class PeliculaDetailComponent implements OnInit {
   peliculaId!: number;
 
-  @Input() peliculaDetail!: PeliculaDetail;
+  @Input() peliculaDetail!: Pelicula;
 
   constructor( private route: ActivatedRoute, private peliculaService: PeliculaService) {
 
   }
 
   getPelicula(){
-    this.peliculaService.getPelicula(this.peliculaId).suscribe(pelicula =>{
+    this.peliculaService.getPelicula(this.peliculaId).subscribe(pelicula =>{
       this.peliculaDetail = pelicula;
     })
   }

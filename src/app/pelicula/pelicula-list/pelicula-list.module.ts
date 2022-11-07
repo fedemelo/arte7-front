@@ -6,6 +6,6 @@ import { PeliculaListComponent } from './pelicula-list.component';
   imports: [
     CommonModule
   ],
-  declarations: [PeliculaListComponent]
+  declarations: []
 })
 export class PeliculaListModule { }

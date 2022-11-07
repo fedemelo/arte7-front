@@ -16,6 +16,7 @@ constructor(
   url:string,
   visitas:number,
   estrellasPromedio:number,
+  descripcion:string,
   actores:Array<Actor>,
   resenhas: Array<Resenha>
 
@@ -29,7 +30,8 @@ constructor(
       fechaEstreno,
       url,
       visitas,
-      estrellasPromedio
+      estrellasPromedio,
+      descripcion
   )
   this.actores = actores;
   this.resenhas = resenhas;

@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { VistaPrincipalComponent } from './vista-principal/vista-principal.component';
 import { MenuFiltrosComponent } from './menu-filtros/menu-filtros.component';
 import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.component';
-
+import { PeliculaListComponent } from './pelicula-list/pelicula-list.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
@@ -21,17 +21,19 @@ import { MatDividerModule } from '@angular/material/divider';
     MatSidenavModule,
     MatButtonModule,
     MatIconModule,
-    MatDividerModule,
+    MatDividerModule
   ],
   exports: [
     VistaPrincipalComponent,
     MenuFiltrosComponent,
-    BarraNavegacionComponent
+    BarraNavegacionComponent,
+    PeliculaListComponent
   ],
   declarations: [
     VistaPrincipalComponent,
     MenuFiltrosComponent,
-    BarraNavegacionComponent
+    BarraNavegacionComponent,
+    PeliculaListComponent
   ]
 })
 export class PeliculaModule { }
