@@ -9,8 +9,8 @@
     <testCase name="Service: Resenha should ..." duration="12"/>
   </file>
   <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should create the app" duration="53"/>
-    <testCase name="AppComponent should have as title 'museums-front'" duration="17"/>
-    <testCase name="AppComponent should render title" duration="25"/>
+    <testCase name="AppComponent should have as title 'arte7-front'" duration="118"/>
+    <testCase name="AppComponent should create the app" duration="102"/>
+    <testCase name="AppComponent should render title" duration="13"/>
   </file>
 </testExecutions>
