@@ -1,7 +1,5 @@
-import { Component, Input ,OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { PeliculaDetail } from '../pelicula-detail';
-import { PeliculaService } from '../Pelicula.service';
+import { Component, OnInit , Input} from '@angular/core';
+import { PeliculaDetail} from '../pelicula-detail'
 
 @Component({
   selector: 'app-pelicula-detail',
@@ -9,27 +7,12 @@ import { PeliculaService } from '../Pelicula.service';
   styleUrls: ['./pelicula-detail.component.css']
 })
 export class PeliculaDetailComponent implements OnInit {
-  peliculaId!: string;
 
   @Input() peliculaDetail!: PeliculaDetail;
 
-  constructor( private route: ActivatedRoute, private peliculaService: PeliculaService) {
-
-  }
-
-  getPelicula(){
-    this.peliculaService.getPelicula(this.peliculaId).subscribe(pelicula =>{
-      this.peliculaDetail = pelicula;
-    })
-  }
+  constructor() { }
 
   ngOnInit() {
-    if(this.peliculaDetail === undefined){
-      this.peliculaId = this.route.snapshot.paramMap.get('id')!
-      if(this.peliculaId){
-        this.getPelicula();
-      }
-    }
   }
 
 }
