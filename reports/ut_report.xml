@@ -1,7 +1,191 @@
 <testExecutions version="1">
+  <file path="src/app/actor/actor-detail/actor-detail.component.spec.ts">
+    <testCase name="ActorDetailComponent should create" duration="434">
+      <failure message="Error">NullInjectorError: R3InjectorError(DynamicTestModule)[ActivatedRoute -&gt; ActivatedRoute]: 
+  NullInjectorError: No provider for ActivatedRoute!
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'ActivatedRoute', 'ActivatedRoute' ] })
+NullInjectorError: R3InjectorError(DynamicTestModule)[ActivatedRoute -&gt; ActivatedRoute]: 
+  NullInjectorError: No provider for ActivatedRoute!
+    at NullInjector.get (node_modules/@angular/core/fesm2015/core.mjs:11120:1)
+    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
+    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
+    at NgModuleRef.get (node_modules/@angular/core/fesm2015/core.mjs:21832:1)
+    at Object.get (node_modules/@angular/core/fesm2015/core.mjs:21509:1)
+    at lookupTokenUsingModuleInjector (node_modules/@angular/core/fesm2015/core.mjs:3358:1)
+    at getOrCreateInjectable (node_modules/@angular/core/fesm2015/core.mjs:3470:1)
+    at ɵɵdirectiveInject (node_modules/@angular/core/fesm2015/core.mjs:14396:1)
+    at NodeInjectorFactory.ActorDetailComponent_Factory [as factory] (ng:///ActorDetailComponent/ɵfac.js:4:48)
+    at getNodeInjectable (node_modules/@angular/core/fesm2015/core.mjs:3565:1)
+
+Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (src/app/actor/actor-detail/actor-detail.component.spec.ts:26:23)
+    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:372:1)
+    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:1)
+</failure>
+    </testCase>
+  </file>
+  <file path="src/app/actor/actor-list/actor-list.component.spec.ts">
+    <testCase name="ActorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted actor should not exist" duration="115"/>
+    <testCase name="ActorListComponent should have 10 &lt;img> elements" duration="21"/>
+    <testCase name="ActorListComponent should have 10 &lt;card.p-2> elements" duration="37"/>
+    <testCase name="ActorListComponent should have 10 &lt;div.col.mb-2> elements" duration="74"/>
+    <testCase name="ActorListComponent should create" duration="19"/>
+    <testCase name="ActorListComponent should have h5 tag with the actor.nombre" duration="14"/>
+    <testCase name="ActorListComponent should have the corresponding src to the actor image and alt to the actor nombre" duration="16"/>
+    <testCase name="ActorListComponent should have 10 &lt;div.card-body> elements" duration="16"/>
+  </file>
+  <file path="src/app/pelicula/Resenha/Resenha.service.spec.ts">
+    <testCase name="Service: Resenha should ..." duration="6"/>
+  </file>
+  <file path="src/app/director/director.service.spec.ts">
+    <testCase name="Service: Director should ..." duration="7"/>
+  </file>
+  <file path="src/app/pelicula/Pelicula.service.spec.ts">
+    <testCase name="Service: Pelicula should ..." duration="8">
+      <failure message="Error">NullInjectorError: R3InjectorError(DynamicTestModule)[PeliculaService -&gt; HttpClient -&gt; HttpClient]: 
+  NullInjectorError: No provider for HttpClient!
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'PeliculaService', 'HttpClient', 'HttpClient' ] })
+NullInjectorError: R3InjectorError(DynamicTestModule)[PeliculaService -&gt; HttpClient -&gt; HttpClient]: 
+  NullInjectorError: No provider for HttpClient!
+    at NullInjector.get (node_modules/@angular/core/fesm2015/core.mjs:11120:1)
+    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
+    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
+    at injectInjectorOnly (node_modules/@angular/core/fesm2015/core.mjs:4765:1)
+    at ɵɵinject (node_modules/@angular/core/fesm2015/core.mjs:4769:1)
+    at Object.PeliculaService_Factory [as factory] (ng:///PeliculaService/ɵfac.js:4:43)
+    at R3Injector.hydrate (node_modules/@angular/core/fesm2015/core.mjs:11457:1)
+    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11276:1)
+    at NgModuleRef.get (node_modules/@angular/core/fesm2015/core.mjs:21832:1)
+    at TestBedRender3.inject (node_modules/@angular/core/fesm2015/testing.mjs:1719:1)
+</failure>
+    </testCase>
+  </file>
+  <file path="src/app/pelicula/menu-filtros/menu-filtros.component.spec.ts">
+    <testCase name="MenuFiltrosComponent should create" duration="72"/>
+  </file>
+  <file path="src/app/pelicula/Resenha/Resenha-list/Resenha-list.component.spec.ts">
+    <testCase name="ResenhaListComponent should create" duration="25"/>
+  </file>
+  <file path="src/app/actor/actor.service.spec.ts">
+    <testCase name="Service: Actor should ..." duration="2"/>
+  </file>
+  <file path="src/app/pelicula/vista-principal/vista-principal.component.spec.ts">
+    <testCase name="VistaPrincipalComponent should create" duration="51">
+      <failure message="Error">NullInjectorError: R3InjectorError(DynamicTestModule)[PeliculaService -&gt; HttpClient -&gt; HttpClient]: 
+  NullInjectorError: No provider for HttpClient!
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'PeliculaService', 'HttpClient', 'HttpClient' ] })
+NullInjectorError: R3InjectorError(DynamicTestModule)[PeliculaService -&gt; HttpClient -&gt; HttpClient]: 
+  NullInjectorError: No provider for HttpClient!
+    at NullInjector.get (node_modules/@angular/core/fesm2015/core.mjs:11120:1)
+    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
+    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
+    at injectInjectorOnly (node_modules/@angular/core/fesm2015/core.mjs:4765:1)
+    at ɵɵinject (node_modules/@angular/core/fesm2015/core.mjs:4769:1)
+    at Object.PeliculaService_Factory [as factory] (ng:///PeliculaService/ɵfac.js:4:43)
+    at R3Injector.hydrate (node_modules/@angular/core/fesm2015/core.mjs:11457:1)
+    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11276:1)
+    at NgModuleRef.get (node_modules/@angular/core/fesm2015/core.mjs:21832:1)
+    at Object.get (node_modules/@angular/core/fesm2015/core.mjs:21509:1)
+
+Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (src/app/pelicula/vista-principal/vista-principal.component.spec.ts:26:23)
+    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:372:1)
+    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:1)
+</failure>
+    </testCase>
+  </file>
   <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should have as title 'museums-front'" duration="118"/>
-    <testCase name="AppComponent should create the app" duration="14"/>
-    <testCase name="AppComponent should render title" duration="13"/>
+    <testCase name="AppComponent should render title" duration="68">
+      <failure message="Error">Error: NG0301: Export of name 'matSidenav' not found!. Find more at https://angular.io/errors/NG0301
+error properties: Object({ code: -301 })
+Error: NG0301: Export of name 'matSidenav' not found!. Find more at https://angular.io/errors/NG0301
+    at cacheMatchingLocalNames (node_modules/@angular/core/fesm2015/core.mjs:10397:1)
+    at resolveDirectives (node_modules/@angular/core/fesm2015/core.mjs:10228:1)
+    at elementStartFirstCreatePass (node_modules/@angular/core/fesm2015/core.mjs:14475:1)
+    at ɵɵelementStart (node_modules/@angular/core/fesm2015/core.mjs:14513:1)
+    at AppComponent_Template (ng:///AppComponent.js:51:56)
+    at executeTemplate (node_modules/@angular/core/fesm2015/core.mjs:9618:1)
+    at renderView (node_modules/@angular/core/fesm2015/core.mjs:9421:1)
+    at renderComponent$1 (node_modules/@angular/core/fesm2015/core.mjs:10702:1)
+    at renderChildComponents (node_modules/@angular/core/fesm2015/core.mjs:9286:1)
+    at renderView (node_modules/@angular/core/fesm2015/core.mjs:9446:1)
+</failure>
+    </testCase>
+    <testCase name="AppComponent should create the app" duration="7">
+      <failure message="Error">Error: NG0301: Export of name 'matSidenav' not found!. Find more at https://angular.io/errors/NG0301
+error properties: Object({ code: -301 })
+Error: NG0301: Export of name 'matSidenav' not found!. Find more at https://angular.io/errors/NG0301
+    at cacheMatchingLocalNames (node_modules/@angular/core/fesm2015/core.mjs:10397:1)
+    at resolveDirectives (node_modules/@angular/core/fesm2015/core.mjs:10228:1)
+    at elementStartFirstCreatePass (node_modules/@angular/core/fesm2015/core.mjs:14475:1)
+    at ɵɵelementStart (node_modules/@angular/core/fesm2015/core.mjs:14513:1)
+    at AppComponent_Template (ng:///AppComponent.js:51:56)
+    at executeTemplate (node_modules/@angular/core/fesm2015/core.mjs:9618:1)
+    at renderView (node_modules/@angular/core/fesm2015/core.mjs:9421:1)
+    at renderComponent$1 (node_modules/@angular/core/fesm2015/core.mjs:10702:1)
+    at renderChildComponents (node_modules/@angular/core/fesm2015/core.mjs:9286:1)
+    at renderView (node_modules/@angular/core/fesm2015/core.mjs:9446:1)
+</failure>
+    </testCase>
+    <testCase name="AppComponent should have as title 'arte7-front'" duration="17">
+      <failure message="Error">Error: NG0301: Export of name 'matSidenav' not found!. Find more at https://angular.io/errors/NG0301
+error properties: Object({ code: -301 })
+Error: NG0301: Export of name 'matSidenav' not found!. Find more at https://angular.io/errors/NG0301
+    at cacheMatchingLocalNames (node_modules/@angular/core/fesm2015/core.mjs:10397:1)
+    at resolveDirectives (node_modules/@angular/core/fesm2015/core.mjs:10228:1)
+    at elementStartFirstCreatePass (node_modules/@angular/core/fesm2015/core.mjs:14475:1)
+    at ɵɵelementStart (node_modules/@angular/core/fesm2015/core.mjs:14513:1)
+    at AppComponent_Template (ng:///AppComponent.js:51:56)
+    at executeTemplate (node_modules/@angular/core/fesm2015/core.mjs:9618:1)
+    at renderView (node_modules/@angular/core/fesm2015/core.mjs:9421:1)
+    at renderComponent$1 (node_modules/@angular/core/fesm2015/core.mjs:10702:1)
+    at renderChildComponents (node_modules/@angular/core/fesm2015/core.mjs:9286:1)
+    at renderView (node_modules/@angular/core/fesm2015/core.mjs:9446:1)
+</failure>
+    </testCase>
+  </file>
+  <file path="src/app/pelicula/barra-navegacion/barra-navegacion.component.spec.ts">
+    <testCase name="BarraNavegacionComponent should create" duration="12"/>
+  </file>
+  <file path="src/app/director/director-detail/director-detail.component.spec.ts">
+    <testCase name="DirectorDetailComponent should create" duration="17">
+      <failure message="Error">NullInjectorError: R3InjectorError(DynamicTestModule)[ActivatedRoute -&gt; ActivatedRoute]: 
+  NullInjectorError: No provider for ActivatedRoute!
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'ActivatedRoute', 'ActivatedRoute' ] })
+NullInjectorError: R3InjectorError(DynamicTestModule)[ActivatedRoute -&gt; ActivatedRoute]: 
+  NullInjectorError: No provider for ActivatedRoute!
+    at NullInjector.get (node_modules/@angular/core/fesm2015/core.mjs:11120:1)
+    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
+    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
+    at NgModuleRef.get (node_modules/@angular/core/fesm2015/core.mjs:21832:1)
+    at Object.get (node_modules/@angular/core/fesm2015/core.mjs:21509:1)
+    at lookupTokenUsingModuleInjector (node_modules/@angular/core/fesm2015/core.mjs:3358:1)
+    at getOrCreateInjectable (node_modules/@angular/core/fesm2015/core.mjs:3470:1)
+    at ɵɵdirectiveInject (node_modules/@angular/core/fesm2015/core.mjs:14396:1)
+    at NodeInjectorFactory.DirectorDetailComponent_Factory [as factory] (ng:///DirectorDetailComponent/ɵfac.js:4:51)
+    at getNodeInjectable (node_modules/@angular/core/fesm2015/core.mjs:3565:1)
+
+Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (src/app/director/director-detail/director-detail.component.spec.ts:26:23)
+    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:372:1)
+    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:1)
+</failure>
+    </testCase>
+  </file>
+  <file path="src/app/director/director-list/director-list.component.spec.ts">
+    <testCase name="DirectorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted director should not exist" duration="13"/>
+    <testCase name="DirectorListComponent should have the corresponding src to the director image and alt to the director nombre" duration="11"/>
+    <testCase name="DirectorListComponent should have h5 tag with the director.nombre" duration="78"/>
+    <testCase name="DirectorListComponent should create" duration="13"/>
+    <testCase name="DirectorListComponent should have 10 &lt;card.p-2> elements" duration="27"/>
+    <testCase name="DirectorListComponent should have 10 &lt;img> elements" duration="10"/>
+    <testCase name="DirectorListComponent should have 10 &lt;div.card-body> elements" duration="8"/>
+    <testCase name="DirectorListComponent should have 10 &lt;div.col.mb-2> elements" duration="25"/>
+  </file>
+  <file path="src/app/pelicula/pelicula-listar/pelicula-listar.component.spec.ts">
+    <testCase name="PeliculaListarComponent should create" duration="24"/>
   </file>
 </testExecutions>
