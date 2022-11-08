@@ -8,7 +8,6 @@ export class Pelicula{
   _url: string;
   _visitas: number;
   _estrellasPromedio: number;
-  _descripcion: string;
 
 
   constructor(
@@ -20,8 +19,7 @@ export class Pelicula{
     _fechaEstreno: any,
     _url: string,
     _visitas: number,
-    _estrellasPromedio: number,
-    _descripcion: string
+    _estrellasPromedio: number
   )
   {
     this._id = _id;
@@ -33,7 +31,6 @@ export class Pelicula{
     this._url = _url;
     this._visitas = _visitas;
     this._estrellasPromedio = _estrellasPromedio;
-    this._descripcion = _descripcion;
   }
 
     /**

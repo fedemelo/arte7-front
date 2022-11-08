@@ -1,12 +1,12 @@
 <div class="container-fluid">
-  <p class="h3 p-3">{{ peliculaDetail._nombre }}</p>
+  <p class="h3 p-3">{{ peliculaDetail.nombre }}</p>
   <div class="row">
     <div class="col-2">
       <div class="thumb">
         <img
           class="img-fluid"
-          src="{{ peliculaDetail._poster }}"
-          alt="{{ peliculaDetail._nombre }}"
+          src="{{ peliculaDetail.poster }}"
+          alt="{{ peliculaDetail.nombre }}"
         />
       </div>
     </div>
@@ -14,33 +14,41 @@
       <dl>
         <dt>Actores</dt>
         <dd class="caption" *ngFor="let actor of peliculaDetail.actores">
-          {{ actor.nombre }}
-        </dd>
-        <dt>Directores</dt>
-        <dd class="caption" *ngFor="let director of peliculaDetail.directores">
-          {{ director.nombre }}
+          <a> {{ actor.nombre }}</a>
         </dd>
 
-        <dt>Duracion (en segundos)</dt>
-        <dd>{{ peliculaDetail._duracionSec }}</dd>
         <hr />
-        <dt>Pais productor</dt>
-        <dd>{{ peliculaDetail._pais}}</dd>
+
+        <dt>Directores</dt>
+        <dd class="caption" *ngFor="let director of peliculaDetail.directores">
+          <a>{{ director.nombre }}</a>
+        </dd>
+
         <hr />
+
+        <dt>Duracion</dt>
+        <dd>{{ peliculaDetail.duracionSec }}</dd>
+
+        <hr />
+
         <dt>Fecha de estreno</dt>
-        <dd>{{ peliculaDetail._fechaEstreno}}</dd>
+        <dd>{{ peliculaDetail.fechaEstreno }}</dd>
+
         <hr />
-        <dt>Link</dt>
-        <dd>{{ peliculaDetail._url}}</dd>
+
+        <dt class="bold">Pais</dt>
+        <dd class="caption">{{ peliculaDetail.pais }}</dd>
+
         <hr />
-        <dt>Visitas</dt>
-        <dd>{{ peliculaDetail._visitas}}</dd>
+
+        <dt class="bold">Estrellas promedio</dt>
+        <dd>{{ peliculaDetail.estrellasPromedio }}</dd>
+
         <hr />
-        <dt>Calificacion (sobre 5)</dt>
-        <dd>{{ peliculaDetail._estrellasPromedio}}</dd>
-        <hr />
-        <dt class="bold">Description</dt>
-        <dd>{{ peliculaDetail._descripcion }}</dd>
+
+        <dt class="bold">Reseñas</dt>
+        <app-Resenha-list></app-Resenha-list>
+
       </dl>
     </div>
   </div>
