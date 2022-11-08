@@ -4,6 +4,7 @@ import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 import { ActorDetailComponent } from './actor-detail.component';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('ActorDetailComponent', () => {
   let component: ActorDetailComponent;
@@ -11,6 +12,7 @@ describe('ActorDetailComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [HttpClientModule],
       declarations: [ ActorDetailComponent ]
     })
     .compileComponents();
@@ -21,8 +23,5 @@ describe('ActorDetailComponent', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+  
 });

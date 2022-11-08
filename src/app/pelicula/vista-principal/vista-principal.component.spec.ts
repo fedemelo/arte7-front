@@ -4,6 +4,7 @@ import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 import { VistaPrincipalComponent } from './vista-principal.component';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('VistaPrincipalComponent', () => {
   let component: VistaPrincipalComponent;
@@ -11,6 +12,7 @@ describe('VistaPrincipalComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [HttpClientModule],
       declarations: [ VistaPrincipalComponent ]
     })
     .compileComponents();

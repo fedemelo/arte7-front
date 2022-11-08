@@ -4,6 +4,7 @@ import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 import { DirectorDetailComponent } from './director-detail.component';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('DirectorDetailComponent', () => {
   let component: DirectorDetailComponent;
@@ -11,6 +12,7 @@ describe('DirectorDetailComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [HttpClientModule],
       declarations: [ DirectorDetailComponent ]
     })
     .compileComponents();
@@ -22,7 +24,4 @@ describe('DirectorDetailComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
 });
