@@ -3,15 +3,18 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { PeliculaModule } from './pelicula/pelicula.module';
+import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ResenhaModule } from './pelicula/Resenha/Resenha.module';
 import { PeliculaDetailModule } from './pelicula/pelicula-detail/pelicula-detail.module';
 
+import { PeliculaModule } from './pelicula/pelicula.module';
+import { ActorModule } from './actor/actor.module';
+import { DirectorModule } from './director/director.module';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
-import { RouterModule } from '@angular/router';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -27,7 +30,12 @@ import { MatDividerModule } from '@angular/material/divider';
     ResenhaModule,
     BrowserModule,
     AppRoutingModule,
+    DirectorModule,
+    ActorModule,
+    HttpClientModule,
     PeliculaModule,
+    ActorModule,
+    DirectorModule,
     HttpClientModule,
     BrowserAnimationsModule,
     MatToolbarModule,

@@ -9,7 +9,7 @@ import { PeliculaDetail } from './pelicula-detail';
   providedIn: 'root',
 })
 export class PeliculaService {
-  private apiUrl: string = environment.baseUrl + 'pelicula';
+  private apiUrl: string = environment.baseUrl + 'peliculas';
 
   constructor(private http: HttpClient) {}
 

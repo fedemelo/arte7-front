@@ -25,12 +25,12 @@ constructor(
   super(id,
     nombre,
     poster,
-      duracionSec,
-      pais,
-      fechaEstreno,
-      url,
-      visitas,
-      estrellasPromedio
+    duracionSec,
+    pais,
+    fechaEstreno,
+    url,
+    visitas,
+    estrellasPromedio
   )
   this.actores = actores;
   this.resenhas = resenhas;
