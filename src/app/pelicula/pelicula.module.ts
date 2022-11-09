@@ -22,7 +22,7 @@ import { MatDividerModule } from '@angular/material/divider';
     MatSidenavModule,
     MatButtonModule,
     MatIconModule,
-    MatDividerModule,
+    MatDividerModule
   ],
   exports: [
     VistaPrincipalComponent,

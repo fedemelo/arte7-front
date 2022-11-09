@@ -12,12 +12,13 @@ describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [RouterTestingModule, HttpClientModule],
-      declarations: [AppComponent,
+      declarations: [
+        AppComponent,
         ActorListComponent,
         DirectorListComponent,
         VistaPrincipalComponent,
         DirectorDetailComponent,
-        ActorDetailComponent,
+        ActorDetailComponent
         ],
     }).compileComponents();
   });
