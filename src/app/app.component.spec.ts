@@ -7,11 +7,13 @@ import { DirectorListComponent } from './director/director-list/director-list.co
 import { VistaPrincipalComponent } from './pelicula/vista-principal/vista-principal.component';
 import { DirectorDetailComponent } from './director/director-detail/director-detail.component';
 import { ActorDetailComponent } from './actor/actor-detail/actor-detail.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RouterTestingModule, HttpClientModule],
+      imports: [RouterTestingModule, HttpClientModule, MatSidenavModule, BrowserAnimationsModule],
       declarations: [
         AppComponent,
         ActorListComponent,
@@ -23,18 +25,17 @@ describe('AppComponent', () => {
     }).compileComponents();
   });
 
-  /**
+
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'arte-7'`, () => {
+  it(`should have as title 'arte7-front'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Arte 7');
+    expect(app.title).toEqual('arte7-front');
   });
-  **/
 
 });

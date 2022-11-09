@@ -23,6 +23,7 @@ import { MatDividerModule } from '@angular/material/divider';
     AppComponent
   ],
   imports: [
+    MatSidenavModule,
     BrowserModule,
     AppRoutingModule,
     DirectorModule,
@@ -34,7 +35,6 @@ import { MatDividerModule } from '@angular/material/divider';
     HttpClientModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatSidenavModule,
     MatButtonModule,
     MatIconModule,
     MatDividerModule,
