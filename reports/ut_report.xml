@@ -1,46 +1,49 @@
 <testExecutions version="1">
-  <file path="src/app/pelicula/Resenha/Resenha.service.spec.ts">
-    <testCase name="Service: Resenha should ..." duration="36"/>
-  </file>
-  <file path="src/app/actor/actor-list/actor-list.component.spec.ts">
-    <testCase name="ActorListComponent should have 10 &lt;card.p-2> elements" duration="296"/>
-    <testCase name="ActorListComponent should have 10 &lt;div.col.mb-2> elements" duration="64"/>
-    <testCase name="ActorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted actor should not exist" duration="49"/>
-    <testCase name="ActorListComponent should create" duration="13"/>
-    <testCase name="ActorListComponent should have 10 &lt;img> elements" duration="97"/>
-    <testCase name="ActorListComponent should have the corresponding src to the actor image and alt to the actor nombre" duration="51"/>
-    <testCase name="ActorListComponent should have 10 &lt;div.card-body> elements" duration="34"/>
-    <testCase name="ActorListComponent should have h5 tag with the actor.nombre" duration="33"/>
-  </file>
-  <file path="src/app/pelicula/pelicula-listar/pelicula-listar.component.spec.ts">
-    <testCase name="PeliculaListarComponent should create" duration="24"/>
-  </file>
-  <file path="src/app/actor/actor.service.spec.ts">
-    <testCase name="Service: Actor should ..." duration="10"/>
-  </file>
-  <file path="src/app/director/director-list/director-list.component.spec.ts">
-    <testCase name="DirectorListComponent should create" duration="88"/>
-    <testCase name="DirectorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted director should not exist" duration="14"/>
-    <testCase name="DirectorListComponent should have 10 &lt;card.p-2> elements" duration="10"/>
-    <testCase name="DirectorListComponent should have 10 &lt;div.col.mb-2> elements" duration="44"/>
-    <testCase name="DirectorListComponent should have 10 &lt;div.card-body> elements" duration="13"/>
-    <testCase name="DirectorListComponent should have 10 &lt;img> elements" duration="12"/>
-    <testCase name="DirectorListComponent should have h5 tag with the director.nombre" duration="16"/>
-    <testCase name="DirectorListComponent should have the corresponding src to the director image and alt to the director nombre" duration="11"/>
-  </file>
-  <file path="src/app/pelicula/menu-filtros/menu-filtros.component.spec.ts">
-    <testCase name="MenuFiltrosComponent should create" duration="110"/>
-  </file>
-  <file path="src/app/pelicula/barra-navegacion/barra-navegacion.component.spec.ts">
-    <testCase name="BarraNavegacionComponent should create" duration="14"/>
-  </file>
-  <file path="src/app/pelicula/vista-principal/vista-principal.component.spec.ts">
-    <testCase name="VistaPrincipalComponent should create" duration="30"/>
+  <file path="src/app/pelicula/Resenha/Resenha-list/Resenha-list.component.spec.ts">
+    <testCase name="ResenhaListComponent should create" duration="51"/>
   </file>
   <file path="src/app/pelicula/Pelicula.service.spec.ts">
-    <testCase name="Service: Pelicula should ..." duration="2"/>
+    <testCase name="Service: Pelicula should ..." duration="3"/>
   </file>
-  <file path="src/app/pelicula/Resenha/Resenha-list/Resenha-list.component.spec.ts">
-    <testCase name="ResenhaListComponent should create" duration="11"/>
+  <file path="src/app/director/director.service.spec.ts">
+    <testCase name="Service: Director should ..." duration="3"/>
+  </file>
+  <file path="src/app/actor/actor-list/actor-list.component.spec.ts">
+    <testCase name="ActorListComponent should have 10 &lt;card.p-2> elements" duration="26"/>
+    <testCase name="ActorListComponent should have 10 &lt;div.col.mb-2> elements" duration="9"/>
+    <testCase name="ActorListComponent should create" duration="9"/>
+    <testCase name="ActorListComponent should have 10 &lt;img> elements" duration="12"/>
+    <testCase name="ActorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted actor should not exist" duration="13"/>
+    <testCase name="ActorListComponent should have h5 tag with the actor.nombre" duration="12"/>
+    <testCase name="ActorListComponent should have the corresponding src to the actor image and alt to the actor nombre" duration="30"/>
+    <testCase name="ActorListComponent should have 10 &lt;div.card-body> elements" duration="17"/>
+  </file>
+  <file path="src/app/director/director-list/director-list.component.spec.ts">
+    <testCase name="DirectorListComponent should have 10 &lt;img> elements" duration="20"/>
+    <testCase name="DirectorListComponent should have 10 &lt;div.card-body> elements" duration="11"/>
+    <testCase name="DirectorListComponent should have the corresponding src to the director image and alt to the director nombre" duration="13"/>
+    <testCase name="DirectorListComponent should have h5 tag with the director.nombre" duration="12"/>
+    <testCase name="DirectorListComponent should have 10 &lt;div.col.mb-2> elements" duration="11"/>
+    <testCase name="DirectorListComponent should have 10 &lt;card.p-2> elements" duration="7"/>
+    <testCase name="DirectorListComponent should create" duration="8"/>
+    <testCase name="DirectorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted director should not exist" duration="13"/>
+  </file>
+  <file path="src/app/pelicula/vista-principal/vista-principal.component.spec.ts">
+    <testCase name="VistaPrincipalComponent should create" duration="49"/>
+  </file>
+  <file path="src/app/pelicula/pelicula-listar/pelicula-listar.component.spec.ts">
+    <testCase name="PeliculaListarComponent should create" duration="11"/>
+  </file>
+  <file path="src/app/actor/actor.service.spec.ts">
+    <testCase name="Service: Actor should ..." duration="3"/>
+  </file>
+  <file path="src/app/pelicula/barra-navegacion/barra-navegacion.component.spec.ts">
+    <testCase name="BarraNavegacionComponent should create" duration="23"/>
+  </file>
+  <file path="src/app/pelicula/menu-filtros/menu-filtros.component.spec.ts">
+    <testCase name="MenuFiltrosComponent should create" duration="38"/>
+  </file>
+  <file path="src/app/pelicula/Resenha/Resenha.service.spec.ts">
+    <testCase name="Service: Resenha should ..." duration="9"/>
   </file>
 </testExecutions>

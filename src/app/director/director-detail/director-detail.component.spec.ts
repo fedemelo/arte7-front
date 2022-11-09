@@ -24,4 +24,6 @@ describe('DirectorDetailComponent', () => {
     fixture.detectChanges();
   });
 
+  
+
 });

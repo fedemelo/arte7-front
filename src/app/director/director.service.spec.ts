@@ -11,5 +11,7 @@ describe('Service: Director', () => {
       providers: [DirectorService]
     });
   });
-
+  it('should ...', inject([DirectorService], (service: DirectorService) => {
+    expect(service).toBeTruthy();
+  }));
 });
