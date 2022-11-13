@@ -2,7 +2,8 @@ import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { ActorDetail } from '../actor-detail';
-import { ActorService } from '../actorService.service';
+import { ActorService } from '../actor.service';
+
 
 @Component({
   selector: 'app-actor-detail',

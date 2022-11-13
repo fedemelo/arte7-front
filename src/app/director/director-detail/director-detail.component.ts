@@ -2,7 +2,8 @@ import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { DirectorDetail } from '../director-detail';
-import { DirectorService } from '../directorSerivce.service';
+import { DirectorService } from '../director.service';
+
 
 @Component({
   selector: 'app-director-detail',
