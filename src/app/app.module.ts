@@ -6,6 +6,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ResenhaModule } from './pelicula/Resenha/Resenha.module';
+import { PeliculaDetailModule } from './pelicula/pelicula-detail/pelicula-detail.module';
 
 import { PeliculaModule } from './pelicula/pelicula.module';
 import { ActorModule } from './actor/actor.module';
@@ -24,15 +26,14 @@ import { MatDividerModule } from '@angular/material/divider';
   ],
   imports: [
     MatSidenavModule,
+    PeliculaDetailModule,
+    ResenhaModule,
     BrowserModule,
     AppRoutingModule,
-    DirectorModule,
-    ActorModule,
     HttpClientModule,
     PeliculaModule,
     ActorModule,
     DirectorModule,
-    HttpClientModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,

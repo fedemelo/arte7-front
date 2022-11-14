@@ -8,7 +8,7 @@ import { ResenhaService } from '../Resenha.service';
   styleUrls: ['./Resenha-list.component.css']
 })
 export class ResenhaListComponent implements OnInit {
-  
+
   resenhas: Array<Resenha> = [];
 
   constructor(private resenhaService: ResenhaService) { }
