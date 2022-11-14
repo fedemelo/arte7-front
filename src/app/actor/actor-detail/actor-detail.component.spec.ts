@@ -77,6 +77,4 @@ describe('ActorDetailComponent', () => {
     expect(nodo?.nativeElement.nextSibling.textContent).toContain(component.actorDetail.fechaNacimiento);
   });
 
-
-
 });
