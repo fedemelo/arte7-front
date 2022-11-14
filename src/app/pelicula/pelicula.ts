@@ -19,7 +19,7 @@ export class Pelicula{
     _fechaEstreno: any,
     _url: string,
     _visitas: number,
-    _estrellasPromedio: number,
+    _estrellasPromedio: number
   )
   {
     this._id = _id;

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input ,OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PeliculaDetail } from '../pelicula-detail';
 import { PeliculaService } from '../Pelicula.service';
@@ -9,7 +9,7 @@ import { PeliculaService } from '../Pelicula.service';
   styleUrls: ['./pelicula-detail.component.css']
 })
 export class PeliculaDetailComponent implements OnInit {
-  peliculaId!: number;
+  peliculaId!: string;
 
   @Input() peliculaDetail!: PeliculaDetail;
 
@@ -18,7 +18,7 @@ export class PeliculaDetailComponent implements OnInit {
   }
 
   getPelicula(){
-    this.peliculaService.getPelicula(this.peliculaId).suscribe(pelicula =>{
+    this.peliculaService.getPelicula(this.peliculaId).subscribe(pelicula =>{
       this.peliculaDetail = pelicula;
     })
   }

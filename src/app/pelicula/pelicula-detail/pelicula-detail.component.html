@@ -12,25 +12,27 @@
     </div>
     <div class="col">
       <dl>
-        <dt>Actores</dt>
+        <dt calss="bold">Actores</dt>
         <dd class="caption" *ngFor="let actor of peliculaDetail.actores">
-          <a routerLink="/actor/{{ actor.id }}">{{ actor.nombre }}</a>
+          <a> {{ actor.nombre }}</a>
         </dd>
 
         <hr />
 
-        <dt>Directores</dt>
+        <dt calss="bold">Directores</dt>
         <dd class="caption" *ngFor="let director of peliculaDetail.directores">
-          <a routerLink="/director/{{ director.id }}">{{ director.nombre }}</a>
+          <a>{{ director.nombre }}</a>
         </dd>
-
-        <dt>Duracion</dt>
-        <dd>{{ peliculaDetail.duracion }}</dd>
 
         <hr />
 
-        <dt>Fecha de estreno</dt>
-        <dd>{{ peliculaDetail.fechaestreno }}</dd>
+        <dt calss="bold">Duracion</dt>
+        <dd class="caption">{{ peliculaDetail.duracionSec }}</dd>
+
+        <hr />
+
+        <dt class="bold">Fecha de estreno</dt>
+        <dd class="caption">{{ peliculaDetail.fechaEstreno }}</dd>
 
         <hr />
 
@@ -40,12 +42,12 @@
         <hr />
 
         <dt class="bold">Estrellas promedio</dt>
-        <dd>{{ peliculaDetail.estrellasPromedio }}</dd>
+        <dd class="caption">{{ peliculaDetail.estrellasPromedio }}</dd>
 
         <hr />
 
-        
-
+        <dt class="bold">Reseñas</dt>
+        <app-Resenha-list></app-Resenha-list>
 
       </dl>
     </div>

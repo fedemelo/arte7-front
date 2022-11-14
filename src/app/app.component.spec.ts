@@ -4,14 +4,27 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 import { ActorListComponent } from './actor/actor-list/actor-list.component';
 import { DirectorListComponent } from './director/director-list/director-list.component';
+import { VistaPrincipalComponent } from './pelicula/vista-principal/vista-principal.component';
+import { DirectorDetailComponent } from './director/director-detail/director-detail.component';
+import { ActorDetailComponent } from './actor/actor-detail/actor-detail.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RouterTestingModule, HttpClientModule],
-      declarations: [AppComponent, ActorListComponent, DirectorListComponent],
+      imports: [RouterTestingModule, HttpClientModule, MatSidenavModule, BrowserAnimationsModule],
+      declarations: [
+        AppComponent,
+        ActorListComponent,
+        DirectorListComponent,
+        VistaPrincipalComponent,
+        DirectorDetailComponent,
+        ActorDetailComponent
+        ],
     }).compileComponents();
   });
+
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
@@ -25,10 +38,4 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('arte7-front');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('arte7-front app is running!');
-  });
 });

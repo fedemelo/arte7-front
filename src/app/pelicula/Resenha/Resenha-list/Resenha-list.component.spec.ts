@@ -12,7 +12,7 @@ describe('ResenhaListComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports : [HttpClientModule]
+      imports : [HttpClientModule],
       declarations: [ ResenhaListComponent ]
     })
     .compileComponents();

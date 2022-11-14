@@ -8,12 +8,13 @@ import { ResenhaService } from '../Resenha.service';
   styleUrls: ['./Resenha-list.component.css']
 })
 export class ResenhaListComponent implements OnInit {
+
   resenhas: Array<Resenha> = [];
 
   constructor(private resenhaService: ResenhaService) { }
 
   getResenhas():void {
-    this.resenhaService.getResenha().suscribe((resenhas: Resenha[]) =>{
+    this.resenhaService.getResenha().subscribe((resenhas: Resenha[]) =>{
       this.resenhas = resenhas;
     })
   }
