@@ -30,10 +30,10 @@ describe('ActorDetailComponent', () => {
     component.directorDetail=new DirectorDetail(
       faker.datatype.number(),
       faker.lorem.sentence(),
-        faker.image.imageUrl(),
-        faker.lorem.sentence(),
-        faker.date.past(),
-        faker.lorem.sentence()
+       faker.image.imageUrl(),
+       faker.lorem.sentence(),
+       faker.lorem.sentence(),
+       faker.lorem.sentence()
     );
 
     fixture.detectChanges();
@@ -57,14 +57,14 @@ describe('ActorDetailComponent', () => {
   });
 
   it('should have a <p> tag with component.directorDetail.name', () => {
-    const componentElement: HTMLElement = debug.query(By.css('p.h3.p-2.actor-name')).nativeElement;
+    const componentElement: HTMLElement = debug.query(By.css('p.h3.p-2.director-name')).nativeElement;
     expect(componentElement.textContent).toContain(component.directorDetail.nombre);
   });
 
   it('should have one dd tag for component.directorDetail.biografia', () => {
     const allDt : DebugElement[]= debug.queryAll(By.css('dt'));
     let nodo = allDt.find((value) => {
-      return value.nativeElement.textContent == 'Bio';
+      return value.nativeElement.textContent == 'Biografía';
     });
     expect(nodo?.nativeElement.nextSibling.textContent).toContain(component.directorDetail.biografia);
   });
@@ -72,7 +72,7 @@ describe('ActorDetailComponent', () => {
   it('should have one dd tag for component.directorDetail.fechaNacimiento', () => {
     const allDt : DebugElement[]= debug.queryAll(By.css('dt'));
     let nodo = allDt.find((value) => {
-      return value.nativeElement.textContent == 'BirthDay';
+      return value.nativeElement.textContent == 'Fecha de Nacimiento';
     });
     expect(nodo?.nativeElement.nextSibling.textContent).toContain(component.directorDetail.fechaNacimiento);
   });

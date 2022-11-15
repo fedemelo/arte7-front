@@ -30,10 +30,10 @@ describe('ActorDetailComponent', () => {
     component.actorDetail=new ActorDetail(
       faker.datatype.number(),
       faker.lorem.sentence(),
-        faker.image.imageUrl(),
-        faker.lorem.sentence(),
-        faker.date.past(),
-        faker.lorem.sentence()
+       faker.image.imageUrl(),
+       faker.lorem.sentence(),
+       faker.lorem.sentence(),
+       faker.lorem.sentence()
     );
 
     fixture.detectChanges();
@@ -64,7 +64,7 @@ describe('ActorDetailComponent', () => {
   it('should have one dd tag for component.actorDetail.biografia', () => {
     const allDt : DebugElement[]= debug.queryAll(By.css('dt'));
     let nodo = allDt.find((value) => {
-      return value.nativeElement.textContent == 'Bio';
+      return value.nativeElement.textContent == 'Biografía';
     });
     expect(nodo?.nativeElement.nextSibling.textContent).toContain(component.actorDetail.biografia);
   });
@@ -72,7 +72,7 @@ describe('ActorDetailComponent', () => {
   it('should have one dd tag for component.actorDetail.fechaNacimiento', () => {
     const allDt : DebugElement[]= debug.queryAll(By.css('dt'));
     let nodo = allDt.find((value) => {
-      return value.nativeElement.textContent == 'BirthDay';
+      return value.nativeElement.textContent == 'Fecha de Nacimiento';
     });
     expect(nodo?.nativeElement.nextSibling.textContent).toContain(component.actorDetail.fechaNacimiento);
   });

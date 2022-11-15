@@ -11,7 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { Director } from 'src/app/director/director';
 import { Pelicula } from '../pelicula';
 import { PeliculaDetail } from '../pelicula-detail';
-import { debug } from 'console';
+
 
 describe('PeliculaListarComponent', () => {
   let component: PeliculaDetailComponent;
