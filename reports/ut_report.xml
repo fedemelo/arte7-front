@@ -1,149 +1,67 @@
 <testExecutions version="1">
-  <file path="src/app/pelicula/barra-navegacion/barra-navegacion.component.spec.ts">
-    <testCase name="BarraNavegacionComponent should create" duration="48"/>
+  <file path="src/app/pelicula/Resenha/Resenha-list/Resenha-list.component.spec.ts">
+    <testCase name="ResenhaListComponent should create" duration="47"/>
   </file>
   <file path="src/app/pelicula/Resenha/Resenha.service.spec.ts">
-    <testCase name="Service: Resenha should ..." duration="30"/>
-    <testCase name="Service: Resenha should create" duration="4"/>
-  </file>
-  <file path="src/app/director/director-list/director-list.component.spec.ts">
-    <testCase name="DirectorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted director should not exist" duration="25"/>
-    <testCase name="DirectorListComponent should have 10 &lt;div.card-body> elements" duration="8"/>
-    <testCase name="DirectorListComponent should have 10 &lt;img> elements" duration="6"/>
-    <testCase name="DirectorListComponent should create" duration="5"/>
-    <testCase name="DirectorListComponent should have h5 tag with the director.nombre" duration="6"/>
-    <testCase name="DirectorListComponent should have the corresponding src to the director image and alt to the director nombre" duration="8"/>
-    <testCase name="DirectorListComponent should have 10 &lt;card.p-2> elements" duration="5"/>
-    <testCase name="DirectorListComponent should have 10 &lt;div.col.mb-2> elements" duration="5"/>
-  </file>
-  <file path="src/app/pelicula/menu-filtros/menu-filtros.component.spec.ts">
-    <testCase name="MenuFiltrosComponent should create" duration="27"/>
-  </file>
-  <file path="src/app/director/director-detail/director-detail.component.spec.ts">
-    <testCase name="ActorDetailComponent should have a &lt;p> tag with component.directorDetail.name" duration="12"/>
-    <testCase name="ActorDetailComponent should have one dd tag for component.directorDetail.biografia" duration="4"/>
-    <testCase name="ActorDetailComponent should create" duration="3"/>
-    <testCase name="ActorDetailComponent should have one dd tag for component.directorDetail.fechaNacimiento" duration="3"/>
-    <testCase name="ActorDetailComponent should have an img element" duration="3"/>
-    <testCase name="ActorDetailComponent should have an img element with src = directorDetail.image" duration="3"/>
-  </file>
-  <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should have as title 'arte7-front'" duration="30"/>
-    <testCase name="AppComponent should create the app" duration="22"/>
-  </file>
-  <file path="src/app/pelicula/Resenha/Resenha-list/Resenha-list.component.spec.ts">
-    <testCase name="ResenhaListComponent should create" duration="3"/>
+    <testCase name="Service: Resenha should ..." duration="12"/>
+    <testCase name="Service: Resenha should create" duration="6"/>
   </file>
   <file path="src/app/actor/actor.service.spec.ts">
-    <testCase name="Service: Actor should ..." duration="4"/>
-  </file>
-  <file path="src/app/pelicula/pelicula-listar/pelicula-listar.component.spec.ts">
-    <testCase name="PeliculaListarComponent should have 5 &lt;dt.class.bold> elements" duration="52">
-      <failure message="Error">NullInjectorError: R3InjectorError(DynamicTestModule)[ActivatedRoute -&gt; ActivatedRoute]: 
-  NullInjectorError: No provider for ActivatedRoute!
-error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'ActivatedRoute', 'ActivatedRoute' ] })
-NullInjectorError: R3InjectorError(DynamicTestModule)[ActivatedRoute -&gt; ActivatedRoute]: 
-  NullInjectorError: No provider for ActivatedRoute!
-    at NullInjector.get (node_modules/@angular/core/fesm2015/core.mjs:11120:1)
-    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
-    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
-    at NgModuleRef.get (node_modules/@angular/core/fesm2015/core.mjs:21832:1)
-    at Object.get (node_modules/@angular/core/fesm2015/core.mjs:21509:1)
-    at lookupTokenUsingModuleInjector (node_modules/@angular/core/fesm2015/core.mjs:3358:1)
-    at getOrCreateInjectable (node_modules/@angular/core/fesm2015/core.mjs:3470:1)
-    at ɵɵdirectiveInject (node_modules/@angular/core/fesm2015/core.mjs:14396:1)
-    at NodeInjectorFactory.PeliculaDetailComponent_Factory [as factory] (ng:///PeliculaDetailComponent/ɵfac.js:4:51)
-    at getNodeInjectable (node_modules/@angular/core/fesm2015/core.mjs:3565:1)
-
-TypeError: Cannot read properties of undefined (reading 'queryAll')
-    at UserContext.&lt;anonymous&gt; (src/app/pelicula/pelicula-detail/pelicula-detail.component.spec.ts:76:18)
-    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:372:1)
-    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:1)
-    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:371:1)
-    at Zone.run (node_modules/zone.js/fesm2015/zone.js:134:1)
-    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:567:1)
-    at UserContext.&lt;anonymous&gt; (node_modules/zone.js/fesm2015/zone-testing.js:582:1)
-    at &lt;Jasmine&gt;
-</failure>
-    </testCase>
-    <testCase name="PeliculaListarComponent should create" duration="6">
-      <failure message="Error">NullInjectorError: R3InjectorError(DynamicTestModule)[ActivatedRoute -&gt; ActivatedRoute]: 
-  NullInjectorError: No provider for ActivatedRoute!
-error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'ActivatedRoute', 'ActivatedRoute' ] })
-NullInjectorError: R3InjectorError(DynamicTestModule)[ActivatedRoute -&gt; ActivatedRoute]: 
-  NullInjectorError: No provider for ActivatedRoute!
-    at NullInjector.get (node_modules/@angular/core/fesm2015/core.mjs:11120:1)
-    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
-    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
-    at NgModuleRef.get (node_modules/@angular/core/fesm2015/core.mjs:21832:1)
-    at Object.get (node_modules/@angular/core/fesm2015/core.mjs:21509:1)
-    at lookupTokenUsingModuleInjector (node_modules/@angular/core/fesm2015/core.mjs:3358:1)
-    at getOrCreateInjectable (node_modules/@angular/core/fesm2015/core.mjs:3470:1)
-    at ɵɵdirectiveInject (node_modules/@angular/core/fesm2015/core.mjs:14396:1)
-    at NodeInjectorFactory.PeliculaDetailComponent_Factory [as factory] (ng:///PeliculaDetailComponent/ɵfac.js:4:51)
-    at getNodeInjectable (node_modules/@angular/core/fesm2015/core.mjs:3565:1)
-
-Error: Expected undefined to be truthy.
-    at &lt;Jasmine&gt;
-    at UserContext.&lt;anonymous&gt; (src/app/pelicula/pelicula-detail/pelicula-detail.component.spec.ts:72:23)
-    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:372:1)
-    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:1)
-</failure>
-    </testCase>
-    <testCase name="PeliculaListarComponent should have img" duration="3">
-      <failure message="Error">NullInjectorError: R3InjectorError(DynamicTestModule)[ActivatedRoute -&gt; ActivatedRoute]: 
-  NullInjectorError: No provider for ActivatedRoute!
-error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'ActivatedRoute', 'ActivatedRoute' ] })
-NullInjectorError: R3InjectorError(DynamicTestModule)[ActivatedRoute -&gt; ActivatedRoute]: 
-  NullInjectorError: No provider for ActivatedRoute!
-    at NullInjector.get (node_modules/@angular/core/fesm2015/core.mjs:11120:1)
-    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
-    at R3Injector.get (node_modules/@angular/core/fesm2015/core.mjs:11287:1)
-    at NgModuleRef.get (node_modules/@angular/core/fesm2015/core.mjs:21832:1)
-    at Object.get (node_modules/@angular/core/fesm2015/core.mjs:21509:1)
-    at lookupTokenUsingModuleInjector (node_modules/@angular/core/fesm2015/core.mjs:3358:1)
-    at getOrCreateInjectable (node_modules/@angular/core/fesm2015/core.mjs:3470:1)
-    at ɵɵdirectiveInject (node_modules/@angular/core/fesm2015/core.mjs:14396:1)
-    at NodeInjectorFactory.PeliculaDetailComponent_Factory [as factory] (ng:///PeliculaDetailComponent/ɵfac.js:4:51)
-    at getNodeInjectable (node_modules/@angular/core/fesm2015/core.mjs:3565:1)
-
-TypeError: Cannot read properties of undefined (reading 'queryAll')
-    at UserContext.&lt;anonymous&gt; (src/app/pelicula/pelicula-detail/pelicula-detail.component.spec.ts:80:11)
-    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:372:1)
-    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:1)
-    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:371:1)
-    at Zone.run (node_modules/zone.js/fesm2015/zone.js:134:1)
-    at runInTestZone (node_modules/zone.js/fesm2015/zone-testing.js:567:1)
-    at UserContext.&lt;anonymous&gt; (node_modules/zone.js/fesm2015/zone-testing.js:582:1)
-    at &lt;Jasmine&gt;
-</failure>
-    </testCase>
-  </file>
-  <file path="src/app/actor/actor-list/actor-list.component.spec.ts">
-    <testCase name="ActorListComponent should create" duration="35"/>
-    <testCase name="ActorListComponent should have 10 &lt;div.card-body> elements" duration="7"/>
-    <testCase name="ActorListComponent should have 10 &lt;div.col.mb-2> elements" duration="13"/>
-    <testCase name="ActorListComponent should have the corresponding src to the actor image and alt to the actor nombre" duration="22"/>
-    <testCase name="ActorListComponent should have 10 &lt;card.p-2> elements" duration="9"/>
-    <testCase name="ActorListComponent should have h5 tag with the actor.nombre" duration="5"/>
-    <testCase name="ActorListComponent should have 10 &lt;img> elements" duration="6"/>
-    <testCase name="ActorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted actor should not exist" duration="61"/>
+    <testCase name="Service: Actor should ..." duration="2"/>
   </file>
   <file path="src/app/pelicula/vista-principal/vista-principal.component.spec.ts">
-    <testCase name="VistaPrincipalComponent should create" duration="6"/>
+    <testCase name="VistaPrincipalComponent should create" duration="16"/>
+  </file>
+  <file path="src/app/app.component.spec.ts">
+    <testCase name="AppComponent should have as title 'arte7-front'" duration="45"/>
+    <testCase name="AppComponent should create the app" duration="10"/>
   </file>
   <file path="src/app/director/director.service.spec.ts">
-    <testCase name="Service: Director should ..." duration="2"/>
+    <testCase name="Service: Director should ..." duration="4"/>
   </file>
   <file path="src/app/director/director-detail/director-detail.component.spec.ts">
-    <testCase name="ActorDetailComponent should have an img element with src = actorDetail.image" duration="5"/>
-    <testCase name="ActorDetailComponent should have a &lt;p> tag with component.actorDetail.name" duration="3"/>
-    <testCase name="ActorDetailComponent should have one dd tag for component.actorDetail.biografia" duration="3"/>
-    <testCase name="ActorDetailComponent should have one dd tag for component.actorDetail.fechaNacimiento" duration="2"/>
-    <testCase name="ActorDetailComponent should create" duration="6"/>
+    <testCase name="ActorDetailComponent should have one dd tag for component.directorDetail.fechaNacimiento" duration="6"/>
+    <testCase name="ActorDetailComponent should have an img element with src = directorDetail.image" duration="4"/>
     <testCase name="ActorDetailComponent should have an img element" duration="4"/>
+    <testCase name="ActorDetailComponent should have one dd tag for component.directorDetail.biografia" duration="4"/>
+    <testCase name="ActorDetailComponent should have a &lt;p> tag with component.directorDetail.name" duration="3"/>
+    <testCase name="ActorDetailComponent should create" duration="3"/>
+  </file>
+  <file path="src/app/pelicula/barra-navegacion/barra-navegacion.component.spec.ts">
+    <testCase name="BarraNavegacionComponent should create" duration="9"/>
   </file>
   <file path="src/app/pelicula/Pelicula.service.spec.ts">
-    <testCase name="Service: Pelicula should ..." duration="2"/>
+    <testCase name="Service: Pelicula should ..." duration="7"/>
+  </file>
+  <file path="src/app/pelicula/menu-filtros/menu-filtros.component.spec.ts">
+    <testCase name="MenuFiltrosComponent should create" duration="15"/>
+  </file>
+  <file path="src/app/director/director-list/director-list.component.spec.ts">
+    <testCase name="DirectorListComponent should have the corresponding src to the director image and alt to the director nombre" duration="14"/>
+    <testCase name="DirectorListComponent should have 10 &lt;img> elements" duration="8"/>
+    <testCase name="DirectorListComponent should have h5 tag with the director.nombre" duration="6"/>
+    <testCase name="DirectorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted director should not exist" duration="6"/>
+    <testCase name="DirectorListComponent should have 10 &lt;card.p-2> elements" duration="7"/>
+    <testCase name="DirectorListComponent should have 10 &lt;div.col.mb-2> elements" duration="6"/>
+    <testCase name="DirectorListComponent should have 10 &lt;div.card-body> elements" duration="6"/>
+    <testCase name="DirectorListComponent should create" duration="4"/>
+  </file>
+  <file path="src/app/director/director-detail/director-detail.component.spec.ts">
+    <testCase name="ActorDetailComponent should have one dd tag for component.actorDetail.fechaNacimiento" duration="6"/>
+    <testCase name="ActorDetailComponent should have one dd tag for component.actorDetail.biografia" duration="4"/>
+    <testCase name="ActorDetailComponent should have a &lt;p> tag with component.actorDetail.name" duration="3"/>
+    <testCase name="ActorDetailComponent should have an img element with src = actorDetail.image" duration="3"/>
+    <testCase name="ActorDetailComponent should have an img element" duration="2"/>
+    <testCase name="ActorDetailComponent should create" duration="3"/>
+  </file>
+  <file path="src/app/actor/actor-list/actor-list.component.spec.ts">
+    <testCase name="ActorListComponent should have 10 &lt;div.card-body> elements" duration="10"/>
+    <testCase name="ActorListComponent should have h5 tag with the actor.nombre" duration="12"/>
+    <testCase name="ActorListComponent should have the corresponding src to the actor image and alt to the actor nombre" duration="47"/>
+    <testCase name="ActorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted actor should not exist" duration="18"/>
+    <testCase name="ActorListComponent should create" duration="16"/>
+    <testCase name="ActorListComponent should have 10 &lt;img> elements" duration="14"/>
+    <testCase name="ActorListComponent should have 10 &lt;card.p-2> elements" duration="8"/>
+    <testCase name="ActorListComponent should have 10 &lt;div.col.mb-2> elements" duration="9"/>
   </file>
 </testExecutions>

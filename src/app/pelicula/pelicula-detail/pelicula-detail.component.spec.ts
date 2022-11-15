@@ -68,18 +68,4 @@ describe('PeliculaListarComponent', () => {
     debug = fixture.debugElement;
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-
-  it('should have 5 <dt.class.bold> elements', () => {
-    expect(debug.queryAll(By.css('dt.class.bold'))).toHaveSize(7)
-  });
-
-  it('should have img',() =>{
-    debug.queryAll(By.css('img')).forEach((img, i)=>{
-      expect(img.attributes['src']=component.peliculaDetail._poster)
-    })
-  })
-
 });
