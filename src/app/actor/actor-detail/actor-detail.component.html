@@ -1,7 +1,7 @@
 <div class="panel-body">
   <div class="border margin p-3">
 
-    <p class="h3 p-2 author-name">{{ actorDetail.nombre }}</p>
+    <p class="h3 p-2 actor-name">{{ actorDetail.nombre }}</p>
 
     <div class="row">
       <div class="col-md-3">
@@ -10,15 +10,13 @@
             class="img-fluid img-thumbnail border border-danger"
             src="{{ actorDetail.fotografia }}"
             alt="{{ actorDetail.nombre }}"
-
-            alt="nomre generico"
           />
         </div>
       </div>
       <div class="col-md-7">
         <dl>
           <dt class="text-title">Fecha de Nacimiento</dt>
-          <dd class="text">{{ actorDetail.fechaNacimiento }}</dd>
+          <dd >{{ actorDetail.fechaNacimiento }}</dd>
 
 
           <dt class="text-title">Nacionalidadd</dt>
@@ -26,7 +24,7 @@
 
 
           <dt class="text-title">Biografía</dt>
-          <dd class="text">{{ actorDetail.biografia }}</dd>
+          <dd>{{ actorDetail.biografia }}</dd>
         </dl>
       </div>
     </div>

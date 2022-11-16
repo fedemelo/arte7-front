@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { VistaPrincipalComponent } from './vista-principal/vista-principal.component';
 import { MenuFiltrosComponent } from './menu-filtros/menu-filtros.component';
 import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.component';
-import { PeliculaListComponent } from './pelicula-list/pelicula-list.component';
-import { PeliculaDetailComponent } from './pelicula-detail/pelicula-detail.component';
+import { PeliculaListarComponent } from './pelicula-listar/pelicula-listar.component';
+
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
@@ -34,14 +34,13 @@ import { ResenhaModule } from './Resenha/Resenha.module';
     VistaPrincipalComponent,
     MenuFiltrosComponent,
     BarraNavegacionComponent,
-    PeliculaListComponent
+    PeliculaListarComponent
   ],
   declarations: [
     VistaPrincipalComponent,
     MenuFiltrosComponent,
     BarraNavegacionComponent,
-    PeliculaListComponent,
-    PeliculaDetailComponent
+    PeliculaListarComponent
   ]
 })
 export class PeliculaModule { }
