@@ -1,31 +1,32 @@
-
+<div class="container-fluid">
   <div class="row">
     <div class="col-12">
-      <img class="img-fluid max-width" src="https://fanfan.es/wp-content/uploads/2020/05/cine.jpg" alt="Banner">
+      <img class="img-fluid max-width" src="assets/img/cine.jpg" alt="Banner">
     </div>
   </div>
 
   <div class="row">
     <div class="col-12 black">
-      <h2>Peliculas populares</h2>
+      <h2 class="h2 p-2">Peliculas populares</h2>
     </div>
   </div>
 
   <div class="row">
   <div class="col-12">
     <div class="card-group">
-        <div class="card p-2" *ngFor="let pelicula of peliculas">
+        <div class="card p-2" *ngFor="let pelicula of peliculas.slice(0, 5)">
             <img
               class="card-img-top img_card"
               src="{{ pelicula.poster }}"
               alt="{{ pelicula.nombre }}"
             />
             <div class="card-body">
-              <h3 class="card-title">{{ pelicula.nombre }}</h3>
-                <p class="card-text">{{ pelicula.estrellasPromedio }}</p>
+              <h2 class="card-title">{{ pelicula.nombre }}</h2>
+                <p class="card-text"> ★ {{ pelicula.estrellasPromedio }}</p>
             </div>
          </div>
     </div>
+</div>
 
 
 
