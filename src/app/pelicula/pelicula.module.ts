@@ -15,6 +15,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { PeliculaDetailModule } from './pelicula-detail/pelicula-detail.module';
 import { ResenhaModule } from './Resenha/Resenha.module';
 
+
 @NgModule({
   imports: [
     ResenhaModule,

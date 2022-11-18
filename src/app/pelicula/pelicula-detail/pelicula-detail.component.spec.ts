@@ -11,16 +11,17 @@ import { HttpClientModule } from '@angular/common/http';
 import { Director } from 'src/app/director/director';
 import { Pelicula } from '../pelicula';
 import { PeliculaDetail } from '../pelicula-detail';
+import { RouterTestingModule } from '@angular/router/testing';
 
 
-describe('PeliculaListarComponent', () => {
+describe('PeliculaDetailComponent', () => {
   let component: PeliculaDetailComponent;
   let fixture: ComponentFixture<PeliculaDetailComponent>;
   let debug : DebugElement;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [HttpClientModule],
+      imports: [HttpClientModule, RouterTestingModule],
       declarations: [ PeliculaDetailComponent]
     })
     .compileComponents();
@@ -73,7 +74,7 @@ describe('PeliculaListarComponent', () => {
   });
 
   it('should have 7 <dt.bold> elements', () => {
-    expect(debug.queryAll(By.css('dt.bold'))).toHaveSize(7)
+    expect(debug.queryAll(By.css('dt.bold')).length).toEqual(7)
   });
 
   it('should have img',() =>{
