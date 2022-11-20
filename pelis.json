@@ -1,0 +1,102 @@
+[
+  {
+    "nombre": "Matrix",
+    "poster": "https://pics.filmaffinity.com/Matrix-155050517-large.jpg",
+    "duracionSec": 12393,
+    "pais": "Estados Unidos",
+    "fechaEstreno": "1999-03-12",
+    "url": "https://www.youtube.com/watch?v=OM0tSTEQCQA",
+    "visitas": 3,
+    "estrellasPromedio": 4.3
+  },
+  {
+    "nombre": "Avatar",
+    "poster": "https://static.wikia.nocookie.net/james-camerons-avatar/images/a/a7/Caratula_de_Avatar.png/revision/latest?cb=20150218032222&path-prefix=es",
+    "duracionSec": 26414,
+    "pais": "Estados Unidos",
+    "fechaEstreno": "2009-12-18",
+    "url": "https://www.youtube.com/watch?v=5PSNL1qE6VY",
+    "visitas": 52,
+    "estrellasPromedio": 4.6
+  },
+  {
+    "nombre": "Titanic",
+    "poster": "https://m.media-amazon.com/images/I/71i6L1vZjiL._AC_SY879_.jpg",
+    "duracionSec": 19263,
+    "pais": "Estados Unidos",
+    "fechaEstreno": "1998-02-13",
+    "url": "https://www.youtube.com/watch?v=wMZuro21wtE",
+    "visitas": 48,
+    "estrellasPromedio": 4.4
+  },
+  {
+    "nombre": "Star Wars: Episodio VII - El despertar de la Fuerza",
+    "poster": "https://static.wikia.nocookie.net/esstarwars/images/2/2e/El_Despertar_de_la_Fuerza_Poster.jpg/revision/latest?cb=20180412014438",
+    "duracionSec": 20012,
+    "pais": "Estados Unidos",
+    "fechaEstreno": "2015-12-17",
+    "url": "https://www.disneyplus.com/es-419/video/93e4b635-a96d-45b0-95ba-efe98635242f",
+    "visitas": 61,
+    "estrellasPromedio": 4.8
+  },
+  {
+    "nombre": "Avengers: Infinity War",
+    "poster": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/94/Avengers_Infinity_War_-_P%C3%B3ster_oficial.png/revision/latest?cb=20191029195530&path-prefix=es",
+    "duracionSec": 22310,
+    "pais": "Estados Unidos",
+    "fechaEstreno": "2018-04-27",
+    "url": "https://www.youtube.com/watch?v=6ZfuNTqbHE8",
+    "visitas": 73,
+    "estrellasPromedio": 4.5
+  },
+  {
+    "nombre": "Jurassic World",
+    "poster": "https://pics.filmaffinity.com/Jurassic_World_Dominion-228831206-large.jpg",
+    "duracionSec": 18365,
+    "pais": "Estados Unidos",
+    "fechaEstreno": "2015-06-11",
+    "url": "https://www.youtube.com/watch?v=fb5ELWi-ekk",
+    "visitas": 38,
+    "estrellasPromedio": 4.1
+  },
+  {
+    "nombre": "Fast & Furious 7",
+    "poster": "https://m.media-amazon.com/images/I/910VekmDZ5L._AC_UF894,1000_QL80_.jpg",
+    "duracionSec": 20014,
+    "pais": "Estados Unidos",
+    "fechaEstreno": "2015-04-02",
+    "url": "https://www.youtube.com/watch?v=Skpu5HaVkOc",
+    "visitas": 42,
+    "estrellasPromedio": 3.8
+  },
+  {
+    "nombre": "Frozen II",
+    "poster": "https://pics.filmaffinity.com/Frozen_II-725228283-large.jpg",
+    "duracionSec": 16208,
+    "pais": "Estados Unidos",
+    "fechaEstreno": "2019-11-22",
+    "url": "https://www.youtube.com/watch?v=EBtguNk_Rck",
+    "visitas": 48,
+    "estrellasPromedio": 3.9
+  },
+  {
+    "nombre": "Black Panter",
+    "poster": "https://pics.filmaffinity.com/Black_Panther-992613805-large.jpg",
+    "duracionSec": 19926,
+    "pais": "Estados Unidos",
+    "fechaEstreno": "2018-02-16",
+    "url": "https://www.youtube.com/watch?v=xjDjIWPwcPU",
+    "visitas": 71,
+    "estrellasPromedio": 4.9
+  },
+  {
+    "nombre": "Harry Potter y las reliquias de la Muerte: parte 2",
+    "poster": "https://es.web.img2.acsta.net/medias/nmedia/18/84/93/87/19765356.jpg",
+    "duracionSec": 20156,
+    "pais": "Estados Unidos",
+    "fechaEstreno": "2011-07-15",
+    "url": "https://www.youtube.com/watch?v=yB9YvJ0a9aY",
+    "visitas": 63,
+    "estrellasPromedio": 4.0
+  }
+]

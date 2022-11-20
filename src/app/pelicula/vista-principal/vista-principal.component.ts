@@ -16,7 +16,8 @@ export class VistaPrincipalComponent implements OnInit {
 
   getPeliculas(): void {
     this.peliculaService.getPeliculas().subscribe((peliculas) => {
-      this.peliculas = peliculas;
+      this.peliculas = peliculas.sort((a, b)=> a.estrellasPromedio - b.estrellasPromedio)
+      this.peliculas = peliculas.reverse()
     });
   }
 
