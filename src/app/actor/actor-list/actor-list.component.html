@@ -3,7 +3,7 @@
     <div class="col mb-2" *ngFor="let actor of actores">
       <div
         class="card p-2"
-        style="width: 18rem; height: 33rem"
+        style="width: 15rem; height: 29rem"
         *ngIf="selected == false"
       >
         <a class="card-block text-decoration-none" (click)="selectActor(actor)">
@@ -13,7 +13,7 @@
             alt="{{ actor.nombre }}"
           />
           <div class="card-body">
-            <h1 class="card-title">{{ actor.nombre }}</h1>
+            <h3 class="card-title">{{ actor.nombre }}</h3>
           </div>
         </a>
       </div>
