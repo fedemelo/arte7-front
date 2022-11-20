@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Pelicula } from '../pelicula';
 import { PeliculaService } from '../Pelicula.service';
+import { PeliculaDetail } from '../pelicula-detail';
 
 @Component({
   selector: 'app-pelicula-listar',
@@ -8,7 +9,9 @@ import { PeliculaService } from '../Pelicula.service';
   styleUrls: ['./pelicula-listar.component.css']
 })
 export class PeliculaListarComponent implements OnInit {
-  peliculas: Array<Pelicula> = [];
+  peliculas: Array<PeliculaDetail> = [];
+  selectedPelicula!: PeliculaDetail;
+  selected:Boolean=false;
 
   constructor(private peliculaService: PeliculaService) { }
 
@@ -16,6 +19,11 @@ export class PeliculaListarComponent implements OnInit {
     this.peliculaService.getPeliculas().subscribe((peliculas) => {
       this.peliculas = peliculas;
     });
+  }
+
+  selectPelicula(peliculaDetail: PeliculaDetail){
+    this.selectedPelicula = peliculaDetail;
+    this.selected=true;
   }
 
   ngOnInit() {

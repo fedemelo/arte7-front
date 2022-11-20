@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input ,OnInit } from '@angular/core';
 import { Resenha } from '../Resenha';
 import { ResenhaService } from '../Resenha.service';
 
@@ -9,7 +9,7 @@ import { ResenhaService } from '../Resenha.service';
 })
 export class ResenhaListComponent implements OnInit {
 
-  resenhas: Array<Resenha> = [];
+  @Input() resenhas!: Array<Resenha>;
 
   constructor(private resenhaService: ResenhaService) { }
 

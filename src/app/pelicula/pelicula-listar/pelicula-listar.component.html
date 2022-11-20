@@ -1,7 +1,16 @@
 <div class="container-fluid">
   <div class="row">
+    <div class="col-9" *ngIf="selected">
+      <app-pelicula-detail [peliculaDetail]="selectedPelicula"></app-pelicula-detail>
+    </div>
+  </div>
+  <div class="row">
     <div class="col mb-2" *ngFor="let pelicula of peliculas">
-          <div class="card p-2" style="width: 15rem; height: 29rem">
+          <div class="card p-2" style="width: 15rem; height: 29rem" *ngIf="selected==false">
+            <a
+            class="card-block text-decoration-none"
+            (click)="selectPelicula(pelicula)"
+            >
               <img
                 class="card-img-top"
                 src="{{ pelicula.poster }}"
@@ -11,6 +20,7 @@
                 <h3 class="card-title">{{ pelicula.nombre }}</h3>
                   <p class="card-text">{{ pelicula.estrellasPromedio }} estrellas</p>
               </div>
+            </a>
            </div>
       </div>
    </div>

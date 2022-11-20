@@ -5,7 +5,6 @@ import { MenuFiltrosComponent } from './menu-filtros/menu-filtros.component';
 import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.component';
 import { PeliculaListarComponent } from './pelicula-listar/pelicula-listar.component';
 
-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { RouterModule } from '@angular/router';
@@ -15,6 +14,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { PeliculaDetailModule } from './pelicula-detail/pelicula-detail.module';
 import { ResenhaModule } from './Resenha/Resenha.module';
+
 
 @NgModule({
   imports: [
