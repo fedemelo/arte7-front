@@ -1,26 +1,28 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col mb-2" *ngFor="let director of directores">
-          <div class="card p-2" style="width: 18rem; height: 33rem">
-
-            <a
-            class="card-block text-decoration-none"
-            (click)="selectDirector(director)"
-            >
-            <img
-                class="card-img-top"
-                src="{{ director.fotografia }}"
-                alt="{{ director.nombre }}"
-                style = "width=fit-content"
-              />
-              <div class="card-body">
-                <h5 class="card-title" style = "color: black;">{{ director.nombre }}</h5>
-              </div>
-            </a>
-           </div>
+      <div class="card p-2" style="width: 18rem; height: 33rem">
+        <a
+          class="card-block text-decoration-none"
+          (click)="selectDirector(director)"
+        >
+          <img
+            class="card-img-top"
+            src="{{ director.fotografia }}"
+            alt="{{ director.nombre }}"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              {{ director.nombre }}
+            </h5>
+          </div>
+        </a>
       </div>
-   </div>
-   <div class="col-9" *ngIf="selected">
-    <app-director-detail [directorDetail]="selectedDirector"></app-director-detail>
+    </div>
+  </div>
+  <div class="col-9" *ngIf="selected">
+    <app-director-detail
+      [directorDetail]="selectedDirector"
+    ></app-director-detail>
   </div>
 </div>
