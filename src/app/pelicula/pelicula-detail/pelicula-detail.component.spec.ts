@@ -13,57 +13,58 @@ import { Pelicula } from '../pelicula';
 import { PeliculaDetail } from '../pelicula-detail';
 import { RouterTestingModule } from '@angular/router/testing';
 
-
 describe('PeliculaDetailComponent', () => {
   let component: PeliculaDetailComponent;
   let fixture: ComponentFixture<PeliculaDetailComponent>;
-  let debug : DebugElement;
+  let debug: DebugElement;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [HttpClientModule, RouterTestingModule],
-      declarations: [ PeliculaDetailComponent]
-    })
-    .compileComponents();
+      declarations: [PeliculaDetailComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
     fixture = TestBed.createComponent(PeliculaDetailComponent);
     component = fixture.componentInstance;
 
-    let actor = new Actor(1,
+    let actor = new Actor(
+      1,
       faker.lorem.sentence(),
       faker.image.imageUrl(),
       faker.lorem.sentence(),
       faker.lorem.sentence(),
-      faker.lorem.sentence(),
+      faker.lorem.sentence()
     );
 
-    let list_a=[actor];
+    let list_a = [actor];
 
-    let director = new Director(1,
-        faker.name.fullName(),
-        faker.image.avatar(),
-        faker.datatype.string(),
-        faker.datatype.datetime(),
-        faker.datatype.string()
-      );
+    let director = new Director(
+      1,
+      faker.name.fullName(),
+      faker.image.avatar(),
+      faker.datatype.string(),
+      faker.datatype.datetime(),
+      faker.datatype.string()
+    );
 
-    let list_d=[director];
+    let list_d = [director];
 
-    component.peliculaDetail = new PeliculaDetail (1,
-        faker.name.fullName(),
-        faker.image.imageUrl(),
-        faker.datatype.number(),
-        faker.datatype.string(),
-        faker.datatype.datetime(),
-        faker.datatype.string(),
-        faker.datatype.number(),
-        faker.datatype.number(),
-        list_a,
-        list_d,
-        []
-      );
+    component.peliculaDetail = new PeliculaDetail(
+      1,
+      faker.name.fullName(),
+      faker.image.imageUrl(),
+      faker.datatype.number(),
+      faker.datatype.string(),
+      faker.datatype.datetime(),
+      faker.datatype.string(),
+      faker.datatype.number(),
+      faker.datatype.number(),
+      list_a,
+      list_d,
+      []
+    );
 
     fixture.detectChanges();
     debug = fixture.debugElement;
@@ -74,13 +75,12 @@ describe('PeliculaDetailComponent', () => {
   });
 
   it('should have 7 <dt.bold> elements', () => {
-    expect(debug.queryAll(By.css('dt.bold')).length).toEqual(7)
+    expect(debug.queryAll(By.css('dt.bold')).length).toEqual(7);
   });
 
-  it('should have img',() =>{
+  it('should have img', () => {
     let img = debug.query(By.css('img.img-fluid'));
 
-    expect(img.attributes['src']).toEqual(component.peliculaDetail._poster)
-  })
-
+    expect(img.attributes['src']).toEqual(component.peliculaDetail._poster);
+  });
 });

@@ -12,6 +12,10 @@ import { PeliculaDetailModule } from './pelicula/pelicula-detail/pelicula-detail
 import { PeliculaModule } from './pelicula/pelicula.module';
 import { ActorModule } from './actor/actor.module';
 import { DirectorModule } from './director/director.module';
+import { PeliculaRoutingModule } from './pelicula/pelicula-routing.module';
+import { ActorRoutingModule } from './actor/actor-routing.module';
+import { DirectorRoutingModule } from './director/director-routing.module';
+
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
@@ -29,6 +33,9 @@ import { MatDividerModule } from '@angular/material/divider';
     PeliculaDetailModule,
     ResenhaModule,
     BrowserModule,
+    PeliculaRoutingModule,
+    ActorRoutingModule,
+    DirectorRoutingModule,
     AppRoutingModule,
     HttpClientModule,
     PeliculaModule,

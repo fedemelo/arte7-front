@@ -4,11 +4,11 @@ import { PeliculaService } from '../Pelicula.service';
 import { PeliculaDetail } from '../pelicula-detail';
 
 @Component({
-  selector: 'app-pelicula-listar',
-  templateUrl: './pelicula-listar.component.html',
-  styleUrls: ['./pelicula-listar.component.css']
+  selector: 'app-pelicula-list',
+  templateUrl: './pelicula-list.component.html',
+  styleUrls: ['./pelicula-list.component.css']
 })
-export class PeliculaListarComponent implements OnInit {
+export class PeliculaListComponent implements OnInit {
   peliculas: Array<PeliculaDetail> = [];
   selectedPelicula!: PeliculaDetail;
   selected:Boolean=false;

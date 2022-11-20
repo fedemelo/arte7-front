@@ -3,7 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { PeliculaListarComponent } from './pelicula-listar.component';
+import { PeliculaListComponent } from './pelicula-list.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import { faker } from '@faker-js/faker';
@@ -13,45 +13,45 @@ import { Director } from 'src/app/director/director';
 import { RouterTestingModule } from '@angular/router/testing';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 
-
-describe('PeliculaListarComponent', () => {
-  let component: PeliculaListarComponent;
-  let fixture: ComponentFixture<PeliculaListarComponent>;
+describe('PeliculaListComponent', () => {
+  let component: PeliculaListComponent;
+  let fixture: ComponentFixture<PeliculaListComponent>;
   let debug: DebugElement;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [RouterTestingModule, HttpClientTestingModule],
-      declarations: [ PeliculaListarComponent ]
-    })
-    .compileComponents();
+      declarations: [PeliculaListComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PeliculaListarComponent);
+    fixture = TestBed.createComponent(PeliculaListComponent);
     component = fixture.componentInstance;
 
-    let actor = new Actor(1,
+    let actor = new Actor(
+      1,
       faker.lorem.sentence(),
       faker.image.imageUrl(),
       faker.lorem.sentence(),
       faker.lorem.sentence(),
-      faker.lorem.sentence(),
+      faker.lorem.sentence()
     );
 
-    let list_a=[actor];
+    let list_a = [actor];
 
-    let director = new Director(1,
-        faker.name.fullName(),
-        faker.image.avatar(),
-        faker.datatype.string(),
-        faker.datatype.datetime(),
-        faker.datatype.string()
-      );
+    let director = new Director(
+      1,
+      faker.name.fullName(),
+      faker.image.avatar(),
+      faker.datatype.string(),
+      faker.datatype.datetime(),
+      faker.datatype.string()
+    );
 
-      let list_d = [director]
+    let list_d = [director];
 
-    for(let i = 0; i < 10; i++) {
+    for (let i = 0; i < 10; i++) {
       const pelicula = new PeliculaDetail(
         faker.datatype.number(),
         faker.lorem.sentence(),
@@ -72,9 +72,4 @@ describe('PeliculaListarComponent', () => {
     fixture.detectChanges();
     debug = fixture.debugElement;
   });
-
-
-
-
-
 });
