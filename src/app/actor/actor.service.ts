@@ -14,8 +14,8 @@ export class ActorService {
 
   constructor(private http: HttpClient) {}
 
-  getActores(): Observable<Actor[]> {
-    return this.http.get<Actor[]>(this.apiUrl);
+  getActores(): Observable<ActorDetail[]> {
+    return this.http.get<ActorDetail[]>(this.apiUrl);
   }
 
   getActor(id: string): Observable<ActorDetail> {

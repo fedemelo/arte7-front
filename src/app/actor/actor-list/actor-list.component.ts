@@ -12,7 +12,7 @@ import { ActorDetail } from '../actor-detail';
 })
 export class ActorListComponent implements OnInit {
 
-actores: Array<Actor> = [];
+actores: Array<ActorDetail> = [];
 selectedActor!:ActorDetail;
 selected:boolean=false;
 
