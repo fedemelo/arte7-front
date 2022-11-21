@@ -3,7 +3,6 @@ import { HttpClient } from '@angular/common/http';
 
 import { environment } from 'src/environments/environment';
 import { Observable } from 'rxjs';
-import { Actor } from './actor';
 import { ActorDetail } from './actor-detail';
 
 @Injectable({

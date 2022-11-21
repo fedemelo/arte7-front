@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Actor } from '../actor';
-import { faker } from '@faker-js/faker';
 import { ActorService } from '../actor.service';
 import { ActorDetail } from '../actor-detail';
 

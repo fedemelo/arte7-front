@@ -7,7 +7,6 @@ import { faker } from '@faker-js/faker';
 import { ActorListComponent } from './actor-list.component';
 import { HttpClientModule } from '@angular/common/http';
 
-import { Actor } from '../actor';
 import { ActorService } from '../actor.service';
 import { ActorDetail } from '../actor-detail';
 import { Pelicula } from 'src/app/pelicula/pelicula';
