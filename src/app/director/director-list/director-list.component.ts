@@ -20,22 +20,6 @@ selected:boolean=false;
  getDirectores(): void {
    this.directorService.getDirectores().subscribe((directores) => {
      this.directores = directores;
-
-     for(let i = 0; i < 1; i++) {
-      const director = new Director(i,
-        faker.lorem.sentence(),
-        faker.image.imageUrl(),
-        faker.lorem.sentence(),
-        faker.lorem.sentence(),
-        faker.lorem.sentence(),
-          /*
-Este uso de faker es para probar como se veria con mas carticas sin tener
-que hacer todo lo de postman y blablablabalblablalblabl
-*/
-      );
-      directores.push(director);
-
-    }
    });
  }
 
