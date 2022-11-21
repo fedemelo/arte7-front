@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 import { VistaPrincipalComponent } from './vista-principal/vista-principal.component';
 import { MenuFiltrosComponent } from './menu-filtros/menu-filtros.component';
 import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.component';
-import { PeliculaListarComponent } from './pelicula-listar/pelicula-listar.component';
-
+import { PeliculaListComponent } from './pelicula-list/pelicula-list.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
@@ -16,6 +15,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { PeliculaDetailModule } from './pelicula-detail/pelicula-detail.module';
 import { ResenhaModule } from './Resenha/Resenha.module';
 
+
 @NgModule({
   imports: [
     ResenhaModule,
@@ -26,7 +26,8 @@ import { ResenhaModule } from './Resenha/Resenha.module';
     MatSidenavModule,
     MatButtonModule,
     MatIconModule,
-    MatDividerModule
+    MatDividerModule,
+    RouterModule
   ],
   exports: [
     ResenhaModule,
@@ -34,13 +35,13 @@ import { ResenhaModule } from './Resenha/Resenha.module';
     VistaPrincipalComponent,
     MenuFiltrosComponent,
     BarraNavegacionComponent,
-    PeliculaListarComponent
+    PeliculaListComponent
   ],
   declarations: [
     VistaPrincipalComponent,
     MenuFiltrosComponent,
     BarraNavegacionComponent,
-    PeliculaListarComponent
+    PeliculaListComponent
   ]
 })
 export class PeliculaModule { }

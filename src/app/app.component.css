@@ -36,6 +36,7 @@ mat-sidenav {
 mat-sidenav-container {
   height: calc(100vh - 65px);
   width: 100%;
+  background-color: #000000;
 }
 
 * {
@@ -50,7 +51,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(#534f8a, #695be6);
 }
 
 .buscar {
@@ -91,4 +91,10 @@ body {
 
 .buscar input:focus {
   width: 240px;
+}
+
+
+#principal {
+  background-color: black;
+  color: white;
 }

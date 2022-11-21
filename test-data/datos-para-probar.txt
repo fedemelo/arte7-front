@@ -1,0 +1,384 @@
+PARA PELICULA -->
+
+[
+    {
+    "nombre":"Matrix",
+    "poster":"https://pics.filmaffinity.com/Matrix-155050517-large.jpg",
+    "duracionSec": 12393,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "1999-03-12",
+    "url":"https://www.youtube.com/watch?v=OM0tSTEQCQA",
+    "visitas": 3,
+    "estrellasPromedio": 4.3
+},{
+    "nombre":"Avatar",
+    "poster":"https://static.wikia.nocookie.net/james-camerons-avatar/images/a/a7/Caratula_de_Avatar.png/revision/latest?cb=20150218032222&path-prefix=es",
+    "duracionSec": 26414,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2009-12-18",
+    "url":"https://www.youtube.com/watch?v=5PSNL1qE6VY",
+    "visitas": 52,
+    "estrellasPromedio": 4.6
+},{
+    "nombre":"Titanic",
+    "poster":"https://m.media-amazon.com/images/I/71i6L1vZjiL._AC_SY879_.jpg",
+    "duracionSec": 19263,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "1998-02-13",
+    "url":"https://www.youtube.com/watch?v=wMZuro21wtE",
+    "visitas": 48,
+    "estrellasPromedio": 4.4
+},{
+    "nombre":"Star Wars: Episodio VII - El despertar de la Fuerza",
+    "poster":"https://static.wikia.nocookie.net/esstarwars/images/2/2e/El_Despertar_de_la_Fuerza_Poster.jpg/revision/latest?cb=20180412014438",
+    "duracionSec": 20012,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2015-12-17",
+    "url":"https://www.disneyplus.com/es-419/video/93e4b635-a96d-45b0-95ba-efe98635242f",
+    "visitas": 61,
+    "estrellasPromedio": 4.8
+},{
+    "nombre":"Avengers: Infinity War",
+    "poster":"https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/94/Avengers_Infinity_War_-_P%C3%B3ster_oficial.png/revision/latest?cb=20191029195530&path-prefix=es",
+    "duracionSec": 22310,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2018-04-27",
+    "url":"https://www.youtube.com/watch?v=6ZfuNTqbHE8",
+    "visitas": 73,
+    "estrellasPromedio": 4.5
+},{
+    "nombre":"Jurassic World",
+    "poster":"https://pics.filmaffinity.com/Jurassic_World_Dominion-228831206-large.jpg",
+    "duracionSec": 18365,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2015-06-11",
+    "url":"https://www.youtube.com/watch?v=fb5ELWi-ekk",
+    "visitas": 38,
+    "estrellasPromedio": 4.1
+},{
+    "nombre":"Fast & Furious 7",
+    "poster":"https://m.media-amazon.com/images/I/910VekmDZ5L._AC_UF894,1000_QL80_.jpg",
+    "duracionSec": 20014,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2015-04-02",
+    "url":"https://www.youtube.com/watch?v=Skpu5HaVkOc",
+    "visitas": 42,
+    "estrellasPromedio": 3.8
+},{
+    "nombre":"Frozen II",
+    "poster":"https://pics.filmaffinity.com/Frozen_II-725228283-large.jpg",
+    "duracionSec": 16208,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2019-11-22",
+    "url":"https://www.youtube.com/watch?v=EBtguNk_Rck",
+    "visitas": 48,
+    "estrellasPromedio": 3.9
+},{
+    "nombre":"Black Panter",
+    "poster":"https://pics.filmaffinity.com/Black_Panther-992613805-large.jpg",
+    "duracionSec": 19926,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2018-02-16",
+    "url":"https://www.youtube.com/watch?v=xjDjIWPwcPU",
+    "visitas": 71,
+    "estrellasPromedio": 4.9
+},{
+    "nombre":"Harry Potter y las reliquias de la Muerte: parte 2",
+    "poster":"https://es.web.img2.acsta.net/medias/nmedia/18/84/93/87/19765356.jpg",
+    "duracionSec": 20156,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2011-07-15",
+    "url":"https://www.youtube.com/watch?v=yB9YvJ0a9aY",
+    "visitas": 63,
+    "estrellasPromedio":4.0
+}
+]
+
+
+
+PARA PELICULA-DETAIL (creo que falta el aray de directores. No estoy seguro si la verdad funciona simplemente con meterle un array) -->
+
+[
+    {
+    "nombre":"Matrix",
+    "poster":"https://pics.filmaffinity.com/Matrix-155050517-large.jpg",
+    "duracionSec": 12393,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "1999-03-12",
+    "url":"https://www.youtube.com/watch?v=OM0tSTEQCQA",
+    "visitas": 3,
+    "estrellasPromedio": 4.3,
+    "actores": [],
+    "directores": [],
+    "resenhas": []
+	
+},{
+    "nombre":"Avatar",
+    "poster":"https://static.wikia.nocookie.net/james-camerons-avatar/images/a/a7/Caratula_de_Avatar.png/revision/latest?cb=20150218032222&path-prefix=es",
+    "duracionSec": 26414,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2009-12-18",
+    "url":"https://www.youtube.com/watch?v=5PSNL1qE6VY",
+    "visitas": 52,
+    "estrellasPromedio": 4.6,
+    "actores": [],
+    "directores": [],
+    "resenhas": []
+},{
+    "nombre":"Titanic",
+    "poster":"https://m.media-amazon.com/images/I/71i6L1vZjiL._AC_SY879_.jpg",
+    "duracionSec": 19263,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "1998-02-13",
+    "url":"https://www.youtube.com/watch?v=wMZuro21wtE",
+    "visitas": 48,
+    "estrellasPromedio": 4.4,
+    "actores": [],
+    "directores": [],
+    "resenhas": []
+},{
+    "nombre":"Star Wars: Episodio VII - El despertar de la Fuerza",
+    "poster":"https://static.wikia.nocookie.net/esstarwars/images/2/2e/El_Despertar_de_la_Fuerza_Poster.jpg/revision/latest?cb=20180412014438",
+    "duracionSec": 20012,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2015-12-17",
+    "url":"https://www.disneyplus.com/es-419/video/93e4b635-a96d-45b0-95ba-efe98635242f",
+    "visitas": 61,
+    "estrellasPromedio": 4.8,
+    "actores": [],
+    "directores": [],
+    "resenhas": []
+},{
+    "nombre":"Avengers: Infinity War",
+    "poster":"https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/94/Avengers_Infinity_War_-_P%C3%B3ster_oficial.png/revision/latest?cb=20191029195530&path-prefix=es",
+    "duracionSec": 22310,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2018-04-27",
+    "url":"https://www.youtube.com/watch?v=6ZfuNTqbHE8",
+    "visitas": 73,
+    "estrellasPromedio": 4.5,
+    "actores": [],
+    "directores": [],
+    "resenhas": []
+},{
+    "nombre":"Jurassic World",
+    "poster":"https://pics.filmaffinity.com/Jurassic_World_Dominion-228831206-large.jpg",
+    "duracionSec": 18365,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2015-06-11",
+    "url":"https://www.youtube.com/watch?v=fb5ELWi-ekk",
+    "visitas": 38,
+    "estrellasPromedio": 4.1,
+    "actores": [],
+    "directores": [],
+    "resenhas": []
+},{
+    "nombre":"Fast & Furious 7",
+    "poster":"https://m.media-amazon.com/images/I/910VekmDZ5L._AC_UF894,1000_QL80_.jpg",
+    "duracionSec": 20014,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2015-04-02",
+    "url":"https://www.youtube.com/watch?v=Skpu5HaVkOc",
+    "visitas": 42,
+    "estrellasPromedio": 3.8,
+    "actores": [],
+    "directores": [],
+    "resenhas": []
+},{
+    "nombre":"Frozen II",
+    "poster":"https://pics.filmaffinity.com/Frozen_II-725228283-large.jpg",
+    "duracionSec": 16208,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2019-11-22",
+    "url":"https://www.youtube.com/watch?v=EBtguNk_Rck",
+    "visitas": 48,
+    "estrellasPromedio": 3.9,
+    "actores": [],
+    "directores": [],
+    "resenhas": []
+},{
+    "nombre":"Black Panter",
+    "poster":"https://pics.filmaffinity.com/Black_Panther-992613805-large.jpg",
+    "duracionSec": 19926,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2018-02-16",
+    "url":"https://www.youtube.com/watch?v=xjDjIWPwcPU",
+    "visitas": 71,
+    "estrellasPromedio": 4.9,
+    "actores": [],
+    "directores": [],
+    "resenhas": []
+},{
+    "nombre":"Harry Potter y las reliquias de la Muerte: parte 2",
+    "poster":"https://es.web.img2.acsta.net/medias/nmedia/18/84/93/87/19765356.jpg",
+    "duracionSec": 20156,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2011-07-15",
+    "url":"https://www.youtube.com/watch?v=yB9YvJ0a9aY",
+    "visitas": 63,
+    "estrellasPromedio":4.0,
+    "actores": [],
+    "directores": [],
+    "resenhas": []
+}
+]
+
+
+
+PARA ACTOR -->
+
+[
+{
+        "nombre": "Johnny Depp",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/2/21/Johnny_Depp_2020.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1963-06-09T00:00:00-05:00",
+        "biografia": "es un actor, productor de cine y músico estadounidense. Ha sido nominado en tres ocasiones al Óscar y recibió un Globo de Oro,​ un premio del Sindicato de Actores y un César."
+    },{
+        "nombre": "Leonardo DiCaprio",
+        "fotografia": "https://los40es00.epimg.net/los40/imagenes/2022/09/14/love40/1663168288_258184_1663168656_miniatura_normal.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1974-11-11T01:02:00-02:00",
+        "biografia": "Leonardo Wilhelm DiCaprio ​ es un actor, productor de cine y ambientalista estadounidense."
+    },{
+        "nombre": "Tom Hanks",
+        "fotografia": "https://es.web.img2.acsta.net/pictures/16/04/26/10/00/472541.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1956-07-09T06:00:00-05:00",
+        "biografia": "Thomas Jeffrey Hanks es un actor y director de cine estadounidense.​​Es uno de los intérpretes más reconocidos de Hollywood, y muchas de sus películas, ya sean dramas o comedias, han recibido reconocimiento internacional"
+    },{
+        "nombre": "Morgan Freeman",
+        "fotografia": "https://cdn.britannica.com/40/144440-050-DA828627/Morgan-Freeman.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1937-06-01T00:00:00-05:00",
+        "biografia": "Morgan Freeman​ es un actor y documentalista estadounidense, ganador del premio Óscar en 2005 por Million Dollar Baby."
+    },{
+        "nombre": "Keanu Reeves",
+        "fotografia": "https://m.media-amazon.com/images/M/MV5BNGJmMWEzOGQtMWZkNS00MGNiLTk5NGEtYzg1YzAyZTgzZTZmXkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_.jpg",
+        "nacionalidad": "Canadiense (Nacido en Líbano)",
+        "fechaNacimiento": "1964-09-02T00:00:00-05:00",
+        "biografia": "Keanu Charles Reeves​ es un actor y músico canadiense. Tiene sangre china por parte de su abuela."
+    }
+]
+
+
+
+PARA ACTOR-DETAIL (En el ts esta comentada la variable. No se si simplemente poniendo un array funcione) -->
+
+[
+{
+        "nombre": "Johnny Depp",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/2/21/Johnny_Depp_2020.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1963-06-09T00:00:00-05:00",
+        "biografia": "es un actor, productor de cine y músico estadounidense. Ha sido nominado en tres ocasiones al Óscar y recibió un Globo de Oro,​ un premio del Sindicato de Actores y un César.",
+        "peliculas": []
+    },{
+        "nombre": "Leonardo DiCaprio",
+        "fotografia": "https://los40es00.epimg.net/los40/imagenes/2022/09/14/love40/1663168288_258184_1663168656_miniatura_normal.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1974-11-11T01:02:00-02:00",
+        "biografia": "Leonardo Wilhelm DiCaprio ​ es un actor, productor de cine y ambientalista estadounidense.",
+        "peliculas": []
+    },{
+        "nombre": "Tom Hanks",
+        "fotografia": "https://es.web.img2.acsta.net/pictures/16/04/26/10/00/472541.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1956-07-09T06:00:00-05:00",
+        "biografia": "Thomas Jeffrey Hanks es un actor y director de cine estadounidense.​​Es uno de los intérpretes más reconocidos de Hollywood, y muchas de sus películas, ya sean dramas o comedias, han recibido reconocimiento internacional",
+        "peliculas": []
+    },{
+        "nombre": "Morgan Freeman",
+        "fotografia": "https://cdn.britannica.com/40/144440-050-DA828627/Morgan-Freeman.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1937-06-01T00:00:00-05:00",
+        "biografia": "Morgan Freeman​ es un actor y documentalista estadounidense, ganador del premio Óscar en 2005 por Million Dollar Baby.",
+        "peliculas": []
+    },{
+        "nombre": "Keanu Reeves",
+        "fotografia": "https://m.media-amazon.com/images/M/MV5BNGJmMWEzOGQtMWZkNS00MGNiLTk5NGEtYzg1YzAyZTgzZTZmXkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_.jpg",
+        "nacionalidad": "Canadiense (Nacido en Líbano)",
+        "fechaNacimiento": "1964-09-02T00:00:00-05:00",
+        "biografia": "Keanu Charles Reeves​ es un actor y músico canadiense. Tiene sangre china por parte de su abuela.",
+        "peliculas": []
+    }
+]
+
+
+PARA DIRECTOR -->
+
+[
+{
+        "nombre": "Martin Scorsese",
+        "fotografia": "https://es.web.img3.acsta.net/pictures/15/10/19/09/54/276049.jpg",
+        "nacionalidad": "Estadounidense e italiana",
+        "fechaNacimiento": "1942-11-17T00:00:00-05:00",
+        "biografia": "es un director, guionista y productor de cine estadounidense. Con una trayectoria que abarca más de cincuenta, las películas de Scorsese abordan temáticas relacionadas con el catolicismo, la identidad italoestadounidense o la criminalidad."
+    },{
+        "nombre": "Steven Spielberg",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/6/67/Steven_Spielberg_by_Gage_Skidmore.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1946-12-18T00:00:00-05:00",
+        "biografia": "Steven Allan Spielberg es un director, guionista y productor de cine estadounidense.​ Se lo considera uno de los pioneros de la era del Nuevo Hollywood y es también uno de los directores más reconocidos y populares de la industria cinematográfica mundial.​"
+    },{
+        "nombre": "Tim Burton",
+        "fotografia": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/09/14/16631776222883.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1958-08-25T00:00:00-05:00",
+        "biografia": "Timothy Walter Burton es un director de cine, productor, escritor y dibujante estadounidense.​​Entre sus películas se encuentran Batman, Beetlejuice, Edward Scissorhands y Charlie y la fábrica de chocolate."
+    },{
+        "nombre": "Akira Kurosawa",
+        "fotografia": "https://www.themoviedb.org/t/p/w500/uCFWmYXu0EqF5Bd6zWaOS4FxvEB.jpg",
+        "nacionalidad": "Japonés",
+        "fechaNacimiento": "1910-03-23T00:00:00-05:00",
+        "biografia": "Akira Kurosawa fue uno de los más célebres directores de cine de Japón.​ Sugata sanshiro fue su ópera prima y su filmografía consta de 30 películas, rodadas a lo largo de cinco décadas."
+    },{
+        "nombre": "Christopher Nolan",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/9/95/Christopher_Nolan_Cannes_2018.jpg",
+        "nacionalidad": "Inglés",
+        "fechaNacimiento": "1970-07-30T00:00:00-05:00",
+        "biografia": "Christopher Edward Nolan es un director de cine, guionista, productor y editor británico-estadounidense. Nacido y criado en Londres, Nolan desarrolló un interés por el cine desde una edad temprana."
+    }
+]
+
+
+PARA DIRECTOR-DETAIL (En el ts esta comentada la variable. No se si simplemente poniendo un array funcione) -->
+
+[
+{
+        "nombre": "Martin Scorsese",
+        "fotografia": "https://es.web.img3.acsta.net/pictures/15/10/19/09/54/276049.jpg",
+        "nacionalidad": "Estadounidense e italiana",
+        "fechaNacimiento": "1942-11-17T00:00:00-05:00",
+        "biografia": "es un director, guionista y productor de cine estadounidense. Con una trayectoria que abarca más de cincuenta, las películas de Scorsese abordan temáticas relacionadas con el catolicismo, la identidad italoestadounidense o la criminalidad.",
+        "peliculas": []
+    },{
+        "nombre": "Steven Spielberg",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/6/67/Steven_Spielberg_by_Gage_Skidmore.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1946-12-18T00:00:00-05:00",
+        "biografia": "Steven Allan Spielberg es un director, guionista y productor de cine estadounidense.​ Se lo considera uno de los pioneros de la era del Nuevo Hollywood y es también uno de los directores más reconocidos y populares de la industria cinematográfica mundial.​",
+        "peliculas": []
+    },{
+        "nombre": "Tim Burton",
+        "fotografia": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/09/14/16631776222883.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1958-08-25T00:00:00-05:00",
+        "biografia": "Timothy Walter "Tim" Burton es un director de cine, productor, escritor y dibujante estadounidense.​​Entre sus películas se encuentran Batman, Beetlejuice, Edward Scissorhands y Charlie y la fábrica de chocolate.",
+        "peliculas": []
+    },{
+        "nombre": "Akira Kurosawa",
+        "fotografia": "https://www.themoviedb.org/t/p/w500/uCFWmYXu0EqF5Bd6zWaOS4FxvEB.jpg",
+        "nacionalidad": "Japonés",
+        "fechaNacimiento": "1910-03-23T00:00:00-05:00",
+        "biografia": "Akira Kurosawa fue uno de los más célebres directores de cine de Japón.​ Sugata sanshirô ​ fue su ópera prima y su filmografía consta de 30 películas, rodadas a lo largo de cinco décadas, ​ que incluyen influyentes títulos como Rashōmon, ​ Shichinin no samurai, ​ Dersu Uzala ​ o Ran.",
+        "peliculas": []
+    },{
+        "nombre": "Christopher Nolan",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/9/95/Christopher_Nolan_Cannes_2018.jpg",
+        "nacionalidad": "Inglés",
+        "fechaNacimiento": "1970-07-30T00:00:00-05:00",
+        "biografia": "Christopher Edward Nolan es un director de cine, guionista, productor y editor británico-estadounidense. Nacido y criado en Londres, Nolan desarrolló un interés por el cine desde una edad temprana.",
+        "peliculas": []
+    }
+]

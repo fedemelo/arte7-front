@@ -1,5 +1,3 @@
-
-
 <mat-toolbar class="mat-elevation-z8">
   <button
     mat-icon-button
@@ -24,18 +22,10 @@
   <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
     <app-menu-filtros></app-menu-filtros>
   </mat-sidenav>
-
-
       <div class="container-fluid" id="principal">
-
-        <!-- Vista actual -->
-        <!-- <app-vista-principal></app-vista-principal> -->
-        <app-vista-principal></app-vista-principal>
-
-        <router-outlet></router-outlet> <!-- Main Router Outlet -->
+        <!-- Área de despliegue: Main Router Outlet -->
+        <router-outlet></router-outlet>
       </div>
-
-
 </mat-sidenav-container>
 
 

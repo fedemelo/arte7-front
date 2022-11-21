@@ -7,20 +7,18 @@ import { Actor } from './actor';
 import { ActorDetail } from './actor-detail';
 
 @Injectable({
-  providedIn: 'root'
- })
+  providedIn: 'root',
+})
 export class ActorService {
+  private apiUrl: string = environment.baseUrl + 'actores';
 
- private apiUrl: string = environment.baseUrl + 'actores';
+  constructor(private http: HttpClient) {}
 
- constructor(private http: HttpClient) { }
+  getActores(): Observable<Actor[]> {
+    return this.http.get<Actor[]>(this.apiUrl);
+  }
 
- getActores(): Observable<Actor[]> {
-   return this.http.get<Actor[]>(this.apiUrl);
- }
-
- getActor(id:string): Observable<ActorDetail>{
-  return this.http.get<ActorDetail>(this.apiUrl + '/' + id);
-}
-
+  getActor(id: string): Observable<ActorDetail> {
+    return this.http.get<ActorDetail>(this.apiUrl + '/' + id);
+  }
 }
