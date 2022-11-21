@@ -1,32 +1,50 @@
 <div class="panel-body">
-  <div class="border margin p-3">
+  <div class="p-3">
 
     <p class="h3 p-2 actor-name">{{ actorDetail.nombre }}</p>
 
-    <div class="row">
-      <div class="col-md-3">
+    <div class="row p-3">
+      <div class="col-md-4">
         <div class="thumb">
           <img
-            class="img-fluid img-thumbnail border border-danger"
+            class="img-fluid"
             src="{{ actorDetail.fotografia }}"
             alt="{{ actorDetail.nombre }}"
           />
         </div>
       </div>
-      <div class="col-md-7">
+      <div class="col-md-8">
         <dl>
           <dt class="text-title">Fecha de Nacimiento</dt>
           <dd >{{ actorDetail.fechaNacimiento }}</dd>
 
+          <hr />
 
-          <dt class="text-title">Nacionalidadd</dt>
+          <dt class="text-title">Nacionalidad</dt>
           <dd class="text">{{ actorDetail.nacionalidad }} </dd>
 
+          <hr />
 
           <dt class="text-title">Biografía</dt>
           <dd>{{ actorDetail.biografia }}</dd>
         </dl>
       </div>
+
+      </div>
     </div>
   </div>
+  <div class="row p-3">
+    <h3 >Peliculas populares de {{actorDetail.nombre}}</h3>
+    <div class="col-3" *ngFor="let pelicula of actorDetail.peliculas.slice(0, 4)">
+        <div class="card" style="width: 12rem; height: 24rem">
+            <img
+              class="card-img-top img_card"
+              src="{{ pelicula.poster }}"
+              alt="{{ pelicula.nombre }}"
+            />
+            <div class="card-body">
+              <h4 class="card-title">{{ pelicula.nombre }}</h4>
+            </div>
+         </div>
+    </div>
 </div>
