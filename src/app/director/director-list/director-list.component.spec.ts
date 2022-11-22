@@ -9,6 +9,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { Director } from '../director';
 import { DirectorService } from '../director.service';
+import { Pelicula } from 'src/app/pelicula/pelicula';
+import { DirectorDetail } from '../director-detail';
 
 describe('DirectorListComponent', () => {
  let component: DirectorListComponent;
@@ -30,17 +32,34 @@ describe('DirectorListComponent', () => {
 
 
 
-   for(let i = 0; i < 10; i++) {
-    const director = new Director(i,
-      faker.lorem.sentence(),
+   const peliculas: Pelicula[] = [];
+   for (let i = 0; i < 3; i++) {
+     const pelicula = new Pelicula (
+       faker.datatype.number(),
+       faker.lorem.sentence(),
+       faker.image.imageUrl(),
+       faker.datatype.number(),
+       faker.lorem.sentence(),
+       faker.date.past(),
+       faker.lorem.sentence(),
+       faker.datatype.number(),
+       faker.datatype.number()
+      );
+     peliculas.push(pelicula);
+   }
+
+ for(let i = 0; i < 10; i++){
+   const director = new DirectorDetail(
+     faker.datatype.number(),
+     faker.lorem.sentence(),
       faker.image.imageUrl(),
       faker.lorem.sentence(),
       faker.lorem.sentence(),
       faker.lorem.sentence(),
+      peliculas
+   );
+   component.directores.push(director);
 
-
-    );
-     component.directores.push(director);
    }
    fixture.detectChanges();
    debug = fixture.debugElement;

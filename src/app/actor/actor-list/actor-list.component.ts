@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Actor } from '../actor';
-import { faker } from '@faker-js/faker';
 import { ActorService } from '../actor.service';
 import { ActorDetail } from '../actor-detail';
 
@@ -12,7 +10,7 @@ import { ActorDetail } from '../actor-detail';
 })
 export class ActorListComponent implements OnInit {
 
-actores: Array<Actor> = [];
+actores: Array<ActorDetail> = [];
 selectedActor!:ActorDetail;
 selected:boolean=false;
 

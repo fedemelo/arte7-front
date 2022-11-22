@@ -14,8 +14,8 @@ export class DirectorService {
 
   constructor(private http: HttpClient) {}
 
-  getDirectores(): Observable<Director[]> {
-    return this.http.get<Director[]>(this.apiUrl);
+  getDirectores(): Observable<DirectorDetail[]> {
+    return this.http.get<DirectorDetail[]>(this.apiUrl);
   }
 
   getDirector(id: string): Observable<DirectorDetail> {

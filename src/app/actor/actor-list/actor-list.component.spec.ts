@@ -7,8 +7,9 @@ import { faker } from '@faker-js/faker';
 import { ActorListComponent } from './actor-list.component';
 import { HttpClientModule } from '@angular/common/http';
 
-import { Actor } from '../actor';
 import { ActorService } from '../actor.service';
+import { ActorDetail } from '../actor-detail';
+import { Pelicula } from 'src/app/pelicula/pelicula';
 
 describe('ActorListComponent', () => {
  let component: ActorListComponent;
@@ -28,20 +29,34 @@ describe('ActorListComponent', () => {
    fixture = TestBed.createComponent(ActorListComponent);
    component = fixture.componentInstance;
 
+   const peliculas: Pelicula[] = [];
+    for (let i = 0; i < 3; i++) {
+      const pelicula = new Pelicula (
+        faker.datatype.number(),
+        faker.lorem.sentence(),
+        faker.image.imageUrl(),
+        faker.datatype.number(),
+        faker.lorem.sentence(),
+        faker.date.past(),
+        faker.lorem.sentence(),
+        faker.datatype.number(),
+        faker.datatype.number()
+       );
+      peliculas.push(pelicula);
+    }
 
-
-   for(let i = 0; i < 10; i++) {
-     const actor = new Actor(i,
-       faker.lorem.sentence(),
+  for(let i = 0; i < 10; i++){
+    const actor = new ActorDetail(
+      faker.datatype.number(),
+      faker.lorem.sentence(),
        faker.image.imageUrl(),
        faker.lorem.sentence(),
        faker.lorem.sentence(),
        faker.lorem.sentence(),
-
-
-     );
-     component.actores.push(actor);
-   }
+       peliculas
+    );
+    component.actores.push(actor);
+  }
    fixture.detectChanges();
    debug = fixture.debugElement;
  });

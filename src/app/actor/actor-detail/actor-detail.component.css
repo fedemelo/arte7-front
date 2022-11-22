@@ -1,0 +1,22 @@
+.card {
+  margin: 0 0.7em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  background-color: rgb(27, 27, 27);
+}
+.img_card {
+  height: 290px;
+  max-width: 230px;
+  object-fit: cover;
+ }
+.h2 {
+  color: white;
+}
+
+.card-body{
+  color: white
+}
+
+.img {
+  height: 400px;
+  max-width: 500px;
+}

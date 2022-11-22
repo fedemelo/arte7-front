@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Director } from '../director';
 import { DirectorService } from '../director.service';
 import { DirectorDetail } from '../director-detail';
-import { faker } from '@faker-js/faker';
+
 
 @Component({
  selector: 'app-director-list',
@@ -11,7 +11,7 @@ import { faker } from '@faker-js/faker';
 })
 export class DirectorListComponent implements OnInit {
 
- directores: Array<Director> = [];
+ directores: Array<DirectorDetail> = [];
 selectedDirector!:DirectorDetail;
 selected:boolean=false;
 
@@ -27,9 +27,6 @@ selectDirector(director: DirectorDetail){
   this.selectedDirector=director;
   this.selected=true;
 }
-
-
-
 
  ngOnInit() {
    this.getDirectores();
