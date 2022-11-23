@@ -52,7 +52,8 @@
 {
     "nombre":"La la land",
     "poster":"https://static01.nyt.com/images/2017/02/26/arts/26OSCARSPOSTER4/26OSCARSPOSTER4-jumbo.jpg",
-    "duracionSec":7680,"pais":"Estados Unidos",
+    "duracionSec":7680,
+    "pais":"Estados Unidos",
     "fechaEstreno":"2017-10-12T00:00:00.000+00:00",
     "url":"https://www.youtube.com/watch?v=0pdqf4P9MB8",
     "visitas":9,
@@ -63,7 +64,7 @@
     "poster":"https://m.media-amazon.com/images/I/71i6L1vZjiL._AC_SY879_.jpg",
     "duracionSec": 19263,
     "pais":"Estados Unidos",
-    "fechaEstreno": "1998-02-13",
+    "fechaEstreno": "1998-02-13T00:00:00.000+00:00",
     "url":"https://www.youtube.com/watch?v=wMZuro21wtE",
     "visitas": 48,
     "estrellasPromedio": 4.4
@@ -73,7 +74,7 @@
     "poster":"https://es.web.img2.acsta.net/medias/nmedia/18/84/93/87/19765356.jpg",
     "duracionSec": 20156,
     "pais":"Estados Unidos",
-    "fechaEstreno": "2011-07-15",
+    "fechaEstreno": "2011-07-15T00:00:00.000+00:00",
     "url":"https://www.youtube.com/watch?v=yB9YvJ0a9aY",
     "visitas": 63,
     "estrellasPromedio":4.0
@@ -83,7 +84,7 @@
     "poster":"https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_.jpg",
     "duracionSec": 19926,
     "pais":"Estados Unidos",
-    "fechaEstreno": "2018-02-16",
+    "fechaEstreno": "2018-02-16T00:00:00.000+00:00",
     "url":"https://www.youtube.com/watch?v=xjDjIWPwcPU",
     "visitas": 71,
     "estrellasPromedio": 4.9
@@ -93,7 +94,7 @@
     "poster":"https://lumiere-a.akamaihd.net/v1/images/p_frozen2_19644_4c4b423d.jpeg",
     "duracionSec": 16208,
     "pais":"Estados Unidos",
-    "fechaEstreno": "2019-11-22",
+    "fechaEstreno": "2019-11-22T00:00:00.000+00:00",
     "url":"https://www.youtube.com/watch?v=EBtguNk_Rck",
     "visitas": 48,
     "estrellasPromedio": 3.9
@@ -103,7 +104,7 @@
     "poster":"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fb1ede65688027.5afcac81af5e6.jpg",
     "duracionSec": 22310,
     "pais":"Estados Unidos",
-    "fechaEstreno": "2018-04-27",
+    "fechaEstreno": "2018-04-27T00:00:00.000+00:00",
     "url":"https://www.youtube.com/watch?v=6ZfuNTqbHE8",
     "visitas": 73,
     "estrellasPromedio": 4.5
@@ -123,8 +124,8 @@
     "poster":"https://comicparatodos.files.wordpress.com/2015/12/cartel-star-wars-644x1200.jpg",
     "duracionSec": 20012,
     "pais":"Estados Unidos",
-    "fechaEstreno": "2015-12-17",
-    "url":"https://www.disneyplus.com/es-419/video/93e4b635-a96d-45b0-95ba-efe98635242f",
+    "fechaEstreno": "2015-12-17T00:00:00.000+00:00",
+    "url":"https://www.youtube.com/watch?v=5eKLdSDGh9k",
     "visitas": 61,
     "estrellasPromedio": 4.8
 }
