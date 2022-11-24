@@ -1,0 +1,135 @@
+[
+{    
+    "nombre":"El discurso del rey",
+    "poster":"https://es.web.img3.acsta.net/medias/nmedia/18/82/26/21/19609697.jpg",
+    "duracionSec":34566,
+    "pais":"Estados Unidos",
+    "fechaEstreno":"2011-02-11T00:00:00.000+00:00",
+    "url":"https://www.youtube.com/watch?v=KpssjoKZK1w",
+    "visitas":5,
+    "estrellasPromedio":4.1
+},
+{
+    "nombre":"Perdida",
+    "poster":"https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_.jpg",
+    "duracionSec":8940,
+    "pais":"Estados Unidos",
+    "fechaEstreno":"2014-02-10T00:00:00.000+00:00",
+    "url":"https://www.youtube.com/watch?v=2-_-1nJf8Vg",
+    "visitas":9,
+    "estrellasPromedio":4.1
+},
+{
+    "nombre":"Drive my car",
+    "poster":"https://static.filmin.es/images/media/36674/11/poster_0_3.png",
+    "duracionSec":10800,
+    "pais":"Japon",
+    "fechaEstreno":"2022-08-08T00:00:00.000+00:00",
+    "url":"https://www.youtube.com/watch?v=6BPKPb_RTwI",
+    "visitas":4,
+    "estrellasPromedio":3.5
+},
+{
+    "nombre":"Parasite",
+    "poster":"https://i0.wp.com/cedars.cedarville.edu/wp/wp-content/uploads/2020/05/Parasite-scaled.jpg?fit=1657%2C2560&ssl=1",
+    "duracionSec":7920,
+    "pais":"Corea del Sur",
+    "fechaEstreno":"2020-09-01T00:00:00.000+00:00",
+    "url":"https://www.youtube.com/watch?v=isOGD_7hNIY",
+    "visitas":10,
+    "estrellasPromedio":4.8
+},
+{
+    "nombre":"Matrix",
+    "poster":"https://c8.alamy.com/compes/2jh2n9a/pantoliano-fishburne-reeves-posters-matrix-1999-2jh2n9a.jpg",
+    "duracionSec":12393,
+    "pais":"Estados Unidos",
+    "fechaEstreno":"1999-03-12T00:00:00.000+00:00",
+    "url":"https://www.youtube.com/watch?v=OM0tSTEQCQA",
+    "visitas":3,
+    "estrellasPromedio":4.3
+},
+{
+    "nombre":"La la land",
+    "poster":"https://static01.nyt.com/images/2017/02/26/arts/26OSCARSPOSTER4/26OSCARSPOSTER4-jumbo.jpg",
+    "duracionSec":7680,
+    "pais":"Estados Unidos",
+    "fechaEstreno":"2017-10-12T00:00:00.000+00:00",
+    "url":"https://www.youtube.com/watch?v=0pdqf4P9MB8",
+    "visitas":9,
+    "estrellasPromedio":4.0
+},
+{
+    "nombre":"Titanic",
+    "poster":"https://m.media-amazon.com/images/I/71i6L1vZjiL._AC_SY879_.jpg",
+    "duracionSec": 19263,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "1998-02-13T00:00:00.000+00:00",
+    "url":"https://www.youtube.com/watch?v=wMZuro21wtE",
+    "visitas": 48,
+    "estrellasPromedio": 4.4
+},
+{
+    "nombre":"Harry Potter y las reliquias de la Muerte: parte 2",
+    "poster":"https://es.web.img2.acsta.net/medias/nmedia/18/84/93/87/19765356.jpg",
+    "duracionSec": 20156,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2011-07-15T00:00:00.000+00:00",
+    "url":"https://www.youtube.com/watch?v=yB9YvJ0a9aY",
+    "visitas": 63,
+    "estrellasPromedio":4.0
+},
+{
+    "nombre":"Black Panther",
+    "poster":"https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_.jpg",
+    "duracionSec": 19926,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2018-02-16T00:00:00.000+00:00",
+    "url":"https://www.youtube.com/watch?v=xjDjIWPwcPU",
+    "visitas": 71,
+    "estrellasPromedio": 4.9
+},
+{
+    "nombre":"Frozen II",
+    "poster":"https://lumiere-a.akamaihd.net/v1/images/p_frozen2_19644_4c4b423d.jpeg",
+    "duracionSec": 16208,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2019-11-22T00:00:00.000+00:00",
+    "url":"https://www.youtube.com/watch?v=EBtguNk_Rck",
+    "visitas": 48,
+    "estrellasPromedio": 3.9
+},
+{
+    "nombre":"Avengers: Infinity War",
+    "poster":"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fb1ede65688027.5afcac81af5e6.jpg",
+    "duracionSec": 22310,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2018-04-27T00:00:00.000+00:00",
+    "url":"https://www.youtube.com/watch?v=6ZfuNTqbHE8",
+    "visitas": 73,
+    "estrellasPromedio": 4.5
+},
+{
+    "nombre": "Jurassic World",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/6/6e/Jurassic_World_poster.jpg",
+    "duracionSec": 18365,
+    "pais": "Estados Unidos",
+    "fechaEstreno": "2015-06-11T00:00:00.000+00:00",
+    "url": "https://www.youtube.com/watch?v=fb5ELWi-ekk",
+    "visitas": 38,
+    "estrellasPromedio": 4.1
+},
+{
+    "nombre":"Star Wars: Episodio VII - El despertar de la Fuerza",
+    "poster":"https://comicparatodos.files.wordpress.com/2015/12/cartel-star-wars-644x1200.jpg",
+    "duracionSec": 20012,
+    "pais":"Estados Unidos",
+    "fechaEstreno": "2015-12-17T00:00:00.000+00:00",
+    "url":"https://www.youtube.com/watch?v=5eKLdSDGh9k",
+    "visitas": 61,
+    "estrellasPromedio": 4.8
+}
+]
+
+
+
