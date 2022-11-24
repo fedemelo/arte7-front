@@ -42,9 +42,6 @@ section.faq {
   padding-bottom: 3em;
 }
 
-#faq ul {
-  text-align: left;
-}
 .transition, content, ul li i:before, ul li i:after {
   transition: all 0.3s;
 }
@@ -86,6 +83,7 @@ section.faq {
 }
 
 #faq ul {
+  text-align: left;
   list-style: none;
   perspective: 900;
   padding: 0;

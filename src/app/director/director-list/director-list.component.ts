@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Director } from '../director';
 import { DirectorService } from '../director.service';
 import { DirectorDetail } from '../director-detail';
 
