@@ -34,4 +34,19 @@ export class PeliculaDetailComponent implements OnInit {
       }
     }
   }
+
+  covertSeconds(segundos: number){
+    var sec : number = segundos % (24 * 3600)
+    var horas: number = Math.floor(sec / 3600)
+    sec = sec % 3600
+    var minutos: number = Math.floor(sec / 60)
+    sec %= 60
+
+    return horas.toString(10)+"h"+minutos.toString(10)+"m"
+
+
+
+  }
+
+
 }

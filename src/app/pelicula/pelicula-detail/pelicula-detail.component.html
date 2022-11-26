@@ -1,55 +1,49 @@
 <div class="container-fluid">
-  <p class="h3 p-3">{{ peliculaDetail.nombre }}</p>
-  <div class="row">
-    <div class="col-2">
-      <div class="thumb">
+      <p class="h2 pt-2 ms-3">{{ peliculaDetail.nombre }} ({{peliculaDetail.fechaEstreno.substring(0, 4)}})</p>
+  <div class="row ms-2">
+    <div class="col-6">
+      <div class="row">
+        <div class="col-1">
+          <p class="ms-1 p-top"> ⭐{{ peliculaDetail.estrellasPromedio }}</p>
+        </div>
+        <div class="col-1 p-top">
+          <p > {{covertSeconds(peliculaDetail.duracionSec)}}</p>
+        </div>
+        <div class="col-3 p-top">
+          <p >{{peliculaDetail.pais}} </p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="row ms-2">
+    <div class="col-4">
         <img
           class="img-fluid"
           src="{{ peliculaDetail.poster }}"
           alt="{{ peliculaDetail.nombre }}"
         />
-      </div>
     </div>
-    <div class="col">
-      <dl>
-        <dt class="bold">Actores</dt>
-        <dd class="caption" *ngFor="let actor of peliculaDetail.actores">
-          <a> {{ actor.nombre }}</a>
-        </dd>
-
-        <hr />
-
-        <dt class="bold">Directores</dt>
-        <dd class="caption" *ngFor="let director of peliculaDetail.directores">
-          <a>{{ director.nombre }}</a>
-        </dd>
-
-        <hr />
-
-        <dt class="bold">Duracion</dt>
-        <dd class="caption">{{ peliculaDetail.duracionSec }}</dd>
-
-        <hr />
-
-        <dt class="bold">Fecha de estreno</dt>
-        <dd class="caption">{{ peliculaDetail.fechaEstreno }}</dd>
-
-        <hr />
-
-        <dt class="bold">Pais</dt>
-        <dd class="caption">{{ peliculaDetail.pais }}</dd>
-
-        <hr />
-
-        <dt class="bold">Estrellas promedio</dt>
-        <dd class="caption">{{ peliculaDetail.estrellasPromedio }}</dd>
-
-        <hr />
-
-        <dt class="bold">Reseñas</dt>
-        <app-Resenha-list [resenhas]="peliculaDetail.resenhas"></app-Resenha-list>
-
-      </dl>
+    <div class="col-8">
+      <h1>Trailer</h1>
     </div>
   </div>
-</div>
+  <div class="row ms-2">
+    <h2 >Directores</h2>
+    <div class="col-2" *ngFor="let director of peliculaDetail.directores.slice(0, 5)">
+          <h4 class="p-top">  {{ director.nombre }} </h4>
+    </div>
+  </div>
+  <div class="row ms-2">
+    <h2>Actores</h2>
+    <div class="col-2" *ngFor="let actor of peliculaDetail.actores.slice(0, 5)">
+            <img
+              class="img-actor rounded-circle"
+              src="{{ actor.fotografia }}"
+              alt="{{ actor.nombre }}"
+            />
+
+            <h4 class="p-top">{{ actor.nombre }}</h4>
+    </div>
+
+    </div>
