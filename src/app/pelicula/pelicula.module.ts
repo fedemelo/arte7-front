@@ -13,7 +13,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { PeliculaDetailModule } from './pelicula-detail/pelicula-detail.module';
-import { ResenhaModule } from './Resenha/Resenha.module';
+import { ResenhaModule } from '../resenha/resenha.module';
 
 
 @NgModule({

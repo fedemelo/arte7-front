@@ -1,4 +1,4 @@
-import { Usuario } from "./Usuario";
+import { Usuario } from "./usuario";
 
 export class Resenha {
   id: number;
@@ -15,4 +15,3 @@ export class Resenha {
     this.usuario = usuario;
   }
 }
-

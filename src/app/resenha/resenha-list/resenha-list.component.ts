@@ -1,14 +1,14 @@
 import { Component, Input ,OnInit } from '@angular/core';
-import { Resenha } from '../Resenha';
+import { Resenha } from '../resenha';
 import { ResenhaService } from '../Resenha.service';
 
+
 @Component({
-  selector: 'app-Resenha-list',
-  templateUrl: './Resenha-list.component.html',
-  styleUrls: ['./Resenha-list.component.css']
+  selector: 'app-resenha-list',
+  templateUrl: './resenha-list.component.html',
+  styleUrls: ['./resenha-list.component.css']
 })
 export class ResenhaListComponent implements OnInit {
-
   @Input() resenhas!: Array<Resenha>;
 
   constructor(private resenhaService: ResenhaService) { }
@@ -22,5 +22,4 @@ export class ResenhaListComponent implements OnInit {
   ngOnInit() {
     this.getResenhas();
   }
-
 }

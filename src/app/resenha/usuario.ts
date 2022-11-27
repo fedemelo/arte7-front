@@ -7,4 +7,3 @@ export class Usuario {
     this.username = username;
   }
 }
-

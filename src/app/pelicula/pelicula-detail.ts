@@ -1,7 +1,7 @@
 import { Actor } from "../actor/actor";
 import { Director } from "../director/director";
 import { Pelicula } from "./pelicula";
-import { Resenha } from "./Resenha/Resenha";
+import { Resenha } from "../resenha/resenha";
 
 export class PeliculaDetail extends Pelicula{
 actores: Array<Actor>=[];
