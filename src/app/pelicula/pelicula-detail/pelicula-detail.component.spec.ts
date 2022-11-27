@@ -3,15 +3,13 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { faker } from '@faker-js/faker';
-
-import { Actor } from 'src/app/actor/actor';
 import { PeliculaDetailComponent } from './pelicula-detail.component';
 import { HttpClientModule } from '@angular/common/http';
-import { Director } from 'src/app/director/director';
-import { Pelicula } from '../pelicula';
-import { PeliculaDetail } from '../pelicula-detail';
 import { RouterTestingModule } from '@angular/router/testing';
+import { Actor } from 'src/app/actor/actor';
+import { faker } from '@faker-js/faker';
+import { Director } from 'src/app/director/director';
+import { PeliculaDetail } from '../pelicula-detail';
 
 describe('PeliculaDetailComponent', () => {
   let component: PeliculaDetailComponent;

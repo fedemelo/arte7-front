@@ -1,14 +1,12 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input,OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PeliculaDetail } from '../pelicula-detail';
 import { PeliculaService } from '../Pelicula.service';
-import { PeliculaDetailModule } from './pelicula-detail.module';
-import { Pelicula } from '../pelicula';
 
 @Component({
   selector: 'app-pelicula-detail',
   templateUrl: './pelicula-detail.component.html',
-  styleUrls: ['./pelicula-detail.component.css'],
+  styleUrls: ['./pelicula-detail.component.css']
 })
 export class PeliculaDetailComponent implements OnInit {
   peliculaId!: string;
@@ -47,6 +45,5 @@ export class PeliculaDetailComponent implements OnInit {
 
 
   }
-
 
 }

@@ -12,14 +12,13 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
-import { PeliculaDetailModule } from './pelicula-detail/pelicula-detail.module';
+import { PeliculaDetailComponent } from './pelicula-detail/pelicula-detail.component';
 import { ResenhaModule } from '../resenha/resenha.module';
 
 
 @NgModule({
   imports: [
     ResenhaModule,
-    PeliculaDetailModule,
     CommonModule,
     BrowserAnimationsModule,
     MatToolbarModule,
@@ -31,13 +30,14 @@ import { ResenhaModule } from '../resenha/resenha.module';
   ],
   exports: [
     ResenhaModule,
-    PeliculaDetailModule,
+    PeliculaDetailComponent,
     VistaPrincipalComponent,
     MenuFiltrosComponent,
     BarraNavegacionComponent,
     PeliculaListComponent
   ],
   declarations: [
+    PeliculaDetailComponent,
     VistaPrincipalComponent,
     MenuFiltrosComponent,
     BarraNavegacionComponent,

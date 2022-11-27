@@ -1,5 +1,5 @@
 <div class="container-fluid">
-      <p class="h2 pt-2 ms-3">{{ peliculaDetail.nombre }} ({{peliculaDetail.fechaEstreno.substring(0, 4)}})</p>
+    <p class="h2 pt-2 ms-3">{{ peliculaDetail.nombre }} ({{peliculaDetail.fechaEstreno.substring(0, 4)}})</p>
   <div class="row ms-2">
     <div class="col-6">
       <div class="row">
@@ -13,37 +13,36 @@
           <p >{{peliculaDetail.pais}} </p>
         </div>
       </div>
-      </div>
     </div>
   </div>
-  <div class="row ms-2">
-    <div class="col-4">
-        <img
-          class="img-fluid"
-          src="{{ peliculaDetail.poster }}"
-          alt="{{ peliculaDetail.nombre }}"
-        />
-    </div>
-    <div class="col-8">
-      <h1>Trailer</h1>
-    </div>
+</div>
+<div class="row ms-2">
+  <div class="col-4">
+    <img
+      class="img-fluid"
+      src="{{ peliculaDetail.poster }}"
+      alt="{{ peliculaDetail.nombre }}"
+    />
+  </div>
+  <div class="col-8">
+    <h1>Trailer</h1>
+  </div>
   </div>
   <div class="row ms-2">
     <h2 >Directores</h2>
     <div class="col-2" *ngFor="let director of peliculaDetail.directores.slice(0, 5)">
-          <h4 class="p-top">  {{ director.nombre }} </h4>
+      <h4 class="p-top">  {{ director.nombre }} </h4>
     </div>
   </div>
   <div class="row ms-2">
     <h2>Actores</h2>
     <div class="col-2" *ngFor="let actor of peliculaDetail.actores.slice(0, 5)">
-            <img
-              class="img-actor rounded-circle"
-              src="{{ actor.fotografia }}"
-              alt="{{ actor.nombre }}"
-            />
-
-            <h4 class="p-top">{{ actor.nombre }}</h4>
+        <img
+          class="img-actor rounded-circle"
+          src="{{ actor.fotografia }}"
+          alt="{{ actor.nombre }}"
+        />
+        <h4 class="p-top">{{ actor.nombre }}</h4>
     </div>
   </div>
   <div class="row ms-2">
