@@ -45,6 +45,6 @@
     "karma-mocha-reporter": "^2.2.5",
     "karma-sonarqube-unit-reporter": "0.0.23",
     "sonar-scanner": "^3.1.0",
-    "typescript": "~4.6.2"
+    "typescript": "^4.8.2"
   }
 }
