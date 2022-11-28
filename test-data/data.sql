@@ -1,8 +1,16 @@
-delete from ACTOR_ENTITY_PELICULAS;
-delete from DIRECTOR_ENTITY_PELICULAS;
-delete from PELICULA_ENTITY;
 delete from ACTOR_ENTITY;
+delete from ACTOR_ENTITY_PELICULAS;
 delete from DIRECTOR_ENTITY;
+delete from DIRECTOR_ENTITY_PELICULAS;
+delete from GENERO_ENTITY;
+delete from GENERO_ENTITY_PELICULA;
+delete from PELICULA_ENTITY;
+delete from PLATAFORMA_ENTITY;
+delete from PLATAFORMA_ENTITY_PELICULA;
+delete from PREMIO_ENTITY;
+delete from PREMIO_ENTITY_PELICULA;
+delete from NOMINACION_ENTITY;
+delete from NOMINACION_ENTITY_PELICULA;
 
 
 insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (1,'El discurso del rey', 'https://es.web.img3.acsta.net/medias/nmedia/18/82/26/21/19609697.jpg', 34566 , 'Estados Unidos' , '2011-02-11' , 'https://www.youtube.com/watch?v=KpssjoKZK1w' , 5 , 4.1);
@@ -18,6 +26,13 @@ insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estre
 insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (11, 'Avengers: Infinity War','https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fb1ede65688027.5afcac81af5e6.jpg', 22103 ,'Estados Unidos','2018-04-27','https://www.youtube.com/watch?v=6ZfuNTqbHE8', 73 , 4.5 );
 insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (12, 'Jurassic World','https://upload.wikimedia.org/wikipedia/en/6/6e/Jurassic_World_poster.jpg', 18365 ,'Estados Unidos','2015-06-11','https://www.youtube.com/watch?v=fb5ELWi-ekk', 38 , 4.1 );
 insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (13, 'Star Wars: Episodio VII - El despertar de la Fuerza','https://comicparatodos.files.wordpress.com/2015/12/cartel-star-wars-644x1200.jpg', 20012 ,'Estados Unidos','2015-12-17','https://www.youtube.com/watch?v=5eKLdSDGh9k', 61 , 4.8 );
+insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (14, 'Ben-Hur', 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ben_hur_1959_poster.jpg/800px-Ben_hur_1959_poster.jpg', 24571 , 'Estados Unidos', '1959-11-18', 'https://www.youtube.com/watch?v=NR1ZHKw09n8', 63 , 4.9 );
+insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (15, '', '',  , '', '', '',  ,  );
+insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (16, '', '',  , '', '', '',  ,  );
+insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (17, '', '',  , '', '', '',  ,  );
+insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (18, '', '',  , '', '', '',  ,  );
+insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (19, '', '',  , '', '', '',  ,  );
+insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (20, '', '',  , '', '', '',  ,  );
 
 
 insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (1, 'Tom Hooper' , 'https://es.web.img2.acsta.net/r_1920_1080/pictures/15/08/07/23/02/408747.jpg' , 'Britanica' , '1972-10-05' , 'Thomas George -Tom- Hooper es un director, guionista y productor británico, ganador de un Óscar. Su película El discurso del rey ganó cuatro premios Óscar, entre ellos mejor director y mejor película.');
@@ -33,6 +48,14 @@ insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimie
 insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (11, 'Anthony y Joe Russo' , 'https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/noticias-cine/los-hermanos-russo-dirigiran-los-vengadores-3-infinity-war/45527073-1-esl-ES/Los-hermanos-Russo-dirigiran-Los-Vengadores-3-Infinity-War.jpg' , 'Estadounidenses' , '1970-02-03' , 'Anthony Russo (n. 3 de febrero de 1970) y Joseph V. Russo (n. 18 de julio de 1971) son dos hermanos directores, productores, guionistas.');
 insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (12, 'Colin Trevorrow' , 'https://static.wikia.nocookie.net/esstarwars/images/6/6a/Colin_Trevorrow.jpg/revision/latest/scale-to-width-down/350?cb=20200909181002' , 'Estadounidense' , '1976-09-13' , 'Colin Trevorrow es un director y guionista de cine estadounidense, conocido por su trabajo en la película de 2012 Safety Not Guaranteed y en la cuarta entrega de la franquicia de Jurassic Park: Jurassic World.');
 insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (13, 'J. J. Abrams' , 'https://static.wikia.nocookie.net/esstarwars/images/5/54/JJ_Abrams.jpg/revision/latest?cb=20130128212406' , 'Estadounidense' , '1966-06-27' , 'Jeffrey Jacob Abrams, más conocido como J. J. Abrams, es un director, productor, guionista, actor y compositor de cine y televisión estadounidense. Es propietario de la productora de cine Bad Robot Productions.');
+insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (14,'William Wyler','https://upload.wikimedia.org/wikipedia/commons/c/cd/William_Wyler_portrait.jpg','Suizogermanoestadounidense','1902-07-01','William Wyler was a Swiss-German-American film director and producer who won the Academy Award for Best Director three times, those being for Mrs. Miniver (1942), The Best Years of Our Lives (1946), and Ben-Hur (1959), all of which also won for Best Picture. In total, he holds a record twelve nominations for the Academy Award for Best Director.');
+insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (15,'','','','','');
+insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (16,'','','','','');
+insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (17,'','','','','');
+insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (18,'','','','','');
+insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (19,'','','','','');
+insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (20,'','','','','');
+
 
 
 insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (1, 'Colin Firth' , 'https://es.web.img3.acsta.net/pictures/16/05/17/10/21/507039.jpg' , 'Britanica' , '1960-09-11' , 'Colin Andrew Firth es un actor y productor de cine británico. Sus 42 películas han recaudado más de 500 millones de dólares en todo el mundo..');
@@ -102,6 +125,95 @@ insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento
 insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (65, 'John Boyega' , 'https://flxt.tmsimg.com/assets/621146_v9_bc.jpg' , 'Britanica' , '1992-03-17' , 'John Boyega es un actor británico de ascendencia nigeriana. Es conocido por interpretar a FN-2187 / Finn en la serie de películas de Star Wars.');
 insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (66, 'Harrison Ford' , 'https://static.wikia.nocookie.net/doblaje/images/e/ef/Harrison_Ford-Perfil.png/revision/latest?cb=20220712042957&path-prefix=es' , 'Estadounidense' , '1942-07-13' , 'Harrison Ford es un actor estadounidense de cine y televisión. Debe su notoriedad a su colaboración con el guionista, productor y director George Lucas, que fue el primero en darle la posibilidad de ser actor.');
 insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (67, 'Adam Driver' , 'https://cdn.britannica.com/67/215267-050-4487C49F/American-actor-Adam-Driver-2020.jpg' , 'Estadounidense' , '1983-11-19' , 'Adam Douglas Driver es un marine retirado, cantante ocasional y actor estadounidense.');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (68,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (69,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (70,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (71,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (72,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (73,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (74,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (75,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (76,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (77,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (78,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (79,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (80,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (81,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (82,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (83,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (84,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (85,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (86,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (87,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (88,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (89,'','','','','');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (90,'','','','','');
+
+
+insert into GENERO_ENTITY (id, nombre) values (1,'Accion');
+insert into GENERO_ENTITY (id, nombre) values (2,'Aventuras');
+insert into GENERO_ENTITY (id, nombre) values (3,'Ciencia ficcion');
+insert into GENERO_ENTITY (id, nombre) values (4,'Comedia');
+insert into GENERO_ENTITY (id, nombre) values (5,'Documental');
+insert into GENERO_ENTITY (id, nombre) values (6,'Drama');
+insert into GENERO_ENTITY (id, nombre) values (7,'Fantasia');
+insert into GENERO_ENTITY (id, nombre) values (8,'Musical');
+insert into GENERO_ENTITY (id, nombre) values (9,'Romance');
+insert into GENERO_ENTITY (id, nombre) values (10,'Suspenso');
+insert into GENERO_ENTITY (id, nombre) values (11,'Terror');
+
+
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
+insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
 
 
 insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (1,1);
