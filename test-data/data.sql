@@ -215,6 +215,15 @@ insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
 insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
 insert into PREMIO_ENTITY (id, nombre, anho, categoria) values( ,'',  ,'');
 
+insert into PLATAFORMA_ENTITY (id, nombre, url) values (1, 'Netflix','https://www.netflix.com/co/');
+insert into PLATAFORMA_ENTITY (id, nombre, url) values (2, 'HBO Max','https://www.hbomax.com/co/es');
+insert into PLATAFORMA_ENTITY (id, nombre, url) values (3, 'Prime Video','https://www.primevideo.com/ref=atv_hm_offers_c_9zZ8D2_1_1?language=es_ES');
+insert into PLATAFORMA_ENTITY (id, nombre, url) values (4, 'Disney+','https://www.disneyplus.com/es-419/login');
+insert into PLATAFORMA_ENTITY (id, nombre, url) values (5, 'Paramount Plus','https://www.paramountplus.com/co/');
+insert into PLATAFORMA_ENTITY (id, nombre, url) values (6, 'Star Plus','https://www.starplus.com/es-419/login');
+insert into PLATAFORMA_ENTITY (id, nombre, url) values (7, 'Apple TV+','https://tv.apple.com/?itscg=10000&itsct=atv-tv_op-nav_wch-ctr-210111');
+insert into PLATAFORMA_ENTITY (id, nombre, url) values (8, 'Hulu','https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F');
+
 
 insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (1,1);
 insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (2,1);
