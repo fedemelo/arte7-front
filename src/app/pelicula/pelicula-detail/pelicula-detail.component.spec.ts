@@ -61,6 +61,8 @@ describe('PeliculaDetailComponent', () => {
       faker.datatype.number(),
       list_a,
       list_d,
+      [],
+      [],
       []
     );
 

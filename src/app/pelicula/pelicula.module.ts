@@ -5,6 +5,8 @@ import { MenuFiltrosComponent } from './menu-filtros/menu-filtros.component';
 import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.component';
 import { PeliculaListComponent } from './pelicula-list/pelicula-list.component';
 
+import { NominacionComponent } from './nominacion/nominacion.component';
+import { PremioComponent } from './premio/premio.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { RouterModule } from '@angular/router';
@@ -29,7 +31,8 @@ import { ResenhaModule } from '../resenha/resenha.module';
     RouterModule
   ],
   exports: [
-    ResenhaModule,
+    NominacionComponent,
+    PremioComponent,
     PeliculaDetailComponent,
     VistaPrincipalComponent,
     MenuFiltrosComponent,
@@ -37,6 +40,8 @@ import { ResenhaModule } from '../resenha/resenha.module';
     PeliculaListComponent
   ],
   declarations: [
+    NominacionComponent,
+    PremioComponent,
     PeliculaDetailComponent,
     VistaPrincipalComponent,
     MenuFiltrosComponent,

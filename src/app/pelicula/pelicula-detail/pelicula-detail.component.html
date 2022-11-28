@@ -45,6 +45,14 @@
         <h4 class="p-top">{{ actor.nombre }}</h4>
     </div>
   </div>
+  <div class="row ms-2" *ngIf="desplegarPremios">
+    <h2>Premios</h2>
+      <app-premio></app-premio>
+  </div>
+  <div class="row ms-2" *ngIf="desplegarNominaciones">
+    <h2>Nominaciones</h2>
+      <app-nominacion></app-nominacion>
+  </div>
   <div class="row ms-2">
     <app-resenha-list [resenhas]="peliculaDetail.resenhas" ></app-resenha-list>
   </div>

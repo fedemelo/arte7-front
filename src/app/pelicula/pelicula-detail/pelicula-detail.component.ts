@@ -9,7 +9,10 @@ import { PeliculaService } from '../Pelicula.service';
   styleUrls: ['./pelicula-detail.component.css']
 })
 export class PeliculaDetailComponent implements OnInit {
+
   peliculaId!: string;
+  desplegarPremios: Boolean = false;
+  desplegarNominaciones: Boolean = false;
 
   @Input() peliculaDetail!: PeliculaDetail;
 
@@ -24,12 +27,28 @@ export class PeliculaDetailComponent implements OnInit {
     });
   }
 
+  verificarPremios():void {
+    if (this.peliculaDetail.premios.length > 0){
+      this.desplegarPremios = true;
+    }
+  }
+
+  verificarNominaciones():void {
+    if (this.peliculaDetail.nominaciones.length > 0){
+      this.desplegarNominaciones = true;
+    }
+  }
+
   ngOnInit() {
     if (this.peliculaDetail === undefined) {
       this.peliculaId = this.route.snapshot.paramMap.get('id')!;
       if (this.peliculaId) {
         this.getPelicula();
       }
+    }
+    else{
+      this.verificarNominaciones();
+      this.verificarPremios();
     }
   }
 
