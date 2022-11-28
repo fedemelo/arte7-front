@@ -2,7 +2,6 @@ import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PeliculaDetail } from '../pelicula-detail';
 import { PeliculaService } from '../Pelicula.service';
-import { PeliculaDetailModule } from './pelicula-detail.module';
 import { Pelicula } from '../pelicula';
 
 @Component({

@@ -7,7 +7,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ResenhaModule } from './pelicula/Resenha/Resenha.module';
-import { PeliculaDetailModule } from './pelicula/pelicula-detail/pelicula-detail.module';
 
 import { PeliculaModule } from './pelicula/pelicula.module';
 import { ActorModule } from './actor/actor.module';
@@ -20,7 +19,7 @@ import { DirectorRoutingModule } from './director/director-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatButtonModule } from '@angular/material/button';
+import { MatLegacyButtonModule as MatButtonModule } from '@angular/material/legacy-button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 
@@ -30,7 +29,6 @@ import { MatDividerModule } from '@angular/material/divider';
   ],
   imports: [
     MatSidenavModule,
-    PeliculaDetailModule,
     ResenhaModule,
     BrowserModule,
     PeliculaRoutingModule,
