@@ -1,95 +1,95 @@
 <testExecutions version="1">
-  <file path="src/app/pelicula/pelicula-list/pelicula-list.component.spec.ts">
-    <testCase name="PeliculaListComponent should have 10 &lt;div.col.mb-2> elements" duration="246"/>
-    <testCase name="PeliculaListComponent should create" duration="29"/>
-    <testCase name="PeliculaListComponent should have h3 tag with the pelicula.nombre" duration="19"/>
-    <testCase name="PeliculaListComponent should have the corresponding alt to the pelicula nombre" duration="29"/>
-    <testCase name="PeliculaListComponent should have 10 &lt;div.card-body> elements" duration="16"/>
-    <testCase name="PeliculaListComponent should have the corresponding src to the pelicula poster" duration="35"/>
-    <testCase name="PeliculaListComponent should have p tag with the pelicula.estrellasPromedio" duration="16"/>
-    <testCase name="PeliculaListComponent should have 9 &lt;div.col.mb-2> elements and the deleted book should not exist" duration="36"/>
-    <testCase name="PeliculaListComponent should have 10 &lt;img> elements" duration="28"/>
-    <testCase name="PeliculaListComponent should have 10 &lt;card.p-2> elements" duration="30"/>
-  </file>
-  <file path="src/app/pelicula/vista-principal/vista-principal.component.spec.ts">
-    <testCase name="VistaPrincipalComponent should create" duration="40"/>
+  <file path="src/app/director/director-detail/director-detail.component.spec.ts">
+    <testCase name="directorDetailComponent should have one dd tag for component.directorDetail.biografia" duration="1113"/>
+    <testCase name="directorDetailComponent should have one dd tag for component.directorDetail.fechaNacimiento" duration="47"/>
+    <testCase name="directorDetailComponent should have 4 &lt;div.col-3> elements" duration="35"/>
+    <testCase name="directorDetailComponent should have a &lt;p> tag with component.directorDetail.name" duration="32"/>
+    <testCase name="directorDetailComponent should have an img element with src = directorDetail.image" duration="16"/>
+    <testCase name="directorDetailComponent should have 4 &lt;img> elements" duration="33"/>
+    <testCase name="directorDetailComponent should have a h3 tag with component.directorDetail.name" duration="18"/>
+    <testCase name="directorDetailComponent should have the corresponding src to the pelicula poster" duration="31"/>
+    <testCase name="directorDetailComponent should have 4 &lt;div.card> elements" duration="27"/>
+    <testCase name="directorDetailComponent should create" duration="11"/>
+    <testCase name="directorDetailComponent should have h4 tag with the book.name" duration="11"/>
+    <testCase name="directorDetailComponent should have 4 &lt;div.card-body> elements" duration="12"/>
+    <testCase name="directorDetailComponent should have an img element" duration="31"/>
+    <testCase name="directorDetailComponent should have the corresponding alt to the pelicula nombre" duration="11"/>
   </file>
   <file path="src/app/actor/actor-list/actor-list.component.spec.ts">
-    <testCase name="ActorListComponent should have 10 &lt;div.col.mb-2> elements" duration="52"/>
-    <testCase name="ActorListComponent should have h5 tag with the actor.nombre" duration="12"/>
-    <testCase name="ActorListComponent should have 10 &lt;div.card-body> elements" duration="38"/>
-    <testCase name="ActorListComponent should have 10 &lt;card.p-2> elements" duration="15"/>
-    <testCase name="ActorListComponent should have the corresponding src to the actor image and alt to the actor nombre" duration="38"/>
-    <testCase name="ActorListComponent should have 10 &lt;img> elements" duration="13"/>
-    <testCase name="ActorListComponent should create" duration="10"/>
-    <testCase name="ActorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted actor should not exist" duration="42"/>
-  </file>
-  <file path="src/app/pelicula/Resenha/Resenha.service.spec.ts">
-    <testCase name="Service: Resenha should ..." duration="36"/>
-    <testCase name="Service: Resenha should create" duration="7"/>
-  </file>
-  <file path="src/app/actor/actor-detail/actor-detail.component.spec.ts">
-    <testCase name="ActorDetailComponent should have an img element" duration="44"/>
-    <testCase name="ActorDetailComponent should have the corresponding src to the pelicula poster" duration="18"/>
-    <testCase name="ActorDetailComponent should create" duration="15"/>
-    <testCase name="ActorDetailComponent should have an img element with src = actorDetail.image" duration="44"/>
-    <testCase name="ActorDetailComponent should have the corresponding alt to the pelicula nombre" duration="9"/>
-    <testCase name="ActorDetailComponent should have h4 tag with the book.name" duration="6"/>
-    <testCase name="ActorDetailComponent should have 4 &lt;div.card-body> elements" duration="8"/>
-    <testCase name="ActorDetailComponent should have one dd tag for component.actorDetail.biografia" duration="10"/>
-    <testCase name="ActorDetailComponent should have a &lt;p> tag with component.actorDetail.name" duration="12"/>
-    <testCase name="ActorDetailComponent should have 4 &lt;div.col-3> elements" duration="43"/>
-    <testCase name="ActorDetailComponent should have 4 &lt;img> elements" duration="8"/>
-    <testCase name="ActorDetailComponent should have a h3 tag with component.actorDetail.name" duration="10"/>
-    <testCase name="ActorDetailComponent should have 4 &lt;div.card> elements" duration="8"/>
-    <testCase name="ActorDetailComponent should have one dd tag for component.actorDetail.fechaNacimiento" duration="21"/>
-  </file>
-  <file path="src/app/pelicula/Resenha/Resenha-list/Resenha-list.component.spec.ts">
-    <testCase name="ResenhaListComponent should create" duration="11"/>
-  </file>
-  <file path="src/app/pelicula/Pelicula.service.spec.ts">
-    <testCase name="Service: Pelicula should ..." duration="63"/>
-  </file>
-  <file path="src/app/director/director.service.spec.ts">
-    <testCase name="Service: Director should ..." duration="2"/>
-  </file>
-  <file path="src/app/director/director-list/director-list.component.spec.ts">
-    <testCase name="DirectorListComponent should have the corresponding src to the director image and alt to the director nombre" duration="46"/>
-    <testCase name="DirectorListComponent should have h5 tag with the director.nombre" duration="53"/>
-    <testCase name="DirectorListComponent should have 10 &lt;card.p-2> elements" duration="15"/>
-    <testCase name="DirectorListComponent should have 10 &lt;img> elements" duration="48"/>
-    <testCase name="DirectorListComponent should have 10 &lt;div.card-body> elements" duration="35"/>
-    <testCase name="DirectorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted director should not exist" duration="66"/>
-    <testCase name="DirectorListComponent should create" duration="13"/>
-    <testCase name="DirectorListComponent should have 10 &lt;div.col.mb-2> elements" duration="51"/>
-  </file>
-  <file path="src/app/pelicula/menu-filtros/menu-filtros.component.spec.ts">
-    <testCase name="MenuFiltrosComponent should create" duration="100"/>
-  </file>
-  <file path="src/app/pelicula/barra-navegacion/barra-navegacion.component.spec.ts">
-    <testCase name="BarraNavegacionComponent should create" duration="39"/>
-  </file>
-  <file path="src/app/actor/actor.service.spec.ts">
-    <testCase name="Service: Actor should ..." duration="4"/>
-  </file>
-  <file path="src/app/director/director-detail/director-detail.component.spec.ts">
-    <testCase name="directorDetailComponent should have one dd tag for component.directorDetail.biografia" duration="16"/>
-    <testCase name="directorDetailComponent should have a &lt;p> tag with component.directorDetail.name" duration="8"/>
-    <testCase name="directorDetailComponent should create" duration="5"/>
-    <testCase name="directorDetailComponent should have one dd tag for component.directorDetail.fechaNacimiento" duration="7"/>
-    <testCase name="directorDetailComponent should have the corresponding src to the pelicula poster" duration="8"/>
-    <testCase name="directorDetailComponent should have a h3 tag with component.directorDetail.name" duration="46"/>
-    <testCase name="directorDetailComponent should have an img element with src = directorDetail.image" duration="6"/>
-    <testCase name="directorDetailComponent should have 4 &lt;div.col-3> elements" duration="6"/>
-    <testCase name="directorDetailComponent should have 4 &lt;div.card> elements" duration="6"/>
-    <testCase name="directorDetailComponent should have an img element" duration="60"/>
-    <testCase name="directorDetailComponent should have 4 &lt;div.card-body> elements" duration="7"/>
-    <testCase name="directorDetailComponent should have the corresponding alt to the pelicula nombre" duration="7"/>
-    <testCase name="directorDetailComponent should have 4 &lt;img> elements" duration="7"/>
-    <testCase name="directorDetailComponent should have h4 tag with the book.name" duration="38"/>
+    <testCase name="ActorListComponent should create" duration="65"/>
+    <testCase name="ActorListComponent should have 10 &lt;div.col.mb-2> elements" duration="127"/>
+    <testCase name="ActorListComponent should have h5 tag with the actor.nombre" duration="13"/>
+    <testCase name="ActorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted actor should not exist" duration="35"/>
+    <testCase name="ActorListComponent should have 10 &lt;div.card-body> elements" duration="15"/>
+    <testCase name="ActorListComponent should have the corresponding src to the actor image and alt to the actor nombre" duration="37"/>
+    <testCase name="ActorListComponent should have 10 &lt;card.p-2> elements" duration="18"/>
+    <testCase name="ActorListComponent should have 10 &lt;img> elements" duration="87"/>
   </file>
   <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should create the app" duration="72"/>
-    <testCase name="AppComponent should have as title 'arte7-front'" duration="10"/>
+    <testCase name="AppComponent should create the app" duration="324"/>
+    <testCase name="AppComponent should have as title 'arte7-front'" duration="14"/>
+  </file>
+  <file path="src/app/pelicula/menu-filtros/menu-filtros.component.spec.ts">
+    <testCase name="MenuFiltrosComponent should create" duration="82"/>
+  </file>
+  <file path="src/app/director/director-list/director-list.component.spec.ts">
+    <testCase name="DirectorListComponent should have 10 &lt;img> elements" duration="19"/>
+    <testCase name="DirectorListComponent should have 10 &lt;card.p-2> elements" duration="64"/>
+    <testCase name="DirectorListComponent should have 10 &lt;div.col.mb-2> elements" duration="22"/>
+    <testCase name="DirectorListComponent should create" duration="19"/>
+    <testCase name="DirectorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted director should not exist" duration="24"/>
+    <testCase name="DirectorListComponent should have h5 tag with the director.nombre" duration="18"/>
+    <testCase name="DirectorListComponent should have the corresponding src to the director image and alt to the director nombre" duration="14"/>
+    <testCase name="DirectorListComponent should have 10 &lt;div.card-body> elements" duration="92"/>
+  </file>
+  <file path="src/app/actor/actor.service.spec.ts">
+    <testCase name="Service: Actor should ..." duration="3"/>
+  </file>
+  <file path="src/app/pelicula/barra-navegacion/barra-navegacion.component.spec.ts">
+    <testCase name="BarraNavegacionComponent should create" duration="9"/>
+  </file>
+  <file path="src/app/director/director.service.spec.ts">
+    <testCase name="Service: Director should ..." duration="61"/>
+  </file>
+  <file path="src/app/actor/actor-detail/actor-detail.component.spec.ts">
+    <testCase name="ActorDetailComponent should have an img element" duration="12"/>
+    <testCase name="ActorDetailComponent should have an img element with src = actorDetail.image" duration="7"/>
+    <testCase name="ActorDetailComponent should have h4 tag with the book.name" duration="58"/>
+    <testCase name="ActorDetailComponent should create" duration="10"/>
+    <testCase name="ActorDetailComponent should have the corresponding src to the pelicula poster" duration="12"/>
+    <testCase name="ActorDetailComponent should have the corresponding alt to the pelicula nombre" duration="8"/>
+    <testCase name="ActorDetailComponent should have a h3 tag with component.actorDetail.name" duration="11"/>
+    <testCase name="ActorDetailComponent should have a &lt;p> tag with component.actorDetail.name" duration="8"/>
+    <testCase name="ActorDetailComponent should have one dd tag for component.actorDetail.biografia" duration="63"/>
+    <testCase name="ActorDetailComponent should have 4 &lt;div.card-body> elements" duration="10"/>
+    <testCase name="ActorDetailComponent should have 4 &lt;div.col-3> elements" duration="15"/>
+    <testCase name="ActorDetailComponent should have 4 &lt;div.card> elements" duration="19"/>
+    <testCase name="ActorDetailComponent should have one dd tag for component.actorDetail.fechaNacimiento" duration="39"/>
+    <testCase name="ActorDetailComponent should have 4 &lt;img> elements" duration="20"/>
+  </file>
+  <file path="src/app/pelicula/vista-principal/vista-principal.component.spec.ts">
+    <testCase name="VistaPrincipalComponent should create" duration="8"/>
+  </file>
+  <file path="src/app/pelicula/Resenha/Resenha.service.spec.ts">
+    <testCase name="Service: Resenha should create" duration="35"/>
+    <testCase name="Service: Resenha should ..." duration="19"/>
+  </file>
+  <file path="src/app/pelicula/Resenha/Resenha-list/Resenha-list.component.spec.ts">
+    <testCase name="ResenhaListComponent should create" duration="72"/>
+  </file>
+  <file path="src/app/pelicula/Pelicula.service.spec.ts">
+    <testCase name="Service: Pelicula should ..." duration="39"/>
+  </file>
+  <file path="src/app/pelicula/pelicula-list/pelicula-list.component.spec.ts">
+    <testCase name="PeliculaListComponent should create" duration="143"/>
+    <testCase name="PeliculaListComponent should have 10 &lt;card.p-2> elements" duration="13"/>
+    <testCase name="PeliculaListComponent should have 10 &lt;div.col.mb-2> elements" duration="11"/>
+    <testCase name="PeliculaListComponent should have 10 &lt;div.card-body> elements" duration="12"/>
+    <testCase name="PeliculaListComponent should have 10 &lt;img> elements" duration="12"/>
+    <testCase name="PeliculaListComponent should have the corresponding alt to the pelicula nombre" duration="110"/>
+    <testCase name="PeliculaListComponent should have the corresponding src to the pelicula poster" duration="17"/>
+    <testCase name="PeliculaListComponent should have p tag with the pelicula.estrellasPromedio" duration="22"/>
+    <testCase name="PeliculaListComponent should have 9 &lt;div.col.mb-2> elements and the deleted book should not exist" duration="19"/>
+    <testCase name="PeliculaListComponent should have h3 tag with the pelicula.nombre" duration="18"/>
   </file>
 </testExecutions>
