@@ -16,10 +16,13 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { PeliculaDetailComponent } from './pelicula-detail/pelicula-detail.component';
 import { ResenhaModule } from '../resenha/resenha.module';
-
+import { GeneroModule } from '../genero/genero.module';
+import { PlataformaModule } from '../plataforma/plataforma.module';
 
 @NgModule({
   imports: [
+    PlataformaModule,
+    GeneroModule,
     ResenhaModule,
     CommonModule,
     BrowserAnimationsModule,

@@ -63,6 +63,8 @@ describe('PeliculaDetailComponent', () => {
       list_d,
       [],
       [],
+      [],
+      [],
       []
     );
 

@@ -4,6 +4,8 @@ import { Pelicula } from "./pelicula";
 import { Resenha } from "../resenha/resenha";
 import { Premio } from "./premio";
 import { Nominacion } from "./nominacion";
+import { Genero } from "../genero/genero";
+import { Plataforma } from "../plataforma/plataforma";
 
 export class PeliculaDetail extends Pelicula{
 actores: Array<Actor>=[];
@@ -11,6 +13,8 @@ directores: Array<Director>=[];
 resenhas: Array<Resenha>=[];
 premios: Array<Premio> = [];
 nominaciones: Array<Nominacion> = [];
+generos: Array<Genero> = [];
+plataformas: Array<Plataforma> = [];
 
 constructor(
   id : number,
@@ -27,6 +31,8 @@ constructor(
   resenhas: Array<Resenha>,
   premios: Array<Premio>,
   nominaciones: Array<Nominacion>,
+  generos: Array<Genero>,
+  plataformas: Array<Plataforma>,
 
 )
 {
@@ -45,6 +51,8 @@ constructor(
   this.resenhas = resenhas;
   this.premios = premios;
   this.nominaciones = nominaciones;
+  this.generos = generos;
+  this.plataformas = plataformas;
 }
 
 }
