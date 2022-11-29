@@ -8,6 +8,7 @@ import { PeliculaService } from '../Pelicula.service';
   templateUrl: './pelicula-detail.component.html',
   styleUrls: ['./pelicula-detail.component.css']
 })
+
 export class PeliculaDetailComponent implements OnInit {
 
   peliculaId!: string;

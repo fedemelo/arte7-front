@@ -18,6 +18,7 @@ import { PeliculaDetailComponent } from './pelicula-detail/pelicula-detail.compo
 import { ResenhaModule } from '../resenha/resenha.module';
 import { GeneroModule } from '../genero/genero.module';
 import { PlataformaModule } from '../plataforma/plataforma.module';
+import { YouTubePlayerModule } from "@angular/youtube-player";
 
 @NgModule({
   imports: [
@@ -31,7 +32,8 @@ import { PlataformaModule } from '../plataforma/plataforma.module';
     MatButtonModule,
     MatIconModule,
     MatDividerModule,
-    RouterModule
+    RouterModule,
+    YouTubePlayerModule
   ],
   exports: [
     NominacionComponent,
@@ -47,6 +49,7 @@ import { PlataformaModule } from '../plataforma/plataforma.module';
     PremioComponent,
     PeliculaDetailComponent,
     VistaPrincipalComponent,
+    PeliculaDetailComponent,
     MenuFiltrosComponent,
     BarraNavegacionComponent,
     PeliculaListComponent

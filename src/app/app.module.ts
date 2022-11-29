@@ -50,7 +50,11 @@ import { MatDividerModule } from '@angular/material/divider';
     MatDividerModule,
     GeneroModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+
+  ],
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }
