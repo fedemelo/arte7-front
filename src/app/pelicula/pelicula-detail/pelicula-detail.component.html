@@ -13,9 +13,9 @@
           <p >{{peliculaDetail.pais}} </p>
         </div>
       </div>
-      </div>
     </div>
   </div>
+</div>
   <div class="row ms-2">
     <div class="col-3 me-2">
         <img
@@ -36,21 +36,7 @@
   <div class="row ms-2">
     <div class="col-8">
       <h2>Plataformas</h2>
-      <app-plataforma-list></app-plataforma-list>
-    <div class="col-3 me-2">
-        <img
-          class="img-fluid"
-          src="{{ peliculaDetail.poster }}"
-          alt="{{ peliculaDetail.nombre }}"
-        />
-    </div>
-    <div class="col-8">
-      <youtube-player
-        videoId="{{peliculaDetail.url.substring(32)}}"
-        suggestedQuality="highres"
-        [height]="420 "
-        [width]="860">
-      </youtube-player>
+      <app-plataforma-list [plataformas]="peliculaDetail.plataformas"></app-plataforma-list>
     </div>
   </div>
   <div class="row ms-2 p-1">
