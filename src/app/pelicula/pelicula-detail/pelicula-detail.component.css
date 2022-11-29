@@ -1,3 +1,27 @@
-body {
+img {
+  height: 425px;
+  max-width: 1000px;
+}
+
+.img-actor{
+  height: 155px;
+  width: 150px;
+}
+
+.card {
+  margin: 0 0.7em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  background-color: rgb(27, 27, 27);
+}
+
+.h2 {
   color: white;
+}
+
+.card-body{
+  color: white
+}
+
+.p-top{
+  color:rgb(148, 143, 143)
 }

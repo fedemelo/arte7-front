@@ -12,16 +12,17 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~13.3.0",
-    "@angular/cdk": "^13.3.9",
-    "@angular/common": "~13.3.0",
-    "@angular/compiler": "~13.3.0",
-    "@angular/core": "~13.3.0",
-    "@angular/forms": "~13.3.0",
-    "@angular/material": "^13.3.9",
-    "@angular/platform-browser": "~13.3.0",
-    "@angular/platform-browser-dynamic": "~13.3.0",
-    "@angular/router": "~13.3.0",
+    "@angular/animations": "^15.0.1",
+    "@angular/cdk": "^15.0.0",
+    "@angular/common": "^15.0.1",
+    "@angular/compiler": "^15.0.1",
+    "@angular/core": "^15.0.1",
+    "@angular/forms": "^15.0.1",
+    "@angular/material": "^15.0.0",
+    "@angular/platform-browser": "^15.0.1",
+    "@angular/platform-browser-dynamic": "^15.0.1",
+    "@angular/router": "^15.0.1",
+    "@angular/youtube-player": "^15.0.0",
     "bootstrap": "^5.2.2",
     "exec-sh": "^0.4.0",
     "rxjs": "~7.5.0",
@@ -29,9 +30,9 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.3.0",
-    "@angular/cli": "~13.3.0",
-    "@angular/compiler-cli": "~13.3.0",
+    "@angular-devkit/build-angular": "^15.0.1",
+    "@angular/cli": "^15.0.1",
+    "@angular/compiler-cli": "^15.0.1",
     "@faker-js/faker": "^7.6.0",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
@@ -45,6 +46,6 @@
     "karma-mocha-reporter": "^2.2.5",
     "karma-sonarqube-unit-reporter": "0.0.23",
     "sonar-scanner": "^3.1.0",
-    "typescript": "~4.6.2"
+    "typescript": "^4.8.2"
   }
 }
