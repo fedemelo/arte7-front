@@ -2,7 +2,6 @@ import { Pelicula } from '../pelicula/pelicula';
 import { Director } from './director';
 
 export class DirectorDetail extends Director {
-
   peliculas: Array<Pelicula> = [];
 
   constructor(
