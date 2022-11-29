@@ -181,7 +181,6 @@ insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values (35,'Premios 
 insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values (36,'Premios Globo de Oro', 2022 ,'Mejor canción original');
 insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values (37,'Premios Globo de Oro', 2022 ,'Mejor película en habla no inglesa');
 insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values (38,'Premios Globo de Oro', 2022 ,'Mejor película animada');
-insert into NOMINACION_ENTITY (id, nombre, anho, categoria) values (39,'Premios Globo de Oro', 2022 ,'Premio Cecil B. DeMille');
 
 
 insert into PREMIO_ENTITY (id, nombre, anho, categoria) values (1,'Premios Oscar', 2022 ,'Mejor película');
