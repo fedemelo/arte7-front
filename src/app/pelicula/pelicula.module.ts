@@ -33,7 +33,7 @@ import { YouTubePlayerModule } from "@angular/youtube-player";
     MatIconModule,
     MatDividerModule,
     RouterModule,
-    YouTubePlayerModule
+    YouTubePlayerModule,
   ],
   exports: [
     NominacionComponent,
