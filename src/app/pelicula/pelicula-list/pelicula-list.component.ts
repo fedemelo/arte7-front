@@ -12,8 +12,19 @@ export class PeliculaListComponent implements OnInit {
   peliculas: Array<PeliculaDetail> = [];
   selectedPelicula!: PeliculaDetail;
   selected:Boolean=false;
+  name: string = "";
 
   constructor(private peliculaService: PeliculaService) { }
+
+  filter(pelis: PeliculaDetail[]): PeliculaDetail[] {
+    let ppelis: PeliculaDetail[] = []
+    for (let i: number = 0; i < pelis.length; i++) {
+      if (pelis[i].nombre.indexOf(this.name) != -1) {
+        ppelis.push(pelis[i])
+      }
+    }
+    return ppelis;
+  }
 
   getPeliculas(): void {
     this.peliculaService.getPeliculas().subscribe((peliculas) => {
@@ -24,6 +35,10 @@ export class PeliculaListComponent implements OnInit {
   selectPelicula(peliculaDetail: PeliculaDetail){
     this.selectedPelicula = peliculaDetail;
     this.selected=true;
+  }
+
+  setName(name: string) {
+    this.name = name;
   }
 
   ngOnInit() {
