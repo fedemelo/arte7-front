@@ -1,0 +1,465 @@
+[
+    {
+        "nombre": "Colin Firth",
+        "fotografia": "https://es.web.img3.acsta.net/pictures/16/05/17/10/21/507039.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1960-09-11T00:00:00-05:00",
+        "biografia": "Colin Andrew Firth es un actor y productor de cine británico. Sus 42 películas han recaudado más de 500 millones de dólares en todo el mundo.​ Ha recibido un premio Óscar, un Globo de Oro, dos Premios de la BAFTA, y tres premios del Sindicato de Actores, así como la Copa Volpi."
+    },{
+        "nombre": "Geoffrey Rush",
+        "fotografia": "https://cdn.britannica.com/08/147808-050-A366AEA3/Geoffrey-Rush-2010.jpg",
+        "nacionalidad": "Australiana",
+        "fechaNacimiento": "1951-07-06T00:00:00-05:00",
+        "biografia":"Geoffrey Roy Rush, conocido como Geoffrey Rush, es un actor australiano multipremiado. Conocido por interpretar al capitán Hector Barbossa en las cinco películas de Piratas del Caribe, Lionel Logue en El discurso del rey y, sobre todo, por su interpretación en Shine, por la cual ganó el Oscar al mejor actor principal."
+    },{
+        "nombre": "Helena Bonham Carter",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Helena_Bonham_Carter_2011_AA.jpg/640px-Helena_Bonham_Carter_2011_AA.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1966-05-26T00:00:00-05:00",
+        "biografia":"Helena Bonham Carter es una actriz británica, ganadora del premio BAFTA, y dos veces nominada a los Premios Óscar Hizo su debut como actriz en una adaptación para televisión de A Pattern of Roses antes de obtener su primer papel como protagonista en Lady Jane."
+    },{
+        "nombre": "Guy Pearce",
+        "fotografia": "https://resizing.flixster.com/TNqXJT4tGUoCKg-Gg1T2BLFVfr0=/218x280/v2/https://flxt.tmsimg.com/assets/74054_v9_bc.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1967-10-05T00:00:00-05:00",
+        "biografia":"Guy Edward Pearce, conocido como Guy Pearce, es un actor australiano nacido en el Reino Unido. Su primer éxito en el cine fue actuando en Las aventuras de Priscilla, reina del desierto en 1994. A partir de ese momento, empezó a actuar en muchas producciones estadounidenses, entre ellas L.A."
+    },{
+        "nombre": "Jennifer Ehle",
+        "fotografia": "https://static.wikia.nocookie.net/shadowhunters/images/0/01/Jennifer_Ehle_2017.jpg/revision/latest/scale-to-width-down/180?cb=20170924212824&path-prefix=es",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1929-12-29T00:00:00-05:00",
+        "biografia":"Jennifer Ann Ehle es una actriz estadounidense de teatro y cine. Es conocida por su papel como Elizabeth Bennet en la mini-serie Pride and Prejudice. Tuvo un papel secundario en la película La noche más oscura de 2012 como agente de la CIA enviada a Pakistán para desmantelar la red terrorista de Bin Laden."
+    },
+
+    
+    {
+        "nombre": "Rosamund Pike",
+        "fotografia": "https://es.web.img3.acsta.net/c_310_420/pictures/15/07/24/10/05/242676.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1979-01-20T00:00:00-05:00",
+        "biografia":"Rosamund Mary Ellen Pike, más conocida como Rosamund Pike, es una actriz de cine y televisión británica."
+    },{
+        "nombre": "Emily Ratajkowski",
+        "fotografia": "https://media.vogue.mx/photos/62c6d2bd348fa52aeb48e7bf/2:3/w_1920,c_limit/GettyImages-1403883831.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1991-06-07T00:00:00-05:00",
+        "biografia":"Emily Ratajkowski es una modelo, empresaria y actriz estadounidense."
+    },{
+        "nombre": "Ben Affleck",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ben_Affleck_by_Gage_Skidmore_3.jpg/1200px-Ben_Affleck_by_Gage_Skidmore_3.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1972-08-15T00:00:00-05:00",
+        "biografia":"Benjamin Géza Affleck-Boldt, conocido simplemente como Ben Affleck, es un actor, director, productor y guionista estadounidense."
+    },{
+        "nombre": "Neil Patrick Harris",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/1/19/5.3.10NeilPatrickHarrisByDavidShankbone.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1973-06-15T00:00:00-05:00",
+        "biografia":"Neil Patrick Harris es un actor, cantante, escritor, ilusionista, comediante y director estadounidense. Los papeles más destacados de su carrera incluyen el papel principal en Doogie Howser, M."
+    },{
+        "nombre": "Carrie Coon",
+        "fotografia": "https://es.web.img3.acsta.net/pictures/14/06/25/14/26/052924.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1981-01-14T00:00:00-05:00",
+        "biografia":"Carrie Alexandra Coon es una actriz estadounidense. Coon fue nominada a un premio Tony en 2012 por su actuación en la obra ¿Quién teme a Virginia Woolf?. En 2014, comenzó interpretando a Nora Durst en la serie dramática de HBO The Leftovers y luego apareció en la película de suspenso Gone Girl."
+    },
+
+
+    {
+        "nombre": "Reika Kirishima",
+        "fotografia": "https://static.wikia.nocookie.net/drama/images/5/51/KirishimaReika.jpg/revision/latest?cb=20181026163355&path-prefix=es",
+        "nacionalidad": "Japonesa",
+        "fechaNacimiento": "1972-08-15T00:00:00-05:00",
+        "biografia":"Reika Kirishima  is a Japanese film and television actress active since 1997. Her first feature movie was Godzilla: Final Wars and first television show was Strawberry Night."
+    },{
+        "nombre": "Tōko Miura",
+        "fotografia": "https://static.wikia.nocookie.net/tenkinoko1663/images/f/f3/Toko_Miura.png/revision/latest?cb=20201211231404",
+        "nacionalidad": "Japonesa",
+        "fechaNacimiento": "1996-10-20T00:00:00-05:00",
+        "biografia":"Tōko Miura es una actriz y cantante japonesa. Es mejor conocida internacionalmente por su papel en la película Drive My Car del 2021, así como por su trabajo en la banda sonora de la película animada Weathering with You del 2019."
+    },{
+        "nombre": "Hidetoshi Nishijima",
+        "fotografia": "https://static.wikia.nocookie.net/drama/images/b/bd/Nishijima_Hidetoshi_4.jpg/revision/latest?cb=20180909185443&path-prefix=es",
+        "nacionalidad": "Japonesa",
+        "fechaNacimiento": "1971-03-29T00:00:00-05:00",
+        "biografia":"Hidetoshi Nishijima is a Japanese actor. He is widely regarded as one of Japan's leading actors in numerous films and television drama series. He has appeared in a wide range of films from science fiction films such as Shin Ultraman (2022) to small-scale art films such as Dolls (2002). He is best known internationally for his leading role in the film Drive My Car (2021). He received the Japan Academy Film Prize for Best Actor for this film."
+    },{
+        "nombre": "Park Yu-rim",
+        "fotografia": "https://m.media-amazon.com/images/M/MV5BY2FlMGNjN2UtMjYxYi00OWUzLTkzMDgtMmQzZWFlYWIyNjY1XkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg",
+        "nacionalidad": "Surcoreana",
+        "fechaNacimiento": "1993-02-06T00:00:00-05:00",
+        "biografia":""
+    },{
+        "nombre": "Masaki Okada",
+        "fotografia": "https://static.wikia.nocookie.net/drama/images/1/11/Okada_Masaki28.jpg/revision/latest?cb=20180115062632&path-prefix=es",
+        "nacionalidad": "Japonesa",
+        "fechaNacimiento": "1989-08-15T00:00:00-05:00",
+        "biografia":"Masaki Okada es un actor japonés. Okada es más conocido por sus papeles de Kyogo Sekime en el drama Hanazakari no Kimitachi e y Takuma Kakinouchi en la película Boku no Hatsukoi o Kimi ni Sasagu. También ha ganado renombre al interpretar a Kotaro Katsura en la película live-action de Gintama."
+    },
+
+
+    {
+        "nombre": "Cho Yeo-jeong",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cho_Yeo-jeong.2019.jpg",
+        "nacionalidad": "Surcoreana",
+        "fechaNacimiento": "1991-02-18T00:00:00-05:00",
+        "biografia":"Cho Yeo-jeong, es una actriz surcoreana. Conocida principalmente en el cine surcoreano por sus papeles principales en las películas de época The Servant y The Concubine, así como por protagonizar la serie de televisión I Need Romance."
+    },{
+        "nombre": "Park Seo-joon",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/9/9d/20211203_Park_Seo-joon_%EB%B0%95%EC%84%9C%EC%A4%80_Photoshoot_for_Marie_Claire_Korea_%284%29.jpg",
+        "nacionalidad": "Surcoreana",
+        "fechaNacimiento": "1988-12-16T00:00:00-05:00",
+        "biografia":""
+    },{
+        "nombre": "Park So-dam",
+        "fotografia": "https://static.wikia.nocookie.net/drama/images/8/80/Park_So_Dam46.jpg/revision/latest?cb=20190603042456&path-prefix=es",
+        "nacionalidad": "Surcoreana",
+        "fechaNacimiento": "1991-09-18T00:00:00-05:00",
+        "biografia":"Park So-dam es una actriz surcoreana, conocida en particular por su papel de Kim Ki-jung / Jessica en la película Parasite."
+    },{
+        "nombre": "Jung Ji-so",
+        "fotografia": "https://static.wikia.nocookie.net/drama/images/5/51/Jung_Ji_So10.jpg/revision/latest?cb=20191218164807&path-prefix=es",
+        "nacionalidad": "Surcoreana",
+        "fechaNacimiento": "1999-09-17T00:00:00-05:00",
+        "biografia":"Hyun Seung-min conocida profesionalmente como Jung Ji-so, es una actriz y expatinadora artística surcoreana. Es conocida internacionalmente sobre todo por su personaje Park Da-hye en la película Parasite."
+    },{
+        "nombre": "Song Kang-ho",
+        "fotografia": "https://images.mubicdn.net/images/cast_member/4878/cache-146625-1607415235/image-w856.jpg?size=800x",
+        "nacionalidad": "Surcoreana",
+        "fechaNacimiento": "1940-12-31T00:00:00-05:00",
+        "biografia":"Song Kang-ho es un actor surcoreano. Se graduó de la Universidad Busan Kyungsang con una licenciatura en radiodifusión, pero comenzó su carrera en grupos de teatro sin preparación profesional como actor. Hizo su debut en 1991 en la obra Dongseung."
+    },
+
+
+    {
+        "nombre": "Keanu Reeves",
+        "fotografia": "https://media.gq.com.mx/photos/5f57d52d4464f9b88fb26729/3:4/w_1500,h_2000,c_limit/Keanu-Reeves.jpg",
+        "nacionalidad": "Canadiense",
+        "fechaNacimiento": "1964-09-02T00:00:00-05:00",
+        "biografia":"Keanu Charles Reeves es un actor y músico canadiense. Tiene sangre china por parte de su abuela."
+    },{
+        "nombre": "Carrie-Anne Moss",
+        "fotografia": "https://www.themoviedb.org/t/p/w500/xD4jTA3KmVp5Rq3aHcymL9DUGjD.jpg",
+        "nacionalidad": "Canadiense",
+        "fechaNacimiento": "1967-08-21T00:00:00-05:00",
+        "biografia":"Carrie-Anne Moss es una actriz canadiense que consiguió fama mundial tras sus apariciones en la saga The Matrix como Trinity"
+    },{
+        "nombre": "Laurence Fishburne",
+        "fotografia": "https://static.wikia.nocookie.net/dcextendeduniverse/images/6/6b/Laurence_Fishburne.jpg/revision/latest?cb=20200928234100&path-prefix=es",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1961-07-30T00:00:00-05:00",
+        "biografia":"Laurence John Fishburne III, más conocido como Laurence Fishburne, es un actor de cine estadounidense. Conocido principalmente por su rol como Morfeo en la película de ciencia ficción The Matrix y sus secuelas"
+    },{
+        "nombre": "Hugo Weaving",
+        "fotografia": "https://www.themoviedb.org/t/p/w500/kkkZx3qoLA8oilMSCGT4soDqXPu.jpg",
+        "nacionalidad": "Britanico-australiana",
+        "fechaNacimiento": "1960-04-04T00:00:00-05:00",
+        "biografia":"Hugo Wallace Weaving is an English actor. Born in Colonial Nigeria to English parents, he has resided in Australia for the entirety of his career. He is the recipient of six Australian Academy of Cinema and Television Arts Awards (AACTA) and has also been recognised as an Honorary Officer of the Order of Australia."
+    },{
+        "nombre": "Marcus Chong",
+        "fotografia": "https://static.wikia.nocookie.net/thecrow/images/d/d4/134F60D5-968B-4ABE-A3B6-B0542BE32BCA.jpeg/revision/latest?cb=20190713165903",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1967-07-08T00:00:00-05:00",
+        "biografia":"Marcus Scott Chong es un actor estadounidense. Es conocido por interpretar a Miguel Méndez en el drama criminal de corta duración, Street Justice, al activista de la vida real Huey P. Newton en Panther, dirigida por Mario Van Peebles, y más notablemente, Tank in The Matrix, dirigida por The Wachowskis"
+    },
+
+
+    {
+        "nombre": "Emma Stone",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/3/31/Emma_Stone_at_Maniac_UK_premiere_%28cropped%29.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1988-11-06T00:00:00-05:00",
+        "biografia":"Emily Jean Stone, más conocida profesionalmente como Emma Stone, es una actriz estadounidense. También ha incursionado en la producción cinematográfica. Ha recibido numerosos premios, entre ellos un Óscar, un BAFTA, un SAG y un Globo de Oro a mejor actriz, por su interpretación en la cinta La La Land."
+    },{
+        "nombre": "Ryan Gosling",
+        "fotografia": "https://static.wikia.nocookie.net/doblaje/images/b/bf/Ryan-Gosling-Black-Hair-2015.jpg/revision/latest?cb=20160214020613&path-prefix=es",
+        "nacionalidad": "Canadiense",
+        "fechaNacimiento": "1980-11-12T00:00:00-05:00",
+        "biografia":"Ryan Thomas Gosling es un actor y músico canadiense. También ha incursionado en la dirección y producción cinematográfica."
+    },{
+        "nombre": "J. K. Simmons",
+        "fotografia": "https://static.wikia.nocookie.net/cine/images/f/ff/J.K._Simmons.jpg/revision/latest?cb=20150223183337",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1955-01-09T00:00:00-05:00",
+        "biografia":"Jonathan Kimble Simmons, más conocido como J. K. Simmons, es un actor estadounidense ganador del Óscar, Globo de Oro, BAFTA, Premio del Sindicato de Actores, entre otros premios."
+    },{
+        "nombre": "John Legend",
+        "fotografia": "https://static.wikia.nocookie.net/doblaje/images/0/0e/John_Legend.jpg/revision/latest?cb=20220822184545&path-prefix=es",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1978-12-28T00:00:00-05:00",
+        "biografia":"John Roger Stephens, conocido como John Legend, es un cantante, compositor, pianista y actor estadounidense. Ha ganado once premios Grammy, un Premio Globo de Oro y un Oscar. En 2007, Legend recibió el Premio 'Hal David Starlight' del Salón de la Fama de los Compositores."
+    },{
+        "nombre": "Finn Wittrock",
+        "fotografia": "https://flxt.tmsimg.com/assets/276756_v9_bb.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1984-10-28T00:00:00-05:00",
+        "biografia":"Peter 'Finn' Wittrock, Jr. es un actor y guionista estadounidense. Comenzó su carrera con papeles como invitado en varios programas de televisión, antes de hacer su debut en el cine en Twelve."
+    },
+
+
+    {
+        "nombre": "Kate Winslet",
+        "fotografia": "https://media.vogue.es/photos/607ed1366badb6988b205bf2/2:3/w_2560%2Cc_limit/GettyImages-97524191.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1975-10-05T00:00:00-05:00",
+        "biografia":"Kate Elizabeth Winslet es una actriz británica de cine, televisión y teatro. Ha trabajado mayoritariamente en películas independientes, particularmente en dramas de época, y suele interpretar personajes complejos."
+    },{
+        "nombre": "Leonardo DiCaprio",
+        "fotografia": "https://media.revistagq.com/photos/62ecd65ffb28d86a388289d6/2:3/w_720,h_1080,c_limit/Devil-in-the-white-city-keanu-reeves-Leonardo-dicaprio-Martin-scorsese.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1974-11-11T00:00:00-05:00",
+        "biografia":"Leonardo Wilhelm DiCaprio es un actor, productor de cine y ambientalista estadounidense. Ha recibido numerosos premios entre los que destacan un Óscar al mejor actor; un premio BAFTA al mejor actor , dos Globos de Oro al mejor actor de drama y un Globo de Oro al mejor actor de comedia o musical. Hasta 2019, sus películas habían recaudado aproximadamente 7200 millones de dólares, y ha estado ocho veces en la lista de los actores mejor pagados del año."
+    },{
+        "nombre": "Billy Zane",
+        "fotografia": "https://static.wikia.nocookie.net/arrow/images/9/9c/Billy_Zane.png/revision/latest?cb=20170621032241&path-prefix=es",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1966-02-24T00:00:00-05:00",
+        "biografia":"William George Zane Jr. conocido como Billy Zane, es un actor y director estadounidense conocido por sus papeles en Titanic como Caledon 'Cal' Hockley, The Phantom, la película epónima basada en el cómic de superhéroes, y sobre todo por su papel del perturbado psicópata asesino en el thriller Dead Calm, junto a Sam Neill y Nicole Kidman. A partir del año 2007, Zane ha aparecido en más de 50 películas y numerosas series de televisión."
+    },{
+        "nombre": "Kathy Bates",
+        "fotografia": "https://images.mubicdn.net/images/cast_member/23258/cache-725-1595703849/image-w856.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1948-06-28T00:00:00-05:00",
+        "biografia":"Kathleen Doyle Bates, conocida artísticamente como Kathy Bates, es una actriz estadounidense de cine, televisión y teatro, ganadora de los premios Óscar, Globo de Oro, Emmy y SAG"
+    },{
+        "nombre": "Bill Paxton",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Bill_Paxton_in_July_2016_cropped_lighting_corrected_hue_correction.jpg/800px-Bill_Paxton_in_July_2016_cropped_lighting_corrected_hue_correction.jpg",
+        "nacionalidad": "Estadounidense"    ,
+        "fechaNacimiento": "1955-05-17T00:00:00-05:00",
+        "biografia":"William Archibald Paxton fue un actor y director de cine y televisión estadounidense. Paxton, uno de los secundarios ilustres de Hollywood, fue nominado al Globo de Oro y a los Emmy, y ganó el Premio del Sindicato de Actores al mejor reparto. Faleció el 25 de febrero de 2017 en Estados Unidos"
+    },
+
+
+    {
+        "nombre": "Daniel Radcliffe ",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Daniel_Radcliffe_in_July_2015.jpg/640px-Daniel_Radcliffe_in_July_2015.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1989-07-23T00:00:00-05:00",
+        "biografia":"Daniel Jacob Radcliffe es un actor británico, principalmente conocido por haber protagonizado la saga cinematográfica de Harry Potter. Fundamentalmente por ello, ha recaudado una fortuna de 23 millones de libras esterlinas, parte de la cual ha destinado a organizaciones benéficas."
+    },{
+        "nombre": "Emma Watson",
+        "fotografia": "https://i.pinimg.com/originals/64/95/d0/6495d05033eb2029300f4a6fe5151952.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1990-04-15T00:00:00-05:00",
+        "biografia":"Emma Charlotte Duerre Watson es una actriz, modelo y activista británica, conocida principalmente por haber interpretado el personaje de Hermione Granger en la saga de películas de Harry Potter."
+    },{
+        "nombre": "Rupert Grint",
+        "fotografia": "https://media.revistagq.com/photos/5fac48293c41c2e74eae42e4/master/pass/GettyImages-651023044.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1988-08-29T00:00:00-05:00",
+        "biografia":"Rupert Alexander Lloyd Grint es un actor inglés, conocido por interpretar a Ron Weasley en la serie de películas de Harry Potter. Obtuvo dicho papel a los once años, después de haber participado anteriormente solo en obras de teatro escolares y grupos de teatro locales."
+    },{
+        "nombre": "Alan Rickman",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Alan_Rickman_at_BAM_-17.jpg/640px-Alan_Rickman_at_BAM_-17.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1946-02-21T00:00:00-05:00",
+        "biografia":"Alan Sidney Patrick Rickman, conocido como Alan Rickman, fue un actor, director de cine y teatro y diseñador gráfico británico. Falleció el 14 de enero de 2016 en Londres."
+    },{
+        "nombre": "Ralph Fiennes",
+        "fotografia": "https://images.mubicdn.net/images/cast_member/15458/cache-3877-1609422838/image-w856.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1962-12-22T00:00:00-05:00",
+        "biografia":"Ralph Nathaniel Twisleton-Wykeham-Fiennes, conocido artísticamente como Ralph Fiennes, es un actor británico, nominado dos veces al premio Óscar."
+    },
+
+
+    {
+        "nombre": "Chadwick Boseman",
+        "fotografia": "https://static.wikia.nocookie.net/doblaje/images/0/07/Chadwickboseman.jpg/revision/latest?cb=20210629220137&path-prefix=es",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1976-11-29T00:00:00-05:00",
+        "biografia":"Chadwick Aaron Boseman fue un actor, guionista y dramaturgo estadounidense. Inició su carrera como actor en 2003 haciendo apariciones breves en series de televisión como Law & Order, All My Children, Third Watch, CSI: NY, entre otras."
+    },{
+        "nombre": "Lupita Nyong'o",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/3/34/SXSW_2019_4_%2847282558132%29_%28cropped%29.jpg",
+        "nacionalidad": "Keniana y Mexicana",
+        "fechaNacimiento": "1983-03-01T00:00:00-05:00",
+        "biografia":"Lupita Amondi Nyong'o más conocida como Lupita Nyong'o, es una actriz mexicana-keniana de cine y televisión. Saltó a la fama en 2013 con su papel como Patsey en la película 12 años de esclavitud, del director británico Steve Rodney McQueen, por la que fue aclamada por la crítica."
+    },{
+        "nombre": "Michael B. Jordan",
+        "fotografia": "https://static.wikia.nocookie.net/doblaje/images/1/16/Michael_B._Jordan.png/revision/latest?cb=20191228022337&path-prefix=es",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1987-02-09T00:00:00-05:00",
+        "biografia":"Michael Bakari Jordan, popularmente conocido como Michael B. Jordan, es un actor, director y productor estadounidense. Es conocido por interpretar al personaje de Erik Killmonger, el primo y enemigo de T'Challa, en Black Panther, y a Adonis Creed, hijo del boxeador ficticio Apollo Creed, en Creed."
+    },{
+        "nombre": "Letitia Wright",
+        "fotografia": "https://es.web.img3.acsta.net/pictures/19/04/25/23/54/1990890.jpg",
+        "nacionalidad": "Britanica y Guyanesa",
+        "fechaNacimiento": "1993-10-31T00:00:00-05:00",
+        "biografia":"Letitia Michelle Wright es una actriz guyanesa-británica. Comenzó su carrera con papeles como invitada en las series de televisión Top Boy, Coming Up, Chasing Shadows, Humans, Doctor Who, y Black Mirror. Por esta última, recibió una nominación al Primetime Emmy Award."
+    },{
+        "nombre": "Danai Gurira",
+        "fotografia": "https://static.wikia.nocookie.net/doblaje/images/8/84/Danai_grira_2019.jpg/revision/latest?cb=20191006193413&path-prefix=es",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1978-02-14T00:00:00-05:00",
+        "biografia":"Danai Jekesai Gurira es una actriz y dramaturga estadounidense-zimbabuense. Ha aparecido en diversos programas de televisión, películas y obras de teatro. Es más conocida por su papel como Michonne en la serie de televisión The Walking Dead."
+    },{
+        "nombre": "Andy Serkis",
+        "fotografia": "https://es.web.img3.acsta.net/pictures/17/12/11/12/30/5609551.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1964-04-20T00:00:00-05:00",
+        "biografia":"Andrew Clement 'Andy' Serkis es un actor, director de cine y escritor británico. Conocido por haber interpretado a Gollum en las trilogías cinematográficas de El Señor de los Anillos y El hobbit y a otros personajes a través de la técnica de captura de movimiento."
+    },
+
+
+    {
+        "nombre": "Kristen Bell (Voz de Anna)",
+        "fotografia": "https://static.wikia.nocookie.net/doblaje/images/d/df/Kristen_Bell_2019.jpg/revision/latest?cb=20191111181825&path-prefix=es",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1980-07-18T00:00:00-05:00",
+        "biografia":"Kristen Anne Bell es una actriz estadounidense de cine y televisión, además de haberse desempeñado como actriz de teatro. Bell ha sido citada en los medios como una de las jóvenes que ha popularizado el estereotipo de chica geek y suele ser reconocida por su aspecto juvenil."
+    },{
+        "nombre": "Idina Menzel (Voz de Elsa)",
+        "fotografia": "https://static.wikia.nocookie.net/disney/images/e/e0/Idina_Menzel.jpg/revision/latest?cb=20201223195754",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1971-05-31T00:00:00-05:00",
+        "biografia":"Idina Kim Menzel es una actriz y cantante estadounidense, especialmente conocida por interpretar a la Reina Elsa en la película de Disney de 2013 Frozen, además de interpretar la canción 'Let It Go' de la película en su versión oficial en inglés."
+    },{
+        "nombre": "Jonathan Groff (Voz de Kristoff)",
+        "fotografia": "https://images.mubicdn.net/images/cast_member/21218/cache-170058-1600935533/image-w856.jpg?size=800x",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1985-03-26T00:00:00-05:00",
+        "biografia":"Jonathan Drew Groff es un cantautor estadounidense de pop y actor de cine, teatro y televisión."
+    },{
+        "nombre": "Josh Gad (Voz de Olaf)",
+        "fotografia": "https://www.themoviedb.org/t/p/w500/17iKlfWZBDTAucqjkhRKHr9xjIz.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1981-02-23T00:00:00-05:00",
+        "biografia":"Joshua Ilan Gad, más conocido como Josh Gad, es un actor estadounidense famoso dar voz a Olaf en Frozen y por interpretar a Elder Arnold Cunningham en el musical de Broadway The Book of Mormon, además de por su papel como Ryan Church en la serie Back to You."
+    },
+
+
+    {
+        "nombre": "Robert Downey Jr.",
+        "fotografia": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2015/08/06/14388723698931.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1965-04-04T00:00:00-05:00",
+        "biografia":"Robert John Downey Jr. es un actor, actor de voz, productor y cantante estadounidense. Inició su carrera como actor a temprana edad apareciendo en varios filmes dirigidos por su padre, Robert Downey Sr., y en su infancia estudió actuación en varias academias de Nueva York."
+    },{
+        "nombre": "Josh Brolin",
+        "fotografia": "https://flxt.tmsimg.com/assets/74371_v9_bc.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1968-02-12T00:00:00-05:00",
+        "biografia":"Josh James Brolin es un actor de cine y televisión estadounidense. Su primer papel fue en la película Los Goonies en 1985. Desde entonces ha aparecido en varias películas y es conocido por papeles como Llewellyn Moss en No Country for Old Men, el Agente K joven en Hombres de negro III, el presidente George W."
+    },{
+        "nombre": "Chris Hemsworth",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg",
+        "nacionalidad": "Australiana",
+        "fechaNacimiento": "1983-08-11T00:00:00-05:00",
+        "biografia":"Christopher Hemsworth, conocido simplemente como Chris Hemsworth, es un actor, actor de voz y productor australiano."
+    },{
+        "nombre": "Chris Evans",
+        "fotografia": "https://static.wikia.nocookie.net/disney/images/b/b7/ChrisEvans.png/revision/latest?cb=20150201170140&path-prefix=es",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1981-06-13T00:00:00-05:00",
+        "biografia":"Christopher Robert Evans, conocido simplemente como Chris Evans, es un actor, actor de voz, director y productor de cine estadounidense. Criado en el pueblo de Sudbury, mostró interés a temprana edad por la actuación y se mudó a Nueva York para estudiar teatro luego de terminar la secundaria."
+    },{
+        "nombre": "Scarlett Johansson",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%29.jpg/1200px-Scarlett_Johansson_by_Gage_Skidmore_2_%28cropped%29.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1984-11-22T00:00:00-05:00",
+        "biografia":"Scarlett Ingrid Johansson es una actriz, cantante, directora, productora, modelo, cantante y empresaria estadounidense. Comenzó a mostrar intereses en la actuación desde temprana edad, y a lo largo de su infancia y adolescencia se formó en distintos institutos como actriz."
+    },{
+        "nombre": "Benedict Cumberbatch",
+        "fotografia": "https://media.revistagq.com/photos/5ca5fcf9f46488360df4a04f/3:4/w_675,h_900,c_limit/benedict_cumberbatch_8437.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1976-07-19T00:00:00-05:00",
+        "biografia":"Benedict Timothy Carlton Cumberbatch, conocido como Benedict Cumberbatch, es un actor británico de televisión, teatro, cine y voz."
+    },{
+        "nombre": "Tom Holland",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/1200px-Tom_Holland_by_Gage_Skidmore.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1996-06-01T00:00:00-05:00",
+        "biografia":"Thomas Stanley Holland, conocido simplemente como Tom Holland, es un actor, actor de voz y bailarín británico. Comenzó su carrera en el teatro en 2008 interpretando al personaje principal en el musical Billy Elliot.v"
+    },{
+        "nombre": "Mark Ruffalo",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Mark_Ruffalo_%2836201774756%29_%28cropped%29.jpg/1200px-Mark_Ruffalo_%2836201774756%29_%28cropped%29.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1967-11-22T00:00:00-05:00",
+        "biografia":"Mark Alan Ruffalo es un actor, actor de voz, productor y director estadounidense. Inició su carrera como actor en los años 1990 apareciendo en varias series de televisión y películas con papeles menores hasta que logró reconocimiento con la película You Can Count On Me (2000), en la que fue aclamado por la crítica por su actuación."
+    },{
+        "nombre": "Chris Pratt",   
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chris_Pratt_2018.jpg/800px-Chris_Pratt_2018.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1979-06-21T00:00:00-05:00",
+        "biografia":"Christopher Michael Pratt conocido simplemente como Chris Pratt, es un actor, actor de voz y productor estadounidense. Aunque nació en Virginia, creció en la ciudad de Washington y tras terminar la secundaria en 1997, abandonó sus estudios universitarios para mudarse a Hawái, donde fue descubierto por la actriz Rae Dawn Chong mientras trabajaba como camarero en un restaurante de Bubba Gump Shrimp Company."
+    },{
+        "nombre": "Chadwick Boseman",
+        "fotografia": "https://static.wikia.nocookie.net/doblaje/images/0/07/Chadwickboseman.jpg/revision/latest?cb=20210629220137&path-prefix=es",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1976-11-29T00:00:00-05:00",
+        "biografia":"Chadwick Aaron Boseman fue un actor, guionista y dramaturgo estadounidense. Inició su carrera como actor en 2003 haciendo apariciones breves en series de televisión como Law & Order, All My Children, Third Watch, CSI: NY, entre otras."
+    },
+
+
+    {
+        "nombre": "Bryce Dallas Howard",   
+        "fotografia": "https://m.media-amazon.com/images/M/MV5BNzExZDkyNWItMDYzNS00MGVlLTllZTctMjYyZGE1MmY0MThhXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1981-03-02T00:00:00-05:00",
+        "biografia":"Bryce Dallas Howard es una actriz, guionista y directora estadounidense. Howard asistió a la Tisch School of the Arts de la Universidad de Nueva York; yéndose inicialmente en 2002 para asumir papeles en Broadway, pero se graduó oficialmente en 2020."
+    },{
+        "nombre": "Chris Pratt",   
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chris_Pratt_2018.jpg/800px-Chris_Pratt_2018.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1979-06-21T00:00:00-05:00",
+        "biografia":"Christopher Michael Pratt conocido simplemente como Chris Pratt, es un actor, actor de voz y productor estadounidense. Aunque nació en Virginia, creció en la ciudad de Washington y tras terminar la secundaria en 1997, abandonó sus estudios universitarios para mudarse a Hawái, donde fue descubierto por la actriz Rae Dawn Chong mientras trabajaba como camarero en un restaurante de Bubba Gump Shrimp Company."
+    },{
+        "nombre": "Nick Robinson",
+        "fotografia": "https://static.wikia.nocookie.net/doblaje/images/1/1e/Nick-robinson_sc_768x1024.png/revision/latest?cb=20150614232518&path-prefix=es",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1995-03-22T00:00:00-05:00",
+        "biografia":"Nicholas John Robinson es un actor estadounidense. De niño, apareció en las producciones teatrales de 2008 de A Christmas Carol y Mame, y luego actuó en la serie de televisión Melissa & Joey."
+    },{
+        "nombre": "Ty Simpkins",
+        "fotografia": "https://m.media-amazon.com/images/M/MV5BZTZjNzMyZDktZDhkOS00NWM5LTkwYzUtZmJlMTU4NWQzNjBlXkEyXkFqcGdeQXVyMTAxNjMxMjg@._V1_.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "2001-08-06T00:00:00-05:00",
+        "biografia":"Ty Keegan Simpkins es un actor estadounidense, fue el protagonista principal de Insidious y su secuela Insidious: Chapter 2 interpretando a Dalton Lambert. Luego, trabajó en Jurassic World, interpretando a Gray Mitchell."
+    },{
+        "nombre": "BD Wong",
+        "fotografia": "https://flxt.tmsimg.com/assets/6863_v9_bb.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1960-10-24T00:00:00-05:00",
+        "biografia":"Bradley Darryl 'BD' Wong es un actor estadounidense, conocido por sus papeles como el Dr. George Huang en Law & Order: Special Victims Unit, como el Padre Ray Mukada en Oz, Henry Wu en la película Jurassic Park, y por su papel recurrente como Song Liling en M. Butterfly."
+    },
+
+
+    {
+        "nombre": "Daisy Ridley",
+        "fotografia": "https://static.wikia.nocookie.net/esstarwars/images/2/20/Daisy_Ridley_2.jpg/revision/latest?cb=20190518222747",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1992-04-10T00:00:00-05:00",
+        "biografia":"Daisy Jazz Isobel Ridley es una actriz inglesa, famosa por interpretar al personaje de Rey en la tercera trilogía de Star Wars."
+    },{
+        "nombre": "John Boyega",
+        "fotografia": "https://flxt.tmsimg.com/assets/621146_v9_bc.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1992-03-17T00:00:00-05:00",
+        "biografia":"John Boyega es un actor británico de ascendencia nigeriana. Es conocido por interpretar a FN-2187 / Finn en la serie de películas de Star Wars."
+    },{
+        "nombre": "Harrison Ford",
+        "fotografia": "https://static.wikia.nocookie.net/doblaje/images/e/ef/Harrison_Ford-Perfil.png/revision/latest?cb=20220712042957&path-prefix=es",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1942-07-13T00:00:00-05:00",
+        "biografia":"Harrison Ford es un actor estadounidense de cine y televisión. Debe su notoriedad a su colaboración con el guionista, productor y director George Lucas, que fue el primero en darle la posibilidad de ser actor."
+    },{
+        "nombre": "Adam Driver",
+        "fotografia": "https://cdn.britannica.com/67/215267-050-4487C49F/American-actor-Adam-Driver-2020.jpg",
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1983-11-19T00:00:00-05:00",
+        "biografia":"Adam Douglas Driver es un marine retirado, cantante ocasional y actor estadounidense. Internacionalmente conocido por sus papeles como Adam Sackler en la exitosa serie de televisión de HBO Girls y como Kylo Ren, el villano principal (sucesor de Darth Vader), en la saga de ciencia ficción Star Wars, en la que aparece por primera vez en El despertar de la Fuerza."
+    },{
+        "nombre": "Andy Serkis",
+        "fotografia": "https://es.web.img3.acsta.net/pictures/17/12/11/12/30/5609551.jpg",
+        "nacionalidad": "Britanica",
+        "fechaNacimiento": "1964-04-20T00:00:00-05:00",
+        "biografia":"Andrew Clement 'Andy' Serkis es un actor, director de cine y escritor británico. Conocido por haber interpretado a Gollum en las trilogías cinematográficas de El Señor de los Anillos y El hobbit y a otros personajes a través de la técnica de captura de movimiento."
+    },{
+        "nombre": "Lupita Nyong'o",
+        "fotografia": "https://upload.wikimedia.org/wikipedia/commons/3/34/SXSW_2019_4_%2847282558132%29_%28cropped%29.jpg",
+        "nacionalidad": "Keniana y Mexicana",
+        "fechaNacimiento": "1983-03-01T00:00:00-05:00",
+        "biografia":"Lupita Amondi Nyong'o más conocida como Lupita Nyong'o, es una actriz mexicana-keniana de cine y televisión. Saltó a la fama en 2013 con su papel como Patsey en la película 12 años de esclavitud, del director británico Steve Rodney McQueen, por la que fue aclamada por la crítica."
+    }
+]
