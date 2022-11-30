@@ -1,15 +1,7 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col mb-2" *ngFor="let nominacion of nominaciones">
-          <div class="card p-2" style="width: 15rem; height: 33rem">
-              <div class="card-body">
-                <h5 class="card-title">{{ nominacion.nombre }}</h5>
-                  <h6 class="card-text"> Año de nominacion </h6>
-                  <p class="card-text">{{ nominacion.anio }}</p>
-                  <h6 class="card-text">Categoria</h6>
-                  <p class="card-text">{{ nominacion.categoria}}</p>
-              </div>
-           </div>
-      </div>
-   </div>
-</div>
+  <div class="col">
+    <ul class="nobull" colspan="4" >Nominaciones</ul>
+  </div>
+  <div class="col" *ngFor="let c of nominaciones">
+    <ol >{{c.nombre}}</ol>
+  </div>
+<hr>

@@ -1,16 +1,8 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col mb-2" *ngFor="let premio of premios">
-          <div class="card p-2" style="width: 15rem; height: 33rem">
-              <div class="card-body">
-                <h5 class="card-title">{{ premio.nombre }}</h5>
-                  <h6 class="card-text"> Año de premiacion </h6>
-                  <p class="card-text">{{ premio.anio }}</p>
-                  <h6 class="card-text">Categoria</h6>
-                  <p class="card-text">{{ premio.categoria}}</p>
-              </div>
-           </div>
-      </div>
-   </div>
-</div>
+  <div class="col">
+    <ul class="nobull" colspan="4" >Premios </ul>
+  </div>
+  <div class="col" *ngFor="let c of premios">
+    <ol >{{c.nombre}}</ol>
+  </div>
+<hr>
 
