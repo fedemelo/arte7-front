@@ -1,92 +1,158 @@
-<h2> Filtros </h2>
+<h2>Filtros</h2>
 
 <div id="faq">
   <ul>
     <li>
-      <input type="checkbox" checked>
+      <input type="checkbox" checked />
       <i></i>
       <h2>Fecha de estreno</h2>
       <content>
         <form>
           <label for="fecha">Películas estrenadas desde: &nbsp;</label>
-          <input type="date" id="fecha" name="fecha"
-                 value="2020-11-20"
-                 min="2000-01-01" max="2022-12-31"
-                 width="400px">
+          <input
+            type="date"
+            id="fecha"
+            name="fecha"
+            value="2020-11-20"
+            min="2000-01-01"
+            max="2022-12-31"
+            width="400px"
+          />
         </form>
       </content>
     </li>
     <li>
-      <input type="checkbox" checked>
+      <input type="checkbox" checked />
       <i></i>
       <h2>Plataforma</h2>
       <content>
         <form>
           <div class="row">
             <div class="col-sm">
-              <input type="image" class="plataforma" src="assets/img/netflix.png" />
+              <a
+                class="nav-link active"
+                aria-current="page"
+                [routerLink]="['/pelicula/list', 'netflix']"
+                aria-expanded="false"
+                ><input
+                  type="image"
+                  class="plataforma"
+                  src="assets/img/netflix.png"
+              /></a>
             </div>
             <div class="col-sm">
-              <input type="image" class="plataforma" src="assets/img/prime.png" />
+              <a
+                class="nav-link active"
+                aria-current="page"
+                [routerLink]="['/pelicula/list', 'prime']"
+                aria-expanded="false"
+                ><input
+                  type="image"
+                  class="plataforma"
+                  src="assets/img/prime.png"
+              /></a>
             </div>
           </div>
           <div class="row">
             <div class="col-sm">
-              <input type="image" class="plataforma" src="assets/img/hbo.png" />
+              <a
+                class="nav-link active"
+                aria-current="page"
+                [routerLink]="['/pelicula/list', 'hbo']"
+                aria-expanded="false"
+                ><input
+                  type="image"
+                  class="plataforma"
+                  src="assets/img/hbo.png"
+                />
+              </a>
             </div>
             <div class="col-sm">
-              <input type="image" class="plataforma" src="assets/img/disney.png" />
+              <a
+                class="nav-link active"
+                aria-current="page"
+                [routerLink]="['/pelicula/list', 'disney']"
+                aria-expanded="false"
+                ><input
+                  type="image"
+                  class="plataforma"
+                  src="assets/img/disney.png"
+              /></a>
             </div>
           </div>
         </form>
       </content>
-
     </li>
     <li>
-      <input type="checkbox" checked>
+      <input type="checkbox" checked />
       <i></i>
       <h2>Género</h2>
       <content>
         <form action="/action_page.php">
           <div class="row">
             <div class="col" id="generos1">
-              <input type="radio" id="accion" name="accion" value="Acción">
-              <label for="accion">Acción</label><br>
+              <input type="radio" id="accion" name="accion" value="Acción" />
+              <label for="accion">Acción</label><br />
 
-              <input type="radio" id="aventuras" name="aventuras" value="Aventuras">
-              <label for="aventuras">Aventuras</label><br>
+              <input
+                type="radio"
+                id="aventuras"
+                name="aventuras"
+                value="Aventuras"
+              />
+              <label for="aventuras">Aventuras</label><br />
 
-              <input type="radio" id="suspenso" name="suspenso" value="Suspenso">
-              <label for="suspenso">Suspenso</label><br>
+              <input
+                type="radio"
+                id="suspenso"
+                name="suspenso"
+                value="Suspenso"
+              />
+              <label for="suspenso">Suspenso</label><br />
 
-              <input type="radio" id="comedia" name="comedia" value="Comedia">
-              <label for="comedia">Comedia</label><br>
+              <input type="radio" id="comedia" name="comedia" value="Comedia" />
+              <label for="comedia">Comedia</label><br />
 
-              <input type="radio" id="drama" name="drama" value="Drama">
-              <label for="drama">Drama</label><br>
+              <input type="radio" id="drama" name="drama" value="Drama" />
+              <label for="drama">Drama</label><br />
             </div>
             <div class="col" id="generos2">
-              <input type="radio" id="cienciaficcion" name="cienciaficcion" value="Ciencia Ficción">
-              <label for="cienciaficcion">Ciencia Ficción</label><br>
+              <input
+                type="radio"
+                id="cienciaficcion"
+                name="cienciaficcion"
+                value="Ciencia Ficción"
+              />
+              <label for="cienciaficcion">Ciencia Ficción</label><br />
 
-              <input type="radio" id="musical" name="musical" value="Musical">
-              <label for="musical">Musical</label><br>
+              <input type="radio" id="musical" name="musical" value="Musical" />
+              <label for="musical">Musical</label><br />
 
-              <input type="radio" id="fantasia" name="fantasia" value="Fantasía">
-              <label for="fantasia">Fantasía</label><br>
+              <input
+                type="radio"
+                id="fantasia"
+                name="fantasia"
+                value="Fantasía"
+              />
+              <label for="fantasia">Fantasía</label><br />
 
-              <input type="radio" id="terror" name="terror" value="Terror">
-              <label for="terror">Terror</label><br>
+              <input type="radio" id="terror" name="terror" value="Terror" />
+              <label for="terror">Terror</label><br />
 
-              <input type="radio" id="infantil" name="infantil" value="Infantil">
-              <label for="infantil">Infantil</label><br>
+              <input
+                type="radio"
+                id="infantil"
+                name="infantil"
+                value="Infantil"
+              />
+              <label for="infantil">Infantil</label><br />
             </div>
           </div>
         </form>
       </content>
     </li>
     <li>
-      <input type="checkbox" checked>
+      <input type="checkbox" checked />
       <i></i>
       <h2>Premios ganados</h2>
       <content>
@@ -97,27 +163,58 @@
       </content>
     </li>
     <li>
-      <input type="checkbox" checked>
+      <input type="checkbox" checked />
       <i></i>
-      <h2>Rating</h2> <!-- Calificación -->
+      <h2>Rating</h2>
+      <!-- Calificación -->
       <content>
         <form action="/action_page.php">
           <div class="row">
             <div class="col" id="rating">
-              <input type="radio" id="g-generalaudiences" name="g-generalaudiences" value="G – General Audiences">
-              <label for="g-generalaudiences">G – General Audiences</label><br>
+              <input
+                type="radio"
+                id="g-generalaudiences"
+                name="g-generalaudiences"
+                value="G – General Audiences"
+              />
+              <label for="g-generalaudiences">G – General Audiences</label
+              ><br />
 
-              <input type="radio" id="pg-parentalguidancesuggested" name="pg-parentalguidancesuggested" value="PG – Parental Guidance Suggested">
-              <label for="pg-parentalguidancesuggested">PG – Parental Guidance Suggested</label><br>
+              <input
+                type="radio"
+                id="pg-parentalguidancesuggested"
+                name="pg-parentalguidancesuggested"
+                value="PG – Parental Guidance Suggested"
+              />
+              <label for="pg-parentalguidancesuggested"
+                >PG – Parental Guidance Suggested</label
+              ><br />
 
-              <input type="radio" id="pg-13-parentsstronglycautioned" name="pg-13-parentsstronglycautioned" value="PG-13 – Parents Strongly Cautioned">
-              <label for="pg-13-parentsstronglycautioned">PG-13 – Parents Strongly Cautioned</label><br>
+              <input
+                type="radio"
+                id="pg-13-parentsstronglycautioned"
+                name="pg-13-parentsstronglycautioned"
+                value="PG-13 – Parents Strongly Cautioned"
+              />
+              <label for="pg-13-parentsstronglycautioned"
+                >PG-13 – Parents Strongly Cautioned</label
+              ><br />
 
-              <input type="radio" id="r-restricted" name="r-restricted" value="R – Restricted">
-              <label for="r-restricted">R – Restricted</label><br>
+              <input
+                type="radio"
+                id="r-restricted"
+                name="r-restricted"
+                value="R – Restricted"
+              />
+              <label for="r-restricted">R – Restricted</label><br />
 
-              <input type="radio" id="nc-17-adultsonly" name="nc-17-adultsonly" value="NC-17 – Adults Only">
-              <label for="nc-17-adultsonly">NC-17 – Adults Only</label><br>
+              <input
+                type="radio"
+                id="nc-17-adultsonly"
+                name="nc-17-adultsonly"
+                value="NC-17 – Adults Only"
+              />
+              <label for="nc-17-adultsonly">NC-17 – Adults Only</label><br />
             </div>
           </div>
         </form>
@@ -125,25 +222,25 @@
     </li>
   </ul>
 </div>
-<br>
-    <mat-divider></mat-divider>
+<br />
+<mat-divider></mat-divider>
 
-    <button mat-button class="menu-button" routerLink="/home">
-      <mat-icon>home</mat-icon>
-      <span>Home</span>
-    </button>
-    <button mat-button class="menu-button" routerLink="/profile">
-      <mat-icon>person</mat-icon>
-      <span>Profile</span>
-    </button>
-    <button mat-button class="menu-button" routerLink="/about">
-      <mat-icon>info</mat-icon>
-      <span>About</span>
-    </button>
+<button mat-button class="menu-button" routerLink="/home">
+  <mat-icon>home</mat-icon>
+  <span>Home</span>
+</button>
+<button mat-button class="menu-button" routerLink="/profile">
+  <mat-icon>person</mat-icon>
+  <span>Profile</span>
+</button>
+<button mat-button class="menu-button" routerLink="/about">
+  <mat-icon>info</mat-icon>
+  <span>About</span>
+</button>
 
-    <mat-divider></mat-divider>
+<mat-divider></mat-divider>
 
-    <button mat-button class="menu-button" routerLink="/help">
-      <mat-icon>help</mat-icon>
-      <span>Help</span>
-    </button>
+<button mat-button class="menu-button" routerLink="/help">
+  <mat-icon>help</mat-icon>
+  <span>Help</span>
+</button>

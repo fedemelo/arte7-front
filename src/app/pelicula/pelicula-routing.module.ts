@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PeliculaListComponent } from './pelicula-list/pelicula-list.component';
+import { PeliculaFilteredComponent } from './pelicula-filtered/pelicula-filtered.component';
 import { PeliculaDetailComponent } from './pelicula-detail/pelicula-detail.component';
 import { VistaPrincipalComponent } from './vista-principal/vista-principal.component';
 
@@ -11,6 +12,10 @@ const routes: Routes = [{
     {
       path: 'list',
       component: PeliculaListComponent
+    },
+    {
+      path: 'list/:filtro',
+      component: PeliculaFilteredComponent
     },
     {
       path: ':id',

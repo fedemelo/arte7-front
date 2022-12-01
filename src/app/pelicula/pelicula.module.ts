@@ -4,11 +4,12 @@ import { VistaPrincipalComponent } from './vista-principal/vista-principal.compo
 import { MenuFiltrosComponent } from './menu-filtros/menu-filtros.component';
 import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.component';
 import { PeliculaListComponent } from './pelicula-list/pelicula-list.component';
+import { PeliculaFilteredComponent } from './pelicula-filtered/pelicula-filtered.component';
 
 import { NominacionComponent } from './nominacion/nominacion.component';
 import { PremioComponent } from './premio/premio.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
-import { MatToolbarModule } from '@angular/material/toolbar'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterModule } from '@angular/router';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatLegacyButtonModule as MatButtonModule } from '@angular/material/legacy-button';
@@ -18,7 +19,7 @@ import { PeliculaDetailComponent } from './pelicula-detail/pelicula-detail.compo
 import { ResenhaModule } from '../resenha/resenha.module';
 import { GeneroModule } from '../genero/genero.module';
 import { PlataformaModule } from '../plataforma/plataforma.module';
-import { YouTubePlayerModule } from "@angular/youtube-player";
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
   imports: [
@@ -42,7 +43,8 @@ import { YouTubePlayerModule } from "@angular/youtube-player";
     VistaPrincipalComponent,
     MenuFiltrosComponent,
     BarraNavegacionComponent,
-    PeliculaListComponent
+    PeliculaListComponent,
+    PeliculaFilteredComponent,
   ],
   declarations: [
     NominacionComponent,
@@ -52,7 +54,8 @@ import { YouTubePlayerModule } from "@angular/youtube-player";
     PeliculaDetailComponent,
     MenuFiltrosComponent,
     BarraNavegacionComponent,
-    PeliculaListComponent
-  ]
+    PeliculaListComponent,
+    PeliculaFilteredComponent,
+  ],
 })
-export class PeliculaModule { }
+export class PeliculaModule {}

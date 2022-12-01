@@ -47,12 +47,17 @@
         </li>
       </ul>
     </div>
-    <form class="navbar-form navbar-left" action="/action_page.php">
+    <div class="navbar-form navbar-left">
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search" />
-        <div class="input-group-btn">
-          <button class="btn btn-default" type="submit">
-            <svg
+        <input type="text" id="busquedita" placeholder="Buscar películas" (mouseout)="busqueda()" (mouseup)="busqueda()" />
+        <div class="input-group-btn">&nbsp;
+          <button (click)="refresh()">
+            <a
+                class="nav-link active"
+                aria-current="page"
+                [routerLink]="['/pelicula/list', valor]"
+                aria-expanded="false"
+                ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
               height="20"
@@ -63,10 +68,10 @@
               <path
                 d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
               />
-            </svg>
+            </svg></a>
           </button>
         </div>
       </div>
-    </form>
+    </div>
   </div>
 </nav>
