@@ -14,14 +14,17 @@ img {
   background-color: rgb(27, 27, 27);
 }
 
-.h2 {
-  color: white;
+h1 {
+  color:rgb(255,70,70);
 }
 
+#titulo{
+  color: rgb(255,70,70);
+}
 .card-body{
   color: white
 }
 
 .p-top{
-  color:rgb(148, 143, 143)
+  color:rgb(200, 200, 200)
 }

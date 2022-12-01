@@ -7,9 +7,9 @@
   height: 290px;
   max-width: 230px;
   object-fit: cover;
- }
+}
 .h2 {
-  color: white;
+  color: rgb(255, 70, 70);
 }
 
 .card-body{
@@ -19,4 +19,8 @@
 .img {
   height: 200px;
   max-width: 200px;
+}
+
+#titulo{
+  color: rgb(255, 70, 70);
 }
