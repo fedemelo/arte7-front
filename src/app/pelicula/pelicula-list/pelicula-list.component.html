@@ -5,7 +5,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col mb-2" *ngFor="let pelicula of peliculas">
+    <div class="col mb-2" *ngFor="let pelicula of filter(peliculas)">
           <div class="card p-2" style="width: 15rem; height: 29rem" *ngIf="selected==false">
             <a
             class="card-block text-decoration-none"

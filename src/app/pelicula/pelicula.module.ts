@@ -4,7 +4,6 @@ import { VistaPrincipalComponent } from './vista-principal/vista-principal.compo
 import { MenuFiltrosComponent } from './menu-filtros/menu-filtros.component';
 import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.component';
 import { PeliculaListComponent } from './pelicula-list/pelicula-list.component';
-import { PeliculaFilteredComponent } from './pelicula-filtered/pelicula-filtered.component';
 
 import { NominacionComponent } from './nominacion/nominacion.component';
 import { PremioComponent } from './premio/premio.component';
@@ -44,7 +43,6 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
     MenuFiltrosComponent,
     BarraNavegacionComponent,
     PeliculaListComponent,
-    PeliculaFilteredComponent,
   ],
   declarations: [
     NominacionComponent,
@@ -55,7 +53,6 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
     MenuFiltrosComponent,
     BarraNavegacionComponent,
     PeliculaListComponent,
-    PeliculaFilteredComponent,
   ],
 })
 export class PeliculaModule {}
