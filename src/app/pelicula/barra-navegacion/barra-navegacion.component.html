@@ -26,9 +26,9 @@
         <li class="nav-item active">
           <a
             class="nav-link active"
-            routerLink="/actor/list"
             aria-current="page"
             aria-expanded="false"
+            (click)="redirectTo(['/actor/list'])"
             >Actores
           </a>
         </li>
@@ -36,9 +36,9 @@
         <li class="nav-item active">
           <a
             class="nav-link active"
-            routerLink="/director/list"
             aria-current="page"
             aria-expanded="false"
+            (click)="redirectTo(['/director/list'])"
             >Directores</a
           >
         </li>
