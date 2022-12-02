@@ -28,6 +28,11 @@ insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estre
 insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (13, 'Star Wars: Episodio VII - El despertar de la Fuerza','https://comicparatodos.files.wordpress.com/2015/12/cartel-star-wars-644x1200.jpg', 8100 ,'Estados Unidos','2015-12-17','https://www.youtube.com/watch?v=5eKLdSDGh9k', 61 , 4.8 );
 insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (14, 'Get Out', 'https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_.jpg', 6240 , 'Estados Unidos', '2017-02-24', 'https://www.youtube.com/watch?v=koQKnuQb7zQ', 82 , 4.6);
 insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (15, 'El último emperador', 'https://www.themoviedb.org/t/p/original/mVUWcmVL0xZWaOU0h2HXsViCwpg.jpg', 9600 , 'Italia, China, Francia y Reino Unido', '1987-10-23', 'https://www.youtube.com/watch?v=A4cH6g1wD5g', 60 , 4.5);
+insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (16, 'El Grinch', 'https://www.ecartelera.com/carteles/4500/4572/001_m.jpg', 6300 , 'Estados Unidos', '2000-12-01', 'https://youtu.be/I457Tv4aaRY', 92 , 4.2);
+insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (17, '', '',  , '', '', '',  , );
+insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (18, '', '',  , '', '', '',  , );
+insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (19, '', '',  , '', '', '',  , );
+insert into PELICULA_ENTITY (id, nombre, poster, duracion_sec, pais, fecha_estreno, url, visitas, estrellas_promedio) values (20, '', '',  , '', '', '',  , );
 
 
 insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (1, 'Tom Hooper' , 'https://es.web.img2.acsta.net/r_1920_1080/pictures/15/08/07/23/02/408747.jpg' , 'Britanica' , '1972-10-05' , 'Thomas George -Tom- Hooper es un director, guionista y productor británico, ganador de un Óscar. Su película El discurso del rey ganó cuatro premios Óscar, entre ellos mejor director y mejor película.');
@@ -45,6 +50,11 @@ insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimie
 insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (13, 'J. J. Abrams' , 'https://upload.wikimedia.org/wikipedia/commons/4/4a/J._J._Abrams_%2823175170706%29_%28cropped%29.jpg' , 'Estadounidense' , '1966-06-27' , 'Jeffrey Jacob Abrams, más conocido como J. J. Abrams, es un director, productor, guionista, actor y compositor de cine y televisión estadounidense. Es propietario de la productora de cine Bad Robot Productions.');
 insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (14, 'Jordan Peele','https://upload.wikimedia.org/wikipedia/commons/3/30/Jordan_Peele_Peabody_2014_%28cropped%29.jpg','Estadounidense','1979-02-21','Jordan Haworth Peele es un actor, comediante, director y guionista estadounidense. Peele saltó a la fama como actor gracias a su papel protagónico en la serie de comedia Key & Peele. .');
 insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (15, 'Bernardo Bertolucci', 'https://images.mubicdn.net/images/cast_member/1865/cache-48-1608668505/image-w856.jpg?size=800x', 'Italiana', '1941-03-16', 'Bernardo Bertolucci fue un director de cine y guionista italiano, entre cuyas películas se incluyen El último tango en París, Novecento, El último emperador y Belleza robada..');
+insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (16, '', '', '', '', '');
+insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (17, '', '', '', '', '');
+insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (18, '', '', '', '', '');
+insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (19, '', '', '', '', '');
+insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (20, '', '', '', '', '');
 
 
 insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (1, 'Colin Firth' , 'https://es.web.img3.acsta.net/pictures/16/05/17/10/21/507039.jpg' , 'Britanica' , '1960-09-11' , 'Colin Andrew Firth es un actor y productor de cine británico. Sus 42 películas han recaudado más de 500 millones de dólares en todo el mundo..');
@@ -123,6 +133,31 @@ insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento
 insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (74, 'Peter O-Toole', 'https://upload.wikimedia.org/wikipedia/commons/5/53/Peter_O%27Toole_-_1968.jpg', 'Irlandesa', '1932-08-02', 'Peter Seamus O-Toole, conocido como Peter O-Toole, fue un actor irlandés.');
 insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (75, 'Joan Chen', 'https://www.ecured.cu/images/5/5f/198-joan-chen-220141_%28Small%29.jpg', 'Chinoestadounidense', '1961-04-26', 'Joan Chong Chen es una actriz, directora de cine, guionista y productora chinoestadounidense.');
 insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (76, 'Ying Ruocheng', 'https://www.chinadaily.com.cn/en/doc/2003-12/28/xinsrc_386eb4d70858421e9a2721f113e58da2_ying.jpg', 'China', '1929-06-21', 'Ying Ruocheng was a Chinese actor, director, playwright and vice minister of culture from 1986 to 1990..');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (77, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (78, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (79, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (80, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (81, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (82, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (83, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (84, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (85, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (86, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (87, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (88, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (89, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (90, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (91, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (92, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (93, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (94, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (95, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (96, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (97, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (98, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (99, '', '', '', '', '');
+insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (100, '', '', '', '', '');
+
 
 insert into GENERO_ENTITY (id, nombre) values (1,'Acción');
 insert into GENERO_ENTITY (id, nombre) values (2,'Animado');
@@ -302,6 +337,30 @@ insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (73,15);
 insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (74,15);
 insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (75,15);
 insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (76,15);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,16);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,16);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,16);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,16);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,16);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,17);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,17);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,17);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,17);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,17);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,18);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,18);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,18);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,18);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,18);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,19);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,19);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,19);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,19);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,19);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,20);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,20);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,20);
+insert into ACTOR_ENTITY_PELICULAS (actores_id , peliculas_id) values (,20);
 
 
 insert into DIRECTOR_ENTITY_PELICULAS (directores_id,peliculas_id) values (1,1);
@@ -319,6 +378,11 @@ insert into DIRECTOR_ENTITY_PELICULAS (directores_id,peliculas_id) values (12,12
 insert into DIRECTOR_ENTITY_PELICULAS (directores_id,peliculas_id) values (13,13);
 insert into DIRECTOR_ENTITY_PELICULAS (directores_id,peliculas_id) values (14,14);
 insert into DIRECTOR_ENTITY_PELICULAS (directores_id,peliculas_id) values (15,15);
+insert into DIRECTOR_ENTITY_PELICULAS (directores_id,peliculas_id) values (,16);
+insert into DIRECTOR_ENTITY_PELICULAS (directores_id,peliculas_id) values (,17);
+insert into DIRECTOR_ENTITY_PELICULAS (directores_id,peliculas_id) values (,18);
+insert into DIRECTOR_ENTITY_PELICULAS (directores_id,peliculas_id) values (,19);
+insert into DIRECTOR_ENTITY_PELICULAS (directores_id,peliculas_id) values (,20);
 
 
 insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (7,1);
@@ -373,6 +437,25 @@ insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (14,14);
 insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (15,14);
 insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (7,15);
 insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (9,15);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (5,16);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (7,16);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (8,16);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,17);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,17);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,17);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,17);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,18);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,18);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,18);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,18);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,19);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,19);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,19);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,19);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,20);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,20);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,20);
+insert into GENERO_ENTITY_PELICULAS (generos_id,peliculas_id) values (,20);
 
 
 insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (2,1);
@@ -399,6 +482,21 @@ insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (4,
 insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (3,14);
 insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (3,15);
 insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (5,15);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (1,16);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (3,16);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (5,16);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (,17);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (,17);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (,17);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (,18);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (,18);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (,18);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (,19);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (,19);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (,19);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (,20);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (,20);
+insert into PLATAFORMA_ENTITY_PELICULAS (plataformas_id,peliculas_id) values (,20);
 
 
 insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (1,1);
@@ -518,6 +616,42 @@ insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (9
 insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (16,15);
 insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (19,15);
 insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (7,15);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,16);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,16);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,16);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,16);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,16);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,16);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,17);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,17);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,17);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,17);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,17);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,17);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,18);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,18);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,18);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,18);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,18);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,18);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,19);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,19);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,19);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,19);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,19);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,19);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,20);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,20);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,20);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,20);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,20);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,20);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,);
+insert into NOMINACION_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,);
+
 
 
 insert into PREMIO_ENTITY_PELICULAS (premios_id,peliculas_id) values(1,1);
@@ -576,3 +710,38 @@ insert into PREMIO_ENTITY_PELICULAS (premios_id,peliculas_id) values(10,15);
 insert into PREMIO_ENTITY_PELICULAS (premios_id,peliculas_id) values(16,15);
 insert into PREMIO_ENTITY_PELICULAS (premios_id,peliculas_id) values(19,15);
 insert into PREMIO_ENTITY_PELICULAS (premios_id,peliculas_id) values(9,15);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,16);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,16);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,16);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,16);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,16);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,16);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,17);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,17);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,17);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,17);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,17);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,17);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,18);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,18);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,18);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,18);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,18);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,18);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,19);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,19);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,19);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,19);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,19);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,19);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,20);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,20);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,20);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,20);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,20);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,20);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,);
+insert into PREMIO_ENTITY_PELICULAS (nominaciones_id,peliculas_id) values (,);

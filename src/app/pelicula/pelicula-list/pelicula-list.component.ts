@@ -62,6 +62,9 @@ export class PeliculaListComponent implements OnInit {
     else if (this.name == 'accion') {
       filterName = 'Acción';
       fun = this.tieneGenero;
+    } else if (this.name == 'animado') {
+      filterName = 'Animado';
+      fun = this.tieneGenero;
     } else if (this.name == 'aventuras') {
       filterName = 'Aventura';
       fun = this.tieneGenero;
@@ -75,7 +78,7 @@ export class PeliculaListComponent implements OnInit {
       filterName = 'Drama';
       fun = this.tieneGenero;
     } else if (this.name == 'cienciaficcion') {
-      filterName = 'Ciencia Ficción';
+      filterName = 'Ciencia ficción';
       fun = this.tieneGenero;
     } else if (this.name == 'musical') {
       filterName = 'Musical';
@@ -86,8 +89,17 @@ export class PeliculaListComponent implements OnInit {
     } else if (this.name == 'terror') {
       filterName = 'Terror';
       fun = this.tieneGenero;
-    } else if (this.name == 'infantil') {
-      filterName = 'Infantil';
+    } else if (this.name == 'historia') {
+      filterName = 'Historia';
+      fun = this.tieneGenero;
+    } else if (this.name == 'misterio') {
+      filterName = 'Misterio';
+      fun = this.tieneGenero;
+    } else if (this.name == 'romance') {
+        filterName = 'Romance';
+        fun = this.tieneGenero;
+    } else if (this.name == 'superheroes') {
+      filterName = 'Superhéroes';
       fun = this.tieneGenero;
     }
 

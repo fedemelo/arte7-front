@@ -1,69 +1,50 @@
-<h2>Filtros</h2>
+<h2>Filtrar por ...</h2>
 
 <div id="faq">
   <ul>
     <li>
       <input type="checkbox" checked />
-      <i></i>
+      <em></em>
       <h2>Fecha de estreno</h2>
       <content>
+        <br>
         <label for="fecha">Películas estrenadas desde: &nbsp;</label>
-        <input
-          type="date"
-          id="fecha"
-          name="fecha"
-          value="2020-11-20"
-          min="2000-01-01"
-          max="2022-12-31"
-          width="400px"
-        /><input
-          type="submit"
-          value="Filtrar"
-          (click)="redirectTo(['/pelicula/list', valor])"
-          (mouseenter)="fechar()"
-        />
+        <input type="date" id="fecha" name="fecha" value="2020-11-20" min="1950-01-01" max="2022-12-31"
+          width="400px" /><input type="submit" value="Filtrar" (click)="redirectTo(['/pelicula/list', valor])"
+          (mouseenter)="fechar()" />
       </content>
     </li>
     <li>
       <input type="checkbox" checked />
-      <i></i>
+      <em></em>
       <h2>Plataforma</h2>
       <content>
+        <br>
         <form>
           <div class="row">
             <div class="col-sm">
-              <input
-                type="image"
-                class="plataforma"
-                src="assets/img/netflix.png"
-                (click)="redirectTo(['/pelicula/list', 'netflix'])"
-              />
+              <input type="image" class="plataforma rounded" src="assets/img/netflix.png" alt="Logo Netflix"
+                (click)="redirectTo(['/pelicula/list', 'netflix'])" />
             </div>
             <div class="col-sm">
-              <input
-                type="image"
-                class="plataforma"
-                src="assets/img/prime.png"
-                (click)="redirectTo(['/pelicula/list', 'prime'])"
-              />
+              <input type="image" class="plataforma rounded" src="assets/img/prime.png" alt="Logo Prime Video"
+                (click)="redirectTo(['/pelicula/list', 'prime'])" />
             </div>
           </div>
           <div class="row">
             <div class="col-sm">
-              <input
-                type="image"
-                class="plataforma"
-                src="assets/img/hbo.png"
-                (click)="redirectTo(['/pelicula/list', 'hbo'])"
-              />
+              <input type="image" class="plataforma rounded" src="assets/img/hbo.png" alt="Logo HBO Max"
+                (click)="redirectTo(['/pelicula/list', 'hbo'])" />
             </div>
             <div class="col-sm">
-              <input
-                type="image"
-                class="plataforma"
-                src="assets/img/disney.png"
-                (click)="redirectTo(['/pelicula/list', 'disney'])"
-              />
+              <input type="image" class="plataforma rounded" src="assets/img/disney.png" alt="Logo Disney+"
+                (click)="redirectTo(['/pelicula/list', 'disney'])" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <input type="image" class="plataforma rounded" src="assets/img/apple.png" alt="Logo HBO Max"
+                (click)="redirectTo(['/pelicula/list', 'apple'])" />
             </div>
           </div>
         </form>
@@ -71,96 +52,74 @@
     </li>
     <li>
       <input type="checkbox" checked />
-      <i></i>
+      <em></em>
       <h2>Género</h2>
       <content>
+        <br>
         <form action="/action_page.php">
           <div class="row">
             <div class="col" id="generos1">
-              <input type="button" id="accion" name="accion" value="Acción" />
+
+              <input type="button" class="btn btn-outline-dark" id="accion" name="accion" value="Acción"
+                (click)="redirectTo(['/pelicula/list', 'accion'])"/>
               <label for="accion"></label><br />
 
-              <input
-                type="button"
-                id="aventuras"
-                name="aventuras"
-                value="Aventura"
-                (click)="redirectTo(['/pelicula/list', 'aventuras'])"
-              />
+              <input type="button" class="btn btn-outline-dark" id="animado" name="animado" value="Animado"
+                (click)="redirectTo(['/pelicula/list', 'animado'])" />
+              <label for="animado"></label><br />
+
+              <input type="button" class="btn btn-outline-dark" id="aventuras" name="aventuras" value="Aventura"
+                (click)="redirectTo(['/pelicula/list', 'aventuras'])" />
               <label for="aventuras"></label><br />
 
-              <input
-                type="button"
-                id="suspenso"
-                name="suspenso"
-                value="Suspenso"
-                (click)="redirectTo(['/pelicula/list', 'suspenso'])"
-              />
-              <label for="suspenso"></label><br />
-
-              <input
-                type="button"
-                id="comedia"
-                name="comedia"
-                value="Comedia"
-                (click)="redirectTo(['/pelicula/list', 'comedia'])"
-              />
-              <label for="comedia"></label><br />
-
-              <input
-                type="button"
-                id="drama"
-                name="drama"
-                value="Drama"
-                (click)="redirectTo(['/pelicula/list', 'drama'])"
-              />
-              <label for="drama"></label><br />
-            </div>
-            <div class="col" id="generos2">
-              <input
-                type="button"
-                id="cienciaficcion"
-                name="cienciaficcion"
-                value="Ciencia Ficción"
-                (click)="redirectTo(['/pelicula/list', 'cienciaficcion'])"
-              />
+              <input type="button" class="btn btn-outline-dark" id="cienciaficcion" name="cienciaficcion" value="Ciencia Ficción"
+                (click)="redirectTo(['/pelicula/list', 'cienciaficcion'])" />
               <label for="cienciaficcion"></label><br />
 
-              <input
-                type="button"
-                id="musical"
-                name="musical"
-                value="Musical"
-                (click)="redirectTo(['/pelicula/list', 'musical'])"
-              />
-              <label for="musical"></label><br />
+              <input type="button" class="btn btn-outline-dark" id="comedia" name="comedia" value="Comedia"
+                (click)="redirectTo(['/pelicula/list', 'comedia'])" />
+              <label for="comedia"></label><br />
 
-              <input
-                type="button"
-                id="fantasia"
-                name="fantasia"
-                value="Fantasía"
-                (click)="redirectTo(['/pelicula/list', 'fantasia'])"
-              />
+            </div>
+            <div class="col" id="generos2">
+
+              <input type="button" class="btn btn-outline-dark" id="drama" name="drama" value="Drama"
+                (click)="redirectTo(['/pelicula/list', 'drama'])" />
+              <label for="drama"></label><br />
+
+              <input type="button" class="btn btn-outline-dark" id="fantasia" name="fantasia" value="Fantasía"
+                (click)="redirectTo(['/pelicula/list', 'fantasia'])" />
               <label for="fantasia"></label><br />
 
-              <input
-                type="button"
-                id="terror"
-                name="terror"
-                value="Terror"
-                (click)="redirectTo(['/pelicula/list', 'terror'])"
-              />
-              <label for="terror"></label><br />
+              <input type="button" class="btn btn-outline-dark" id="historia" name="historia" value="Historia"
+                (click)="redirectTo(['/pelicula/list', 'historia'])" />
+              <label for="historia"></label><br />
 
-              <input
-                type="button"
-                id="infantil"
-                name="infantil"
-                value="Infantil"
-                (click)="redirectTo(['/pelicula/list', 'infantil'])"
-              />
-              <label for="infantil"></label><br />
+              <input type="button" class="btn btn-outline-dark" id="misterio" name="misterio" value="Misterio"
+                (click)="redirectTo(['/pelicula/list', 'misterio'])" />
+              <label for="misterio"></label><br />
+
+              <input type="button" class="btn btn-outline-dark" id="musical" name="musical" value="Musical"
+                (click)="redirectTo(['/pelicula/list', 'musical'])" />
+              <label for="musical"></label><br />
+
+            </div>
+            <div class="col" id="generos3">
+              <input type="button" class="btn btn-outline-dark" id="romance" name="romance" value="Romance"
+                (click)="redirectTo(['/pelicula/list', 'romance'])" />
+              <label for="romance"></label><br />
+
+              <input type="button" class="btn btn-outline-dark" id="superheroes" name="superheroes" value="Superhéroes"
+                (click)="redirectTo(['/pelicula/list', 'superheroes'])" />
+              <label for="superheroes"></label><br />
+
+              <input type="button" class="btn btn-outline-dark" id="suspenso" name="suspenso" value="Suspenso"
+                (click)="redirectTo(['/pelicula/list', 'suspenso'])" />
+              <label for="suspenso"></label><br />
+
+              <input type="button" class="btn btn-outline-dark" id="terror" name="terror" value="Terror"
+                (click)="redirectTo(['/pelicula/list', 'terror'])" />
+              <label for="terror"></label><br />
             </div>
           </div>
         </form>
@@ -168,22 +127,15 @@
     </li>
     <li>
       <input type="checkbox" checked />
-      <i></i>
+      <em></em>
       <h2>Premios ganados</h2>
       <content>
+        <br>
         <form>
-          <input
-            type="image"
-            class="premio"
-            src="assets/img/golden.png"
-            (click)="redirectTo(['/pelicula/list', 'golden'])"
-          />
-          <input
-            type="image"
-            class="premio"
-            src="assets/img/oscars.png"
-            (click)="redirectTo(['/pelicula/list', 'oscars'])"
-          />
+          <input type="image" class="premio rounded" src="assets/img/golden.png" alt="imgOscar"
+            (click)="redirectTo(['/pelicula/list', 'golden'])" />
+          <input type="image" class="premio rounded" src="assets/img/oscars.png" alt="imgGlobosDeOro"
+            (click)="redirectTo(['/pelicula/list', 'oscars'])" />
         </form>
       </content>
     </li>
@@ -192,11 +144,7 @@
 <br />
 <mat-divider></mat-divider>
 
-<button
-  mat-button
-  class="menu-button"
-  (click)="redirectTo(['/pelicula/principal'])"
->
+<button mat-button class="menu-button" (click)="redirectTo(['/pelicula/principal'])">
   <mat-icon>home</mat-icon>
   <span>Home</span>
 </button>
