@@ -172,66 +172,18 @@
       <h2>Premios ganados</h2>
       <content>
         <form>
-          <input type="image" class="premio" src="assets/img/golden.png" />
-          <input type="image" class="premio" src="assets/img/oscars.png" />
-        </form>
-      </content>
-    </li>
-    <li>
-      <input type="checkbox" checked />
-      <i></i>
-      <h2>Rating</h2>
-      <!-- Calificación -->
-      <content>
-        <form action="/action_page.php">
-          <div class="row">
-            <div class="col" id="rating">
-              <input
-                type="button"
-                id="g-generalaudiences"
-                name="g-generalaudiences"
-                value="G – General Audiences"
-              />
-              <label for="g-generalaudiences">G – General Audiences</label
-              ><br />
-
-              <input
-                type="button"
-                id="pg-parentalguidancesuggested"
-                name="pg-parentalguidancesuggested"
-                value="PG – Parental Guidance Suggested"
-              />
-              <label for="pg-parentalguidancesuggested"
-                >PG – Parental Guidance Suggested</label
-              ><br />
-
-              <input
-                type="button"
-                id="pg-13-parentsstronglycautioned"
-                name="pg-13-parentsstronglycautioned"
-                value="PG-13 – Parents Strongly Cautioned"
-              />
-              <label for="pg-13-parentsstronglycautioned"
-                >PG-13 – Parents Strongly Cautioned</label
-              ><br />
-
-              <input
-                type="button"
-                id="r-restricted"
-                name="r-restricted"
-                value="R – Restricted"
-              />
-              <label for="r-restricted">R – Restricted</label><br />
-
-              <input
-                type="button"
-                id="nc-17-adultsonly"
-                name="nc-17-adultsonly"
-                value="NC-17 – Adults Only"
-              />
-              <label for="nc-17-adultsonly">NC-17 – Adults Only</label><br />
-            </div>
-          </div>
+          <input
+            type="image"
+            class="premio"
+            src="assets/img/golden.png"
+            (click)="redirectTo(['/pelicula/list', 'golden'])"
+          />
+          <input
+            type="image"
+            class="premio"
+            src="assets/img/oscars.png"
+            (click)="redirectTo(['/pelicula/list', 'oscars'])"
+          />
         </form>
       </content>
     </li>

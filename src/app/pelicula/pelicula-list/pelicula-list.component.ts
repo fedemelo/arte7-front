@@ -91,6 +91,14 @@ export class PeliculaListComponent implements OnInit {
       fun = this.tieneGenero;
     }
 
+    else if (this.name == 'golden') {
+      filterName = 'Premios Globo de Oro';
+      fun = this.tienePremio;
+    } else if (this.name == 'oscars') {
+      filterName = 'Premios Oscar';
+      fun = this.tienePremio;
+    }
+
     let peliculasFiltradas: PeliculaDetail[] = peliculas.filter((pelicula) => {
       return fun(pelicula, filterName);
     });
@@ -105,6 +113,17 @@ export class PeliculaListComponent implements OnInit {
     let esta: boolean = false;
     pelicula.plataformas.forEach((plat) => {
       if (plat.nombre == plataforma) {
+        esta = true;
+      }
+    });
+
+    return esta;
+  }
+
+  tienePremio(pelicula: PeliculaDetail, premio: string): boolean {
+    let esta: boolean = false;
+    pelicula.premios.forEach((prem) => {
+      if (prem.nombre == premio) {
         esta = true;
       }
     });
