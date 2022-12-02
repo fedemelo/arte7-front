@@ -21,30 +21,28 @@
       <content>
         <br>
         <form>
-          <div class="row">
-            <div class="col-sm">
-              <input type="image" class="plataforma rounded" src="assets/img/netflix.png" alt="Logo Netflix"
-                (click)="redirectTo(['/pelicula/list', 'netflix'])" />
-            </div>
-            <div class="col-sm">
-              <input type="image" class="plataforma rounded" src="assets/img/prime.png" alt="Logo Prime Video"
-                (click)="redirectTo(['/pelicula/list', 'prime'])" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm">
-              <input type="image" class="plataforma rounded" src="assets/img/hbo.png" alt="Logo HBO Max"
-                (click)="redirectTo(['/pelicula/list', 'hbo'])" />
-            </div>
-            <div class="col-sm">
-              <input type="image" class="plataforma rounded" src="assets/img/disney.png" alt="Logo Disney+"
-                (click)="redirectTo(['/pelicula/list', 'disney'])" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm">
-              <input type="image" class="plataforma rounded" src="assets/img/apple.png" alt="Logo HBO Max"
-                (click)="redirectTo(['/pelicula/list', 'apple'])" />
+          <div lass="container">
+            <div class="row">
+              <div class="col">
+                <input type="image" class="plataforma rounded" src="assets/img/netflix.png" alt="Logo Netflix"
+                  (click)="redirectTo(['/pelicula/list', 'netflix'])" />
+              </div>
+              <div class="col">
+                <input type="image" class="plataforma rounded" src="assets/img/prime.png" alt="Logo Prime Video"
+                  (click)="redirectTo(['/pelicula/list', 'prime'])" />
+              </div>
+              <div class="col">
+                <input type="image" class="plataforma rounded" src="assets/img/hbo.png" alt="Logo HBO Max"
+                  (click)="redirectTo(['/pelicula/list', 'hbo'])" />
+              </div>
+              <div class="col">
+                <input type="image" class="plataforma rounded" src="assets/img/disney.png" alt="Logo Disney+"
+                  (click)="redirectTo(['/pelicula/list', 'disney'])" />
+              </div>
+              <div class="col">
+                <input type="image" class="plataforma rounded" src="assets/img/apple.png" alt="Logo HBO Max"
+                  (click)="redirectTo(['/pelicula/list', 'apple'])" />
+              </div>
             </div>
           </div>
         </form>
