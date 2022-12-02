@@ -12,6 +12,10 @@ import { Actor } from 'src/app/actor/actor';
 import { Director } from 'src/app/director/director';
 import { RouterTestingModule } from '@angular/router/testing';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { Premio } from '../premio';
+import { Nominacion } from '../nominacion';
+import { Genero } from 'src/app/genero/genero';
+import { Plataforma } from 'src/app/plataforma/plataforma';
 
 describe('PeliculaListComponent', () => {
   let component: PeliculaListComponent;
@@ -52,6 +56,39 @@ describe('PeliculaListComponent', () => {
 
     let list_d = [director];
 
+    let premio = new Premio(
+      1,
+      faker.name.fullName(),
+      faker.datatype.number(),
+      faker.datatype.string()
+    );
+
+    let list_p = [premio];
+
+    let nominacion = new Nominacion(
+      1,
+      faker.name.fullName(),
+      faker.datatype.number(),
+      faker.datatype.string()
+    );
+
+    let list_n = [nominacion];
+
+    let genero = new Genero(
+      1,
+      faker.name.fullName(),
+    );
+
+    let list_g = [genero];
+
+    let plataforma = new Plataforma(
+      1,
+      faker.datatype.string(),
+      faker.datatype.string()
+    );
+
+    let list_plat = [plataforma];
+
     for (let i = 0; i < 10; i++) {
       const pelicula = new PeliculaDetail(
         faker.datatype.number(),
@@ -65,7 +102,11 @@ describe('PeliculaListComponent', () => {
         faker.datatype.number(),
         list_a,
         list_d,
-        []
+        [],
+        list_p,
+        list_n,
+        list_g,
+        list_plat
       );
 
       component.peliculas.push(pelicula);

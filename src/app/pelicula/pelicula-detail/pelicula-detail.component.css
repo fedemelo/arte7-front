@@ -14,17 +14,33 @@ img {
   background-color: rgb(27, 27, 27);
 }
 
-h1 {
-  color:rgb(255,70,70);
-}
-
-#titulo{
-  color: rgb(255,70,70);
-}
 .card-body{
   color: white
 }
 
 .p-top{
   color:rgb(200, 200, 200)
+}
+
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* Boostrap Buttons Styling */
+
+.btn-default {
+  font-size: 13px;
+  color: rgb(200, 200, 200);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgb(200, 200, 200);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-default:hover {
+  color: #FFF;
+  background: rgba(202, 24, 0, 0.75);
+  border: 2px solid rgba(202, 24, 0, 0.75);
 }

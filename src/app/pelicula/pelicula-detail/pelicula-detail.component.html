@@ -11,7 +11,7 @@
           <p class="ms-1 p-top">⭐{{peliculaDetail.estrellasPromedio}}</p>
         </div>
         <div class="col-1 p-top">
-          <p>{{ covertSeconds(peliculaDetail.duracionSec)}}</p>
+          <p>{{ convertSeconds(peliculaDetail.duracionSec)}}</p>
         </div>
         <div class="col-3 p-top">
           <p>{{peliculaDetail.pais}}</p>
@@ -19,7 +19,6 @@
       </div>
     </div>
   </div>
-</div>
 <div class="row ms-2">
   <div class="col-3 me-2">
     <img
@@ -37,6 +36,10 @@
     >
     </youtube-player>
   </div>
+</div>
+<br />
+<div class="d-flex flex-row ms-2 p-1">
+    <button type="button" class="btn btn-default" *ngFor="let genero of peliculaDetail.generos.slice(0, 5)">{{genero.nombre}}</button>
 </div>
 <br />
 <div class="row ms-2 p-1">
@@ -64,23 +67,35 @@
     <h4 class="p-top">{{ actor.nombre }}</h4>
   </div>
 </div>
-<div class="row ms-2">
-  <div class="col-8">
-    <h1>Plataformas</h1>
-    <app-plataforma-list
-      [plataformas]="peliculaDetail.plataformas"
-    ></app-plataforma-list>
+<div class="row ms-2 p-1">
+  <div class="col-2"><h1> Fecha de Estreno</h1></div>
+  <div class="col-3"> <h4 class="p-top mt-1">{{ peliculaDetail.fechaEstreno.substring(0, 10) }}</h4>
   </div>
 </div>
-<div class="row ms-2">
-  <app-genero-list [generos]="peliculaDetail.generos"></app-genero-list>
+<div class="row ms-2 p-1">
+  <div class="col-2"><h1>Plataformas</h1></div>
+  <div class="col">
+    <div class="d-flex flex-row p-1">
+        <a *ngFor="let plataforma of peliculaDetail.plataformas" href="{{plataforma.url}}" class="ms-2">{{plataforma.nombre}}</a></div>
+    </div>
 </div>
-<div class="row ms-2" *ngIf="desplegarPremios">
-  <app-premio [premios]="peliculaDetail.premios"></app-premio>
+<div class="row ms-2 p-1" *ngIf="desplegarNominaciones">
+  <h1>Nominaciones</h1>
+  <div
+    class="row ms-3"
+    *ngFor="let nom of peliculaDetail.nominaciones">
+    <h4 class="p-top">{{nom.anio}} {{ nom.nombre }}  {{nom.categoria}}</h4>
+  </div>
 </div>
-<div class="row ms-2" *ngIf="desplegarNominaciones">
-  <app-nominacion [nominaciones]="peliculaDetail.nominaciones"></app-nominacion>
+<div class="row ms-2 p-1" *ngIf="desplegarPremios">
+  <h1>Premios</h1>
+  <div
+    class="row ms-3"
+    *ngFor="let premio of peliculaDetail.premios">
+    <h4 class="p-top">{{premio.anio}} {{ premio.nombre }}  {{premio.categoria}}</h4>
+  </div>
 </div>
-<div class="row ms-2">
+<div class="row ms-2 p-1" *ngIf="desplegarResenhas">
   <app-resenha-list [resenhas]="peliculaDetail.resenhas"></app-resenha-list>
+</div>
 </div>

@@ -12,8 +12,9 @@ import { PeliculaService } from '../Pelicula.service';
 export class PeliculaDetailComponent implements OnInit {
 
   peliculaId!: string;
-  desplegarPremios: Boolean = false;
-  desplegarNominaciones: Boolean = false;
+  desplegarPremios: boolean = false;
+  desplegarNominaciones: boolean = false;
+  desplegarResenhas: boolean = false;
 
   @Input() peliculaDetail!: PeliculaDetail;
 
@@ -40,6 +41,12 @@ export class PeliculaDetailComponent implements OnInit {
     }
   }
 
+  verificarResenhas():void{
+    if (this.peliculaDetail.resenhas.length > 0){
+      this.desplegarResenhas = true;
+    }
+  }
+
   ngOnInit() {
     if (this.peliculaDetail === undefined) {
       this.peliculaId = this.route.snapshot.paramMap.get('id')!;
@@ -50,15 +57,15 @@ export class PeliculaDetailComponent implements OnInit {
     else{
       this.verificarNominaciones();
       this.verificarPremios();
+      this.verificarResenhas();
     }
   }
 
-  covertSeconds(segundos: number){
-    var sec : number = segundos % (24 * 3600)
-    var horas: number = Math.floor(sec / 3600)
+  convertSeconds(segundos: number){
+    let sec : number = segundos % (24 * 3600)
+    let horas: number = Math.floor(sec / 3600)
     sec = sec % 3600
-    var minutos: number = Math.floor(sec / 60)
-    sec %= 60
+    let minutos: number = Math.floor(sec / 60)
 
     return horas.toString(10)+"h"+minutos.toString(10)+"m"
 
