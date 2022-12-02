@@ -63,7 +63,7 @@ export class PeliculaListComponent implements OnInit {
       filterName = 'Acción';
       fun = this.tieneGenero;
     } else if (this.name == 'aventuras') {
-      filterName = 'Aventuras';
+      filterName = 'Aventura';
       fun = this.tieneGenero;
     } else if (this.name == 'suspenso') {
       filterName = 'Suspenso';
