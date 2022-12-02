@@ -7,3 +7,7 @@ button {
   border: 4px;
   border-color: white;
 }
+
+a {
+  cursor: pointer;
+}
