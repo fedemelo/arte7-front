@@ -7,18 +7,21 @@
       <i></i>
       <h2>Fecha de estreno</h2>
       <content>
-        <form>
-          <label for="fecha">Películas estrenadas desde: &nbsp;</label>
-          <input
-            type="date"
-            id="fecha"
-            name="fecha"
-            value="2020-11-20"
-            min="2000-01-01"
-            max="2022-12-31"
-            width="400px"
-          />
-        </form>
+        <label for="fecha">Películas estrenadas desde: &nbsp;</label>
+        <input
+          type="date"
+          id="fecha"
+          name="fecha"
+          value="2020-11-20"
+          min="2000-01-01"
+          max="2022-12-31"
+          width="400px"
+        /><input
+          type="submit"
+          value="Filtrar"
+          (click)="redirectTo(['/pelicula/list', valor])"
+          (mouseenter)="fechar()"
+        />
       </content>
     </li>
     <li>
@@ -74,61 +77,90 @@
         <form action="/action_page.php">
           <div class="row">
             <div class="col" id="generos1">
-              <input type="radio" id="accion" name="accion" value="Acción" />
-              <label for="accion">Acción</label><br />
+              <input type="button" id="accion" name="accion" value="Acción" />
+              <label for="accion"></label><br />
 
               <input
-                type="radio"
+                type="button"
                 id="aventuras"
                 name="aventuras"
                 value="Aventuras"
+                (click)="redirectTo(['/pelicula/list', 'aventuras'])"
               />
-              <label for="aventuras">Aventuras</label><br />
+              <label for="aventuras"></label><br />
 
               <input
-                type="radio"
+                type="button"
                 id="suspenso"
                 name="suspenso"
                 value="Suspenso"
+                (click)="redirectTo(['/pelicula/list', 'suspenso'])"
               />
-              <label for="suspenso">Suspenso</label><br />
+              <label for="suspenso"></label><br />
 
-              <input type="radio" id="comedia" name="comedia" value="Comedia" />
-              <label for="comedia">Comedia</label><br />
+              <input
+                type="button"
+                id="comedia"
+                name="comedia"
+                value="Comedia"
+                (click)="redirectTo(['/pelicula/list', 'comedia'])"
+              />
+              <label for="comedia"></label><br />
 
-              <input type="radio" id="drama" name="drama" value="Drama" />
-              <label for="drama">Drama</label><br />
+              <input
+                type="button"
+                id="drama"
+                name="drama"
+                value="Drama"
+                (click)="redirectTo(['/pelicula/list', 'drama'])"
+              />
+              <label for="drama"></label><br />
             </div>
             <div class="col" id="generos2">
               <input
-                type="radio"
+                type="button"
                 id="cienciaficcion"
                 name="cienciaficcion"
                 value="Ciencia Ficción"
+                (click)="redirectTo(['/pelicula/list', 'cienciaficcion'])"
               />
-              <label for="cienciaficcion">Ciencia Ficción</label><br />
-
-              <input type="radio" id="musical" name="musical" value="Musical" />
-              <label for="musical">Musical</label><br />
+              <label for="cienciaficcion"></label><br />
 
               <input
-                type="radio"
+                type="button"
+                id="musical"
+                name="musical"
+                value="Musical"
+                (click)="redirectTo(['/pelicula/list', 'musical'])"
+              />
+              <label for="musical"></label><br />
+
+              <input
+                type="button"
                 id="fantasia"
                 name="fantasia"
                 value="Fantasía"
+                (click)="redirectTo(['/pelicula/list', 'fantasia'])"
               />
-              <label for="fantasia">Fantasía</label><br />
-
-              <input type="radio" id="terror" name="terror" value="Terror" />
-              <label for="terror">Terror</label><br />
+              <label for="fantasia"></label><br />
 
               <input
-                type="radio"
+                type="button"
+                id="terror"
+                name="terror"
+                value="Terror"
+                (click)="redirectTo(['/pelicula/list', 'terror'])"
+              />
+              <label for="terror"></label><br />
+
+              <input
+                type="button"
                 id="infantil"
                 name="infantil"
                 value="Infantil"
+                (click)="redirectTo(['/pelicula/list', 'infantil'])"
               />
-              <label for="infantil">Infantil</label><br />
+              <label for="infantil"></label><br />
             </div>
           </div>
         </form>
@@ -155,7 +187,7 @@
           <div class="row">
             <div class="col" id="rating">
               <input
-                type="radio"
+                type="button"
                 id="g-generalaudiences"
                 name="g-generalaudiences"
                 value="G – General Audiences"
@@ -164,7 +196,7 @@
               ><br />
 
               <input
-                type="radio"
+                type="button"
                 id="pg-parentalguidancesuggested"
                 name="pg-parentalguidancesuggested"
                 value="PG – Parental Guidance Suggested"
@@ -174,7 +206,7 @@
               ><br />
 
               <input
-                type="radio"
+                type="button"
                 id="pg-13-parentsstronglycautioned"
                 name="pg-13-parentsstronglycautioned"
                 value="PG-13 – Parents Strongly Cautioned"
@@ -184,7 +216,7 @@
               ><br />
 
               <input
-                type="radio"
+                type="button"
                 id="r-restricted"
                 name="r-restricted"
                 value="R – Restricted"
@@ -192,7 +224,7 @@
               <label for="r-restricted">R – Restricted</label><br />
 
               <input
-                type="radio"
+                type="button"
                 id="nc-17-adultsonly"
                 name="nc-17-adultsonly"
                 value="NC-17 – Adults Only"
@@ -208,7 +240,11 @@
 <br />
 <mat-divider></mat-divider>
 
-<button mat-button class="menu-button" (click)="redirectTo(['/pelicula/principal'])">
+<button
+  mat-button
+  class="menu-button"
+  (click)="redirectTo(['/pelicula/principal'])"
+>
   <mat-icon>home</mat-icon>
   <span>Home</span>
 </button>

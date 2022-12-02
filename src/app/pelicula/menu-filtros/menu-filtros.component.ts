@@ -10,9 +10,20 @@ export class MenuFiltrosComponent implements OnInit {
 
   constructor(private router: Router) { }
 
+  valor!: string;
+
   redirectTo(uri: string[]){
     this.router.navigateByUrl('/', {skipLocationChange: true}).then(()=>
     this.router.navigate(uri));
+  }
+
+  fechar () {
+    let fecha: HTMLInputElement = document.getElementById(
+      'fecha'
+    ) as HTMLInputElement;
+    this.valor = fecha.value;
+    console.log(this.valor);
+
   }
 
   ngOnInit() {
