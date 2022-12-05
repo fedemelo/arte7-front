@@ -11,7 +11,6 @@ import { AppComponent } from './app.component';
 import { ResenhaModule } from './resenha/resenha.module';
 import { PeliculaModule } from './pelicula/pelicula.module';
 import { ActorModule } from './actor/actor.module';
-import { GeneroModule } from './genero/genero.module';
 import { DirectorModule } from './director/director.module';
 import { PeliculaRoutingModule } from './pelicula/pelicula-routing.module';
 import { ActorRoutingModule } from './actor/actor-routing.module';
@@ -46,7 +45,6 @@ import { MatDividerModule } from '@angular/material/divider';
     MatButtonModule,
     MatIconModule,
     MatDividerModule,
-    GeneroModule,
   ],
   providers: [
 

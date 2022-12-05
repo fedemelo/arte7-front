@@ -4,7 +4,7 @@ import { Pelicula } from "./pelicula";
 import { Resenha } from "../resenha/resenha";
 import { Premio } from "./premio";
 import { Nominacion } from "./nominacion";
-import { Genero } from "../genero/genero";
+import { Genero } from "./genero";
 import { Plataforma } from "./plataforma";
 
 export class PeliculaDetail extends Pelicula{

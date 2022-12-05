@@ -14,8 +14,8 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { Premio } from '../premio';
 import { Nominacion } from '../nominacion';
-import { Genero } from 'src/app/genero/genero';
-import { Plataforma } from 'src/app/plataforma/plataforma';
+import { Genero } from '../genero';
+import { Plataforma } from '../plataforma';
 
 describe('PeliculaListComponent', () => {
   let component: PeliculaListComponent;
