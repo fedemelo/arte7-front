@@ -17,12 +17,10 @@ import { MatDividerModule } from '@angular/material/divider';
 import { PeliculaDetailComponent } from './pelicula-detail/pelicula-detail.component';
 import { ResenhaModule } from '../resenha/resenha.module';
 import { GeneroModule } from '../genero/genero.module';
-import { PlataformaModule } from '../plataforma/plataforma.module';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
   imports: [
-    PlataformaModule,
     GeneroModule,
     ResenhaModule,
     CommonModule,

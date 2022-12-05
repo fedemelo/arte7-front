@@ -1,140 +1,87 @@
 <testExecutions version="1">
-  <file path="src/app/pelicula/Pelicula.service.spec.ts">
-    <testCase name="Service: Pelicula should ..." duration="273"/>
-  </file>
-  <file path="src/app/pelicula/pelicula-list/pelicula-list.component.spec.ts">
-    <testCase name="PeliculaListComponent should create" duration="117"/>
-    <testCase name="PeliculaListComponent should have the corresponding src to the pelicula poster" duration="54"/>
-    <testCase name="PeliculaListComponent should have 10 &lt;img> elements" duration="401">
-      <failure message="Error">Error: Expected false to be true.
-    at &lt;Jasmine&gt;
-    at UserContext.apply (src/app/pelicula/pelicula-list/pelicula-list.component.spec.ts:131:56)
-    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:372:26)
-    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:39)
-</failure>
-    </testCase>
-    <testCase name="PeliculaListComponent should have the corresponding alt to the pelicula nombre" duration="8"/>
-    <testCase name="PeliculaListComponent should have p tag with the pelicula.estrellasPromedio" duration="10"/>
-    <testCase name="PeliculaListComponent should have 10 &lt;div.col.mb-2> elements" duration="8">
-      <failure message="Error">Error: Expected false to be true.
-    at &lt;Jasmine&gt;
-    at UserContext.apply (src/app/pelicula/pelicula-list/pelicula-list.component.spec.ts:123:65)
-    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:372:26)
-    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:39)
-</failure>
-    </testCase>
-    <testCase name="PeliculaListComponent should have 9 &lt;div.col.mb-2> elements and the deleted book should not exist" duration="7">
-      <failure message="Error">Error: Expected false to be true.
-    at &lt;Jasmine&gt;
-    at UserContext.apply (src/app/pelicula/pelicula-list/pelicula-list.component.spec.ts:167:64)
-    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:372:26)
-    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:39)
-</failure>
-    </testCase>
-    <testCase name="PeliculaListComponent should have 10 &lt;div.card-body> elements" duration="9">
-      <failure message="Error">Error: Expected false to be true.
-    at &lt;Jasmine&gt;
-    at UserContext.apply (src/app/pelicula/pelicula-list/pelicula-list.component.spec.ts:135:66)
-    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:372:26)
-    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:39)
-</failure>
-    </testCase>
-    <testCase name="PeliculaListComponent should have h3 tag with the pelicula.nombre" duration="18"/>
-    <testCase name="PeliculaListComponent should have 10 &lt;card.p-2> elements" duration="5">
-      <failure message="Error">Error: Expected false to be true.
-    at &lt;Jasmine&gt;
-    at UserContext.apply (src/app/pelicula/pelicula-list/pelicula-list.component.spec.ts:127:65)
-    at _ZoneDelegate.invoke (node_modules/zone.js/fesm2015/zone.js:372:26)
-    at ProxyZoneSpec.onInvoke (node_modules/zone.js/fesm2015/zone-testing.js:287:39)
-</failure>
-    </testCase>
-  </file>
-  <file path="src/app/pelicula/nominacion/nominacion.component.spec.ts">
-    <testCase name="NominacionComponent should create" duration="8"/>
-  </file>
-  <file path="src/app/plataforma/plataforma-list/plataforma-list.component.spec.ts">
-    <testCase name="PlataformaListComponent should create" duration="11"/>
-  </file>
-  <file path="src/app/pelicula/vista-principal/vista-principal.component.spec.ts">
-    <testCase name="VistaPrincipalComponent should create" duration="18"/>
-  </file>
-  <file path="src/app/actor/actor-detail/actor-detail.component.spec.ts">
-    <testCase name="ActorDetailComponent should have one dd tag for component.actorDetail.biografia" duration="41"/>
-    <testCase name="ActorDetailComponent should have one dd tag for component.actorDetail.fechaNacimiento" duration="13"/>
-    <testCase name="ActorDetailComponent should have a &lt;p> tag with component.actorDetail.name" duration="27"/>
-    <testCase name="ActorDetailComponent should have 4 &lt;div.card> elements" duration="12"/>
-    <testCase name="ActorDetailComponent should have an img element with src = actorDetail.image" duration="19"/>
-    <testCase name="ActorDetailComponent should have a h3 tag with component.actorDetail.name" duration="8"/>
-    <testCase name="ActorDetailComponent should have 4 &lt;div.col-3> elements" duration="14"/>
-    <testCase name="ActorDetailComponent should create" duration="32"/>
-    <testCase name="ActorDetailComponent should have 4 &lt;img> elements" duration="13"/>
-    <testCase name="ActorDetailComponent should have an img element" duration="11"/>
-    <testCase name="ActorDetailComponent should have the corresponding alt to the pelicula nombre" duration="8"/>
-    <testCase name="ActorDetailComponent should have the corresponding src to the pelicula poster" duration="19"/>
-    <testCase name="ActorDetailComponent should have 4 &lt;div.card-body> elements" duration="16"/>
-    <testCase name="ActorDetailComponent should have h4 tag with the book.name" duration="8"/>
-  </file>
-  <file path="src/app/pelicula/premio/premio.component.spec.ts">
-    <testCase name="PremioComponent should create" duration="14"/>
-  </file>
-  <file path="src/app/director/director-list/director-list.component.spec.ts">
-    <testCase name="DirectorListComponent should have the corresponding src to the director image and alt to the director nombre" duration="38"/>
-    <testCase name="DirectorListComponent should have h5 tag with the director.nombre" duration="24"/>
-    <testCase name="DirectorListComponent should have 10 &lt;img> elements" duration="18"/>
-    <testCase name="DirectorListComponent should have 10 &lt;div.card-body> elements" duration="24"/>
-    <testCase name="DirectorListComponent should have 10 &lt;div.col.mb-2> elements" duration="19"/>
-    <testCase name="DirectorListComponent should have 10 &lt;card.p-2> elements" duration="29"/>
-    <testCase name="DirectorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted director should not exist" duration="24"/>
-    <testCase name="DirectorListComponent should create" duration="25"/>
-  </file>
-  <file path="src/app/director/director.service.spec.ts">
-    <testCase name="Service: Director should ..." duration="3"/>
-  </file>
-  <file path="src/app/actor/actor.service.spec.ts">
-    <testCase name="Service: Actor should ..." duration="9"/>
-  </file>
-  <file path="src/app/plataforma/plataforma.service.spec.ts">
-    <testCase name="Service: Plataforma should ..." duration="16">
-      <failure message="Error">NullInjectorError: R3InjectorError(DynamicTestModule)[PlataformaService -&gt; HttpClient -&gt; HttpClient]: 
-  NullInjectorError: No provider for HttpClient!
-error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'PlataformaService', 'HttpClient', 'HttpClient' ] })
-NullInjectorError: R3InjectorError(DynamicTestModule)[PlataformaService -&gt; HttpClient -&gt; HttpClient]: 
-  NullInjectorError: No provider for HttpClient!
-    at NullInjector.get (node_modules/@angular/core/fesm2020/core.mjs:8229:27)
-    at R3Injector.get (node_modules/@angular/core/fesm2020/core.mjs:8679:33)
-    at R3Injector.get (node_modules/@angular/core/fesm2020/core.mjs:8679:33)
-    at injectInjectorOnly (node_modules/@angular/core/fesm2020/core.mjs:738:33)
-    at ɵɵinject (node_modules/@angular/core/fesm2020/core.mjs:742:60)
-    at Object.factory (ng:///PlataformaService/ɵfac.js:4:45)
-    at R3Injector.hydrate (node_modules/@angular/core/fesm2020/core.mjs:8780:35)
-    at R3Injector.get (node_modules/@angular/core/fesm2020/core.mjs:8668:33)
-    at TestBedImpl.inject (node_modules/@angular/core/fesm2020/testing.mjs:26511:52)
-    at node_modules/@angular/core/fesm2020/testing.mjs:26520:45
-</failure>
-    </testCase>
-  </file>
-  <file path="src/app/actor/actor-list/actor-list.component.spec.ts">
-    <testCase name="ActorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted actor should not exist" duration="31"/>
-    <testCase name="ActorListComponent should have the corresponding src to the actor image and alt to the actor nombre" duration="32"/>
-    <testCase name="ActorListComponent should have 10 &lt;div.card-body> elements" duration="15"/>
-    <testCase name="ActorListComponent should have 10 &lt;img> elements" duration="13"/>
-    <testCase name="ActorListComponent should have 10 &lt;card.p-2> elements" duration="28"/>
-    <testCase name="ActorListComponent should have 10 &lt;div.col.mb-2> elements" duration="14"/>
-    <testCase name="ActorListComponent should create" duration="8"/>
-    <testCase name="ActorListComponent should have h5 tag with the actor.nombre" duration="20"/>
+  <file path="src/app/director/director-detail/director-detail.component.spec.ts">
+    <testCase name="directorDetailComponent should have one dd tag for component.directorDetail.fechaNacimiento" duration="59"/>
+    <testCase name="directorDetailComponent should have a h3 tag with component.directorDetail.name" duration="12"/>
+    <testCase name="directorDetailComponent should have 4 &lt;div.col-3> elements" duration="8"/>
+    <testCase name="directorDetailComponent should have 4 &lt;img> elements" duration="5"/>
+    <testCase name="directorDetailComponent should have 4 &lt;div.card-body> elements" duration="9"/>
+    <testCase name="directorDetailComponent should have the corresponding src to the pelicula poster" duration="7"/>
+    <testCase name="directorDetailComponent should have an img element" duration="7"/>
+    <testCase name="directorDetailComponent should create" duration="4"/>
+    <testCase name="directorDetailComponent should have 4 &lt;div.card> elements" duration="7"/>
+    <testCase name="directorDetailComponent should have one dd tag for component.directorDetail.biografia" duration="5"/>
+    <testCase name="directorDetailComponent should have the corresponding alt to the pelicula nombre" duration="6"/>
+    <testCase name="directorDetailComponent should have a &lt;p> tag with component.directorDetail.name" duration="6"/>
+    <testCase name="directorDetailComponent should have h4 tag with the book.name" duration="4"/>
+    <testCase name="directorDetailComponent should have an img element with src = directorDetail.image" duration="6"/>
   </file>
   <file path="src/app/resenha/Resenha.service.spec.ts">
-    <testCase name="Service: Resenha should create" duration="15"/>
-    <testCase name="Service: Resenha should ..." duration="5"/>
+    <testCase name="Service: Resenha should create" duration="8"/>
+    <testCase name="Service: Resenha should ..." duration="3"/>
+  </file>
+  <file path="src/app/director/director-list/director-list.component.spec.ts">
+    <testCase name="DirectorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted director should not exist" duration="23"/>
+    <testCase name="DirectorListComponent should have 10 &lt;div.col.mb-2> elements" duration="14"/>
+    <testCase name="DirectorListComponent should have h5 tag with the director.nombre" duration="12"/>
+    <testCase name="DirectorListComponent should have 10 &lt;img> elements" duration="12"/>
+    <testCase name="DirectorListComponent should create" duration="12"/>
+    <testCase name="DirectorListComponent should have 10 &lt;div.card-body> elements" duration="9"/>
+    <testCase name="DirectorListComponent should have 10 &lt;card.p-2> elements" duration="10"/>
+    <testCase name="DirectorListComponent should have the corresponding src to the director image and alt to the director nombre" duration="11"/>
   </file>
   <file path="src/app/pelicula/menu-filtros/menu-filtros.component.spec.ts">
-    <testCase name="MenuFiltrosComponent should create" duration="919"/>
+    <testCase name="MenuFiltrosComponent should create" duration="33"/>
   </file>
-  <file path="src/app/pelicula/barra-navegacion/barra-navegacion.component.spec.ts">
-    <testCase name="BarraNavegacionComponent should create" duration="133"/>
+  <file path="src/app/app.component.spec.ts">
+    <testCase name="AppComponent should have as title 'arte7-front'" duration="38"/>
+    <testCase name="AppComponent should create the app" duration="10"/>
+  </file>
+  <file path="src/app/actor/actor-detail/actor-detail.component.spec.ts">
+    <testCase name="ActorDetailComponent should have the corresponding alt to the pelicula nombre" duration="10"/>
+    <testCase name="ActorDetailComponent should have the corresponding src to the pelicula poster" duration="4"/>
+    <testCase name="ActorDetailComponent should have 4 &lt;div.card> elements" duration="5"/>
+    <testCase name="ActorDetailComponent should have h4 tag with the book.name" duration="4"/>
+    <testCase name="ActorDetailComponent should have 4 &lt;div.card-body> elements" duration="3"/>
+    <testCase name="ActorDetailComponent should have 4 &lt;img> elements" duration="4"/>
+    <testCase name="ActorDetailComponent should have a h3 tag with component.actorDetail.name" duration="3"/>
+    <testCase name="ActorDetailComponent should have 4 &lt;div.col-3> elements" duration="5"/>
+    <testCase name="ActorDetailComponent should have an img element" duration="3"/>
+    <testCase name="ActorDetailComponent should create" duration="3"/>
+    <testCase name="ActorDetailComponent should have a &lt;p> tag with component.actorDetail.name" duration="4"/>
+    <testCase name="ActorDetailComponent should have an img element with src = actorDetail.image" duration="3"/>
+    <testCase name="ActorDetailComponent should have one dd tag for component.actorDetail.fechaNacimiento" duration="4"/>
+    <testCase name="ActorDetailComponent should have one dd tag for component.actorDetail.biografia" duration="4"/>
+  </file>
+  <file path="src/app/pelicula/Pelicula.service.spec.ts">
+    <testCase name="Service: Pelicula should ..." duration="10"/>
+  </file>
+  <file path="src/app/actor/actor-list/actor-list.component.spec.ts">
+    <testCase name="ActorListComponent should have 10 &lt;div.col.mb-2> elements" duration="7"/>
+    <testCase name="ActorListComponent should have 10 &lt;card.p-2> elements" duration="13"/>
+    <testCase name="ActorListComponent should have 9 &lt;div.col.mb-2> elements and the deleted actor should not exist" duration="11"/>
+    <testCase name="ActorListComponent should have h5 tag with the actor.nombre" duration="6"/>
+    <testCase name="ActorListComponent should have 10 &lt;div.card-body> elements" duration="13"/>
+    <testCase name="ActorListComponent should have the corresponding src to the actor image and alt to the actor nombre" duration="9"/>
+    <testCase name="ActorListComponent should create" duration="7"/>
+    <testCase name="ActorListComponent should have 10 &lt;img> elements" duration="8"/>
+  </file>
+  <file path="src/app/pelicula/pelicula-list/pelicula-list.component.spec.ts">
+    <testCase name="PeliculaListComponent should have 9 &lt;div.col.mb-2> elements and the deleted book should not exist" duration="14"/>
+    <testCase name="PeliculaListComponent should have the corresponding alt to the pelicula nombre" duration="8"/>
+    <testCase name="PeliculaListComponent should have h3 tag with the pelicula.nombre" duration="7"/>
+    <testCase name="PeliculaListComponent should have p tag with the pelicula.estrellasPromedio" duration="8"/>
+    <testCase name="PeliculaListComponent should have 10 &lt;card.p-2> elements" duration="6"/>
+    <testCase name="PeliculaListComponent should have 10 &lt;img> elements" duration="5"/>
+    <testCase name="PeliculaListComponent should create" duration="5"/>
+    <testCase name="PeliculaListComponent should have 10 &lt;div.card-body> elements" duration="10"/>
+    <testCase name="PeliculaListComponent should have 10 &lt;div.col.mb-2> elements" duration="11"/>
+    <testCase name="PeliculaListComponent should have the corresponding src to the pelicula poster" duration="6"/>
+  </file>
+  <file path="src/app/director/director.service.spec.ts">
+    <testCase name="Service: Director should ..." duration="5"/>
   </file>
   <file path="src/app/resenha/resenha-list/resenha-list.component.spec.ts">
-    <testCase name="ResenhaListComponent should create" duration="14">
+    <testCase name="ResenhaListComponent should create" duration="41">
       <failure message="Error">NullInjectorError: R3InjectorError(DynamicTestModule)[ResenhaService -&gt; HttpClient -&gt; HttpClient]: 
   NullInjectorError: No provider for HttpClient!
 error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'ResenhaService', 'HttpClient', 'HttpClient' ] })
@@ -159,39 +106,22 @@ Error: Expected undefined to be truthy.
 </failure>
     </testCase>
   </file>
-  <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should create the app" duration="550"/>
-    <testCase name="AppComponent should have as title 'arte7-front'" duration="27"/>
+  <file path="src/app/pelicula/nominacion/nominacion.component.spec.ts">
+    <testCase name="NominacionComponent should create" duration="5"/>
   </file>
-  <file path="src/app/director/director-detail/director-detail.component.spec.ts">
-    <testCase name="directorDetailComponent should have a h3 tag with component.directorDetail.name" duration="9"/>
-    <testCase name="directorDetailComponent should have 4 &lt;img> elements" duration="17"/>
-    <testCase name="directorDetailComponent should have the corresponding alt to the pelicula nombre" duration="11"/>
-    <testCase name="directorDetailComponent should have 4 &lt;div.col-3> elements" duration="9"/>
-    <testCase name="directorDetailComponent should have an img element with src = directorDetail.image" duration="17"/>
-    <testCase name="directorDetailComponent should have a &lt;p> tag with component.directorDetail.name" duration="15"/>
-    <testCase name="directorDetailComponent should have 4 &lt;div.card-body> elements" duration="12"/>
-    <testCase name="directorDetailComponent should have h4 tag with the book.name" duration="17"/>
-    <testCase name="directorDetailComponent should create" duration="7"/>
-    <testCase name="directorDetailComponent should have an img element" duration="7"/>
-    <testCase name="directorDetailComponent should have the corresponding src to the pelicula poster" duration="8"/>
-    <testCase name="directorDetailComponent should have one dd tag for component.directorDetail.biografia" duration="13"/>
-    <testCase name="directorDetailComponent should have one dd tag for component.directorDetail.fechaNacimiento" duration="7"/>
-    <testCase name="directorDetailComponent should have 4 &lt;div.card> elements" duration="8"/>
-  </file>
-  <file path="src/app/genero/genero.service.spec.ts">
-    <testCase name="Service: Genero should ..." duration="13">
-      <failure message="Error">NullInjectorError: R3InjectorError(DynamicTestModule)[GeneroService -&gt; HttpClient -&gt; HttpClient]: 
+  <file path="src/app/plataforma/plataforma.service.spec.ts">
+    <testCase name="Service: Plataforma should ..." duration="4">
+      <failure message="Error">NullInjectorError: R3InjectorError(DynamicTestModule)[PlataformaService -&gt; HttpClient -&gt; HttpClient]: 
   NullInjectorError: No provider for HttpClient!
-error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'GeneroService', 'HttpClient', 'HttpClient' ] })
-NullInjectorError: R3InjectorError(DynamicTestModule)[GeneroService -&gt; HttpClient -&gt; HttpClient]: 
+error properties: Object({ ngTempTokenPath: null, ngTokenPath: [ 'PlataformaService', 'HttpClient', 'HttpClient' ] })
+NullInjectorError: R3InjectorError(DynamicTestModule)[PlataformaService -&gt; HttpClient -&gt; HttpClient]: 
   NullInjectorError: No provider for HttpClient!
     at NullInjector.get (node_modules/@angular/core/fesm2020/core.mjs:8229:27)
     at R3Injector.get (node_modules/@angular/core/fesm2020/core.mjs:8679:33)
     at R3Injector.get (node_modules/@angular/core/fesm2020/core.mjs:8679:33)
     at injectInjectorOnly (node_modules/@angular/core/fesm2020/core.mjs:738:33)
     at ɵɵinject (node_modules/@angular/core/fesm2020/core.mjs:742:60)
-    at Object.factory (ng:///GeneroService/ɵfac.js:4:41)
+    at Object.factory (ng:///PlataformaService/ɵfac.js:4:45)
     at R3Injector.hydrate (node_modules/@angular/core/fesm2020/core.mjs:8780:35)
     at R3Injector.get (node_modules/@angular/core/fesm2020/core.mjs:8668:33)
     at TestBedImpl.inject (node_modules/@angular/core/fesm2020/testing.mjs:26511:52)
@@ -199,7 +129,16 @@ NullInjectorError: R3InjectorError(DynamicTestModule)[GeneroService -&gt; HttpCl
 </failure>
     </testCase>
   </file>
-  <file path="src/app/genero/genero-list/genero-list.component.spec.ts">
-    <testCase name="GeneroListComponent should create" duration="8"/>
+  <file path="src/app/pelicula/barra-navegacion/barra-navegacion.component.spec.ts">
+    <testCase name="BarraNavegacionComponent should create" duration="10"/>
+  </file>
+  <file path="src/app/pelicula/vista-principal/vista-principal.component.spec.ts">
+    <testCase name="VistaPrincipalComponent should create" duration="4"/>
+  </file>
+  <file path="src/app/actor/actor.service.spec.ts">
+    <testCase name="Service: Actor should ..." duration="2"/>
+  </file>
+  <file path="src/app/pelicula/premio/premio.component.spec.ts">
+    <testCase name="PremioComponent should create" duration="6"/>
   </file>
 </testExecutions>

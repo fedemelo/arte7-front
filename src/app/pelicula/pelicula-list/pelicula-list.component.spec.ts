@@ -92,7 +92,7 @@ describe('PeliculaListComponent', () => {
     for (let i = 0; i < 10; i++) {
       const pelicula = new PeliculaDetail(
         faker.datatype.number(),
-        faker.lorem.sentence(),
+        faker.name.fullName(),
         faker.image.imageUrl(),
         faker.datatype.number(),
         faker.lorem.sentence(),
@@ -120,6 +120,7 @@ describe('PeliculaListComponent', () => {
   });
 
   it('should have 10 <div.col.mb-2> elements', () => {
+    console.log(debug.queryAll(By.css('div.col.mb-2')).length);
     expect(debug.queryAll(By.css('div.col.mb-2')).length == 10).toBeTrue();
   });
 

@@ -37,6 +37,10 @@ export class PeliculaListComponent implements OnInit {
   }
 
   filter(peliculas: PeliculaDetail[]): PeliculaDetail[] {
+    if (this.name == "" || this.name == undefined || this.name == null) {
+      return this.peliculas;
+    }
+
     let filterName: string = this.name;
     let fun: Function = this.nombreContiene;
     if (this.name == 'netflix') {
@@ -157,4 +161,5 @@ export class PeliculaListComponent implements OnInit {
   desdeFecha(pelicula: PeliculaDetail, fecha: string): boolean {
     return pelicula.fechaEstreno > fecha;
   }
+
 }

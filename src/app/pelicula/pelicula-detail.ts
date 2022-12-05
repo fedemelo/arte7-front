@@ -5,7 +5,7 @@ import { Resenha } from "../resenha/resenha";
 import { Premio } from "./premio";
 import { Nominacion } from "./nominacion";
 import { Genero } from "../genero/genero";
-import { Plataforma } from "../plataforma/plataforma";
+import { Plataforma } from "./plataforma";
 
 export class PeliculaDetail extends Pelicula{
 actores: Array<Actor>=[];
