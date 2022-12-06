@@ -1,4 +1,4 @@
-pipeline {
+pipeline {  
     agent any
     environment {
        GIT_REPO = 'ISIS2603_202220_S3_E1_Arte7_Front'
