@@ -8,6 +8,7 @@ import { ResenhaListComponent } from './resenha-list.component';
 describe('ResenhaListComponent', () => {
   let component: ResenhaListComponent;
   let fixture: ComponentFixture<ResenhaListComponent>;
+  let debug: DebugElement;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -20,9 +21,7 @@ describe('ResenhaListComponent', () => {
     fixture = TestBed.createComponent(ResenhaListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
+    debug = fixture.debugElement;
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
 });
