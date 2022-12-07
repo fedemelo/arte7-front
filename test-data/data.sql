@@ -46,11 +46,6 @@ insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimie
 insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (13, 'J. J. Abrams' , 'https://upload.wikimedia.org/wikipedia/commons/4/4a/J._J._Abrams_%2823175170706%29_%28cropped%29.jpg' , 'Estadounidense' , '1966-06-27' , 'Jeffrey Jacob Abrams, más conocido como J. J. Abrams, es un director, productor, guionista, actor y compositor de cine y televisión estadounidense. Es propietario de la productora de cine Bad Robot Productions.');
 insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (14, 'Jordan Peele','https://upload.wikimedia.org/wikipedia/commons/3/30/Jordan_Peele_Peabody_2014_%28cropped%29.jpg','Estadounidense','1979-02-21','Jordan Haworth Peele es un actor, comediante, director y guionista estadounidense. Peele saltó a la fama como actor gracias a su papel protagónico en la serie de comedia Key & Peele. .');
 insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (15, 'Bernardo Bertolucci', 'https://images.mubicdn.net/images/cast_member/1865/cache-48-1608668505/image-w856.jpg?size=800x', 'Italiana', '1941-03-16', 'Bernardo Bertolucci fue un director de cine y guionista italiano, entre cuyas películas se incluyen El último tango en París, Novecento, El último emperador y Belleza robada..');
-insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (16, '', '', '', '', '');
-insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (17, '', '', '', '', '');
-insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (18, '', '', '', '', '');
-insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (19, '', '', '', '', '');
-insert into DIRECTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (20, '', '', '', '', '');
 
 
 insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (1, 'Colin Firth' , 'https://es.web.img3.acsta.net/pictures/16/05/17/10/21/507039.jpg' , 'Britanica' , '1960-09-11' , 'Colin Andrew Firth es un actor y productor de cine británico. Sus 42 películas han recaudado más de 500 millones de dólares en todo el mundo..');
@@ -129,30 +124,7 @@ insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento
 insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (74, 'Peter O-Toole', 'https://upload.wikimedia.org/wikipedia/commons/5/53/Peter_O%27Toole_-_1968.jpg', 'Irlandesa', '1932-08-02', 'Peter Seamus O-Toole, conocido como Peter O-Toole, fue un actor irlandés.');
 insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (75, 'Joan Chen', 'https://www.ecured.cu/images/5/5f/198-joan-chen-220141_%28Small%29.jpg', 'Chinoestadounidense', '1961-04-26', 'Joan Chong Chen es una actriz, directora de cine, guionista y productora chinoestadounidense.');
 insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (76, 'Ying Ruocheng', 'https://www.chinadaily.com.cn/en/doc/2003-12/28/xinsrc_386eb4d70858421e9a2721f113e58da2_ying.jpg', 'China', '1929-06-21', 'Ying Ruocheng was a Chinese actor, director, playwright and vice minister of culture from 1986 to 1990..');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (77, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (78, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (79, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (80, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (81, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (82, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (83, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (84, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (85, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (86, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (87, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (88, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (89, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (90, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (91, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (92, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (93, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (94, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (95, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (96, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (97, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (98, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (99, '', '', '', '', '');
-insert into ACTOR_ENTITY (id, nombre, fotografia, nacionalidad, fecha_nacimiento, biografia) values (100, '', '', '', '', '');
+
 
 
 insert into GENERO_ENTITY (id, nombre) values (1,'Acción');
