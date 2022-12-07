@@ -37,7 +37,7 @@ export class PeliculaListComponent implements OnInit {
   }
 
   filter(peliculas: PeliculaDetail[]): PeliculaDetail[] {
-    if (this.name == "" || this.name == undefined || this.name == null) {
+    if (this.name == '' || this.name == undefined || this.name == null) {
       return this.peliculas;
     }
 
@@ -58,12 +58,9 @@ export class PeliculaListComponent implements OnInit {
     } else if (this.name == 'apple') {
       filterName = 'Apple TV+';
       fun = this.estaEnPlataforma;
-
     } else if (Date.parse(this.name)) {
       fun = this.desdeFecha;
-    }
-
-    else if (this.name == 'accion') {
+    } else if (this.name == 'accion') {
       filterName = 'Acción';
       fun = this.tieneGenero;
     } else if (this.name == 'animado') {
@@ -100,14 +97,12 @@ export class PeliculaListComponent implements OnInit {
       filterName = 'Misterio';
       fun = this.tieneGenero;
     } else if (this.name == 'romance') {
-        filterName = 'Romance';
-        fun = this.tieneGenero;
+      filterName = 'Romance';
+      fun = this.tieneGenero;
     } else if (this.name == 'superheroes') {
       filterName = 'Superhéroes';
       fun = this.tieneGenero;
-    }
-
-    else if (this.name == 'golden') {
+    } else if (this.name == 'golden') {
       filterName = 'Premios Globo de Oro';
       fun = this.tienePremio;
     } else if (this.name == 'oscars') {
@@ -161,5 +156,4 @@ export class PeliculaListComponent implements OnInit {
   desdeFecha(pelicula: PeliculaDetail, fecha: string): boolean {
     return pelicula.fechaEstreno > fecha;
   }
-
 }

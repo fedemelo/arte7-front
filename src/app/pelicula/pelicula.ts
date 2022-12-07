@@ -1,4 +1,4 @@
-export class Pelicula{
+export class Pelicula {
   _id: number;
   _nombre: string;
   _poster: string;
@@ -8,7 +8,6 @@ export class Pelicula{
   _url: string;
   _visitas: number;
   _estrellasPromedio: number;
-
 
   constructor(
     _id: number,
@@ -20,8 +19,7 @@ export class Pelicula{
     _url: string,
     _visitas: number,
     _estrellasPromedio: number
-  )
-  {
+  ) {
     this._id = _id;
     this._nombre = _nombre;
     this._poster = _poster;
@@ -33,133 +31,131 @@ export class Pelicula{
     this._estrellasPromedio = _estrellasPromedio;
   }
 
-    /**
-     * Getter nombre
-     * @return {string}
-     */
-	public get nombre(): string {
-		return this._nombre;
-	}
+  /**
+   * Getter nombre
+   * @return {string}
+   */
+  public get nombre(): string {
+    return this._nombre;
+  }
 
-    /**
-     * Getter poster
-     * @return {string}
-     */
-	public get poster(): string {
-		return this._poster;
-	}
+  /**
+   * Getter poster
+   * @return {string}
+   */
+  public get poster(): string {
+    return this._poster;
+  }
 
-    /**
-     * Getter duracionSec
-     * @return {number}
-     */
-	public get duracionSec(): number {
-		return this._duracionSec;
-	}
+  /**
+   * Getter duracionSec
+   * @return {number}
+   */
+  public get duracionSec(): number {
+    return this._duracionSec;
+  }
 
-    /**
-     * Getter pais
-     * @return {string}
-     */
-	public get pais(): string {
-		return this._pais;
-	}
+  /**
+   * Getter pais
+   * @return {string}
+   */
+  public get pais(): string {
+    return this._pais;
+  }
 
-    /**
-     * Getter fechaEstreno
-     * @return {any}
-     */
-	public get fechaEstreno(): any {
-		return this._fechaEstreno;
-	}
+  /**
+   * Getter fechaEstreno
+   * @return {any}
+   */
+  public get fechaEstreno(): any {
+    return this._fechaEstreno;
+  }
 
-    /**
-     * Getter url
-     * @return {string}
-     */
-	public get url(): string {
-		return this._url;
-	}
+  /**
+   * Getter url
+   * @return {string}
+   */
+  public get url(): string {
+    return this._url;
+  }
 
-    /**
-     * Getter visitas
-     * @return {number}
-     */
-	public get visitas(): number {
-		return this._visitas;
-	}
+  /**
+   * Getter visitas
+   * @return {number}
+   */
+  public get visitas(): number {
+    return this._visitas;
+  }
 
-    /**
-     * Getter estrellasPromedio
-     * @return {number}
-     */
-	public get estrellasPromedio(): number {
-		return this._estrellasPromedio;
-	}
+  /**
+   * Getter estrellasPromedio
+   * @return {number}
+   */
+  public get estrellasPromedio(): number {
+    return this._estrellasPromedio;
+  }
 
-    /**
-     * Setter nombre
-     * @param {string} value
-     */
-	public set nombre(value: string) {
-		this._nombre = value;
-	}
+  /**
+   * Setter nombre
+   * @param {string} value
+   */
+  public set nombre(value: string) {
+    this._nombre = value;
+  }
 
-    /**
-     * Setter poster
-     * @param {string} value
-     */
-	public set poster(value: string) {
-		this._poster = value;
-	}
+  /**
+   * Setter poster
+   * @param {string} value
+   */
+  public set poster(value: string) {
+    this._poster = value;
+  }
 
-    /**
-     * Setter duracionSec
-     * @param {number} value
-     */
-	public set duracionSec(value: number) {
-		this._duracionSec = value;
-	}
+  /**
+   * Setter duracionSec
+   * @param {number} value
+   */
+  public set duracionSec(value: number) {
+    this._duracionSec = value;
+  }
 
-    /**
-     * Setter pais
-     * @param {string} value
-     */
-	public set pais(value: string) {
-		this._pais = value;
-	}
+  /**
+   * Setter pais
+   * @param {string} value
+   */
+  public set pais(value: string) {
+    this._pais = value;
+  }
 
-    /**
-     * Setter fechaEstreno
-     * @param {any} value
-     */
-	public set fechaEstreno(value: any) {
-		this._fechaEstreno = value;
-	}
+  /**
+   * Setter fechaEstreno
+   * @param {any} value
+   */
+  public set fechaEstreno(value: any) {
+    this._fechaEstreno = value;
+  }
 
-    /**
-     * Setter url
-     * @param {string} value
-     */
-	public set url(value: string) {
-		this._url = value;
-	}
+  /**
+   * Setter url
+   * @param {string} value
+   */
+  public set url(value: string) {
+    this._url = value;
+  }
 
-    /**
-     * Setter visitas
-     * @param {number} value
-     */
-	public set visitas(value: number) {
-		this._visitas = value;
-	}
+  /**
+   * Setter visitas
+   * @param {number} value
+   */
+  public set visitas(value: number) {
+    this._visitas = value;
+  }
 
-    /**
-     * Setter estrellasPromedio
-     * @param {number} value
-     */
-	public set estrellasPromedio(value: number) {
-		this._estrellasPromedio = value;
-	}
-
-
+  /**
+   * Setter estrellasPromedio
+   * @param {number} value
+   */
+  public set estrellasPromedio(value: number) {
+    this._estrellasPromedio = value;
+  }
 }

@@ -31,5 +31,5 @@ export class VistaPrincipalComponent implements OnInit {
 
   ngOnInit() {
     this.getPeliculas();
-  }
+  }
 }

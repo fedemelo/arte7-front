@@ -1,13 +1,19 @@
-import { Usuario } from "./usuario";
+import { Usuario } from './usuario';
 
 export class Resenha {
   id: number;
   estrellas: number;
   numeroCaracteres: number;
   texto: string;
-  usuario: Usuario
+  usuario: Usuario;
 
-  constructor(id: number, estrellas: number, numeroCaracteres: number, texto: string, usuario: Usuario){
+  constructor(
+    id: number,
+    estrellas: number,
+    numeroCaracteres: number,
+    texto: string,
+    usuario: Usuario
+  ) {
     this.id = id;
     this.estrellas = estrellas;
     this.numeroCaracteres = numeroCaracteres;

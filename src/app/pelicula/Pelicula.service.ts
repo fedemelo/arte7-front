@@ -14,7 +14,9 @@ export class PeliculaService {
   constructor(private http: HttpClient) {}
 
   getPeliculas(): Observable<PeliculaDetail[]> {
-    return this.http.get<PeliculaDetail[]>(this.apiUrl).pipe(
+    return this.http
+      .get<PeliculaDetail[]>(this.apiUrl)
+      .pipe(
         catchError((err) => throwError(() => new Error('error en el servicio')))
       );
   }

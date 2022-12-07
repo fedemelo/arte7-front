@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router} from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-barra-navegacion',
@@ -7,8 +7,7 @@ import { Router} from '@angular/router';
   styleUrls: ['./barra-navegacion.component.css'],
 })
 export class BarraNavegacionComponent implements OnInit {
-
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 
   valor!: string;
 
@@ -19,11 +18,11 @@ export class BarraNavegacionComponent implements OnInit {
     this.valor = buscado.value;
   }
 
-  redirectTo(uri: string[]){
-    this.router.navigateByUrl('/', {skipLocationChange: true}).then(()=>
-    this.router.navigate(uri));
+  redirectTo(uri: string[]) {
+    this.router
+      .navigateByUrl('/', { skipLocationChange: true })
+      .then(() => this.router.navigate(uri));
   }
 
   ngOnInit() {}
-
 }

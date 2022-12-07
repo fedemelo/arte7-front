@@ -4,27 +4,28 @@ import { PeliculaListComponent } from './pelicula-list/pelicula-list.component';
 import { PeliculaDetailComponent } from './pelicula-detail/pelicula-detail.component';
 import { VistaPrincipalComponent } from './vista-principal/vista-principal.component';
 
-
-const routes: Routes = [{
-  path: 'pelicula',
-  children: [
-    {
-      path: 'list/:filtro',
-      component: PeliculaListComponent
-    },
-    {
-      path: ':id',
-      component: PeliculaDetailComponent
-    },
-    {
-      path: 'principal',
-      component: VistaPrincipalComponent
-    }
-  ]
-}];
+const routes: Routes = [
+  {
+    path: 'pelicula',
+    children: [
+      {
+        path: 'list/:filtro',
+        component: PeliculaListComponent,
+      },
+      {
+        path: ':id',
+        component: PeliculaDetailComponent,
+      },
+      {
+        path: 'principal',
+        component: VistaPrincipalComponent,
+      },
+    ],
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class PeliculaRoutingModule { }
+export class PeliculaRoutingModule {}

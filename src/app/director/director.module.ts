@@ -6,18 +6,8 @@ import { DirectorDetailComponent } from './director-detail/director-detail.compo
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    RouterModule
-  ],
-  exports: [
-    DirectorDetailComponent,
-    DirectorListComponent
-  ],
-  declarations: [
-    DirectorDetailComponent,
-    DirectorListComponent
-  ]
-
+  imports: [CommonModule, RouterModule],
+  exports: [DirectorDetailComponent, DirectorListComponent],
+  declarations: [DirectorDetailComponent, DirectorListComponent],
 })
-export class DirectorModule { }
+export class DirectorModule {}

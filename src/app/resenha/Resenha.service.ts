@@ -5,15 +5,14 @@ import { environment } from 'src/environments/environment';
 import { Resenha } from './resenha';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ResenhaService {
   private apiUrl: string = environment.baseUrl + 'resenha';
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   getResenha(): Observable<Resenha[]> {
     return this.http.get<Resenha[]>(this.apiUrl);
   }
-
 }

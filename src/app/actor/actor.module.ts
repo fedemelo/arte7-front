@@ -6,18 +6,8 @@ import { ActorDetailComponent } from './actor-detail/actor-detail.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    RouterModule
-  ],
-  exports: [
-    ActorDetailComponent,
-    ActorListComponent
-  ],
-  declarations: [
-    ActorDetailComponent,
-    ActorListComponent
-  ]
-
+  imports: [CommonModule, RouterModule],
+  exports: [ActorDetailComponent, ActorListComponent],
+  declarations: [ActorDetailComponent, ActorListComponent],
 })
-export class ActorModule { }
+export class ActorModule {}
