@@ -25,6 +25,8 @@ export class ActorDetailComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log(Component)
+    console.log(Input)
     if (this.actorDetail === undefined) {
       this.actorId = this.route.snapshot.paramMap.get('id')!;
       if (this.actorId) {

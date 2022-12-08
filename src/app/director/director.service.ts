@@ -3,7 +3,6 @@ import { HttpClient } from '@angular/common/http';
 
 import { environment } from 'src/environments/environment';
 import { Observable } from 'rxjs';
-import { Director } from './director';
 import { DirectorDetail } from './director-detail';
 
 @Injectable({
@@ -15,6 +14,7 @@ export class DirectorService {
   constructor(private http: HttpClient) {}
 
   getDirectores(): Observable<DirectorDetail[]> {
+    console.log(Injectable);
     return this.http.get<DirectorDetail[]>(this.apiUrl);
   }
 

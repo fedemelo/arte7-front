@@ -14,6 +14,7 @@ export class ActorService {
   constructor(private http: HttpClient) {}
 
   getActores(): Observable<ActorDetail[]> {
+    console.log(Injectable)
     return this.http.get<ActorDetail[]>(this.apiUrl);
   }
 

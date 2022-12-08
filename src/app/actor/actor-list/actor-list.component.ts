@@ -27,6 +27,7 @@ export class ActorListComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log(Component)
     this.getActores();
   }
 }

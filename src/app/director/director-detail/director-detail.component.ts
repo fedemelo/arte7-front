@@ -25,6 +25,8 @@ export class DirectorDetailComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log(Component);
+    console.log(Input);
     if (this.directorDetail === undefined) {
       this.directorId = this.route.snapshot.paramMap.get('id')!;
       if (this.directorId) {
