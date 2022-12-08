@@ -10,7 +10,7 @@ import { PeliculaDetail } from '../pelicula-detail';
 export class VistaPrincipalComponent implements OnInit {
   peliculas: Array<PeliculaDetail> = [];
   selectedPelicula!: PeliculaDetail;
-  selected: Boolean = false;
+  selected: boolean = false;
 
   constructor(private peliculaService: PeliculaService) {}
 
