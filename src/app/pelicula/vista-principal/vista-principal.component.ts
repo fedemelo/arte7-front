@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Pelicula } from '../pelicula';
 import { PeliculaService } from '../Pelicula.service';
 import { PeliculaDetail } from '../pelicula-detail';
 
@@ -17,10 +16,10 @@ export class VistaPrincipalComponent implements OnInit {
 
   getPeliculas(): void {
     this.peliculaService.getPeliculas().subscribe((peliculas) => {
-      this.peliculas = peliculas.sort(
-        (a, b) => a.estrellasPromedio - b.estrellasPromedio
-      );
-      this.peliculas = peliculas.reverse();
+      peliculas.sort((a, b) => a.estrellasPromedio - b.estrellasPromedio);
+      this.peliculas = peliculas;
+      peliculas.reverse();
+      this.peliculas = peliculas;
     });
   }
 
@@ -30,6 +29,7 @@ export class VistaPrincipalComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log(Component);
     this.getPeliculas();
   }
 }

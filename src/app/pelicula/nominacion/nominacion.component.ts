@@ -4,12 +4,15 @@ import { Nominacion } from '../nominacion';
 @Component({
   selector: 'app-nominacion',
   templateUrl: './nominacion.component.html',
-  styleUrls: ['./nominacion.component.css'],
+  styleUrls: [],
 })
 export class NominacionComponent implements OnInit {
   @Input() nominaciones!: Array<Nominacion>;
 
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.log(Component);
+    console.log(Input);
+  }
 }

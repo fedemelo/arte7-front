@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Pelicula } from '../pelicula';
 import { PeliculaService } from '../Pelicula.service';
 import { PeliculaDetail } from '../pelicula-detail';
 import { ActivatedRoute } from '@angular/router';
@@ -12,7 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 export class PeliculaListComponent implements OnInit {
   peliculas: Array<PeliculaDetail> = [];
   selectedPelicula!: PeliculaDetail;
-  selected: Boolean = false;
+  selected: boolean = false;
   name: string = '';
 
   constructor(
@@ -32,6 +31,7 @@ export class PeliculaListComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log(Component);
     this.name = this.route.snapshot.paramMap.get('filtro') as string;
     this.getPeliculas();
   }

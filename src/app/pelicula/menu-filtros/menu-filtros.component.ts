@@ -25,5 +25,7 @@ export class MenuFiltrosComponent implements OnInit {
     console.log(this.valor);
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.log(Component);
+  }
 }

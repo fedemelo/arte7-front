@@ -14,6 +14,7 @@ export class PeliculaService {
   constructor(private http: HttpClient) {}
 
   getPeliculas(): Observable<PeliculaDetail[]> {
+    console.log(Injectable);
     return this.http
       .get<PeliculaDetail[]>(this.apiUrl)
       .pipe(

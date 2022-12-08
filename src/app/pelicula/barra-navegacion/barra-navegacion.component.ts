@@ -24,5 +24,7 @@ export class BarraNavegacionComponent implements OnInit {
       .then(() => this.router.navigate(uri));
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.log(Component);
+  }
 }

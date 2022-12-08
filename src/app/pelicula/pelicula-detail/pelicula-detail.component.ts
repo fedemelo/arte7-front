@@ -46,6 +46,8 @@ export class PeliculaDetailComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log(Component);
+    console.log(Input);
     if (this.peliculaDetail === undefined) {
       this.peliculaId = this.route.snapshot.paramMap.get('id')!;
       if (this.peliculaId) {

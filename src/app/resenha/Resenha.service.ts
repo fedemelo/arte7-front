@@ -13,6 +13,7 @@ export class ResenhaService {
   constructor(private http: HttpClient) {}
 
   getResenha(): Observable<Resenha[]> {
+    console.log(Injectable);
     return this.http.get<Resenha[]>(this.apiUrl);
   }
 }
